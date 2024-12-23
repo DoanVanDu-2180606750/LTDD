@@ -9,7 +9,10 @@ import 'package:shared_preferences/shared_preferences.dart';
 void main()  async{
   WidgetsFlutterBinding.ensureInitialized();
   SharedPreferences prefs = await SharedPreferences.getInstance();
-  bool? isSignedIn = prefs.getBool('isSignedIn');
+  late bool? isSignedIn;
+  if(prefs.getBool('isSignedIn') != null){
+    isSignedIn = prefs.getBool('isSignedIn') ?? false;
+  }
   runApp(TravelApp( isSignedIn: isSignedIn ?? false,));
 }
 
@@ -20,9 +23,8 @@ class TravelApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      
       debugShowCheckedModeBanner: false,
-      initialRoute: '/signin',
+      initialRoute: isSignedIn ? '/home' : '/sign-in',
       routes: {
         '/home': (context) => HomeScreen(),
         '/signin' : (context) => SignInScreen(),
