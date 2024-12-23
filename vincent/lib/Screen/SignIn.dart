@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
+import 'package:shared_preferences/shared_preferences.dart';
 import 'package:vincent/Screen/SignUp.dart';
 import 'package:google_sign_in/google_sign_in.dart';
 
@@ -14,10 +15,14 @@ class _SignInScreenState extends State<SignInScreen> {
   final _formKey = GlobalKey<FormState>();
   final regex = RegExp(r'^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$');
   final GoogleSignIn _googleSignIn = GoogleSignIn();
+  
+
 
   Future<void> _signIn() async {
+    final SharedPreferences prefs = await SharedPreferences.getInstance();
     if (_formKey.currentState!.validate()) {
       _formKey.currentState!.save();
+      await prefs.setBool('isSignedIn', true);
       print('Form is valid');
       Navigator.pushReplacementNamed(context, '/home');
     } else {
