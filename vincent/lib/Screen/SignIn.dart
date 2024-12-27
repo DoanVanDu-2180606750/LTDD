@@ -15,6 +15,7 @@ class _SignInScreenState extends State<SignInScreen> {
   final _formKey = GlobalKey<FormState>();
   final regex = RegExp(r'^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$');
   final GoogleSignIn _googleSignIn = GoogleSignIn();
+  bool _obscureText = true;
   
 
 
@@ -24,10 +25,17 @@ class _SignInScreenState extends State<SignInScreen> {
       _formKey.currentState!.save();
       await prefs.setBool('isSignedIn', true);
       print('Form is valid');
-      Navigator.pushReplacementNamed(context, '/home');
+      Navigator.pushReplacementNamed(context, '/');
     } else {
       print('Form is invalid');
     }
+  }
+
+  void _checkpass() {
+    setState(() {
+      _obscureText = !_obscureText!;
+    });
+    
   }
 
   Future<void> _signInWithGoogle() async {
@@ -40,7 +48,8 @@ class _SignInScreenState extends State<SignInScreen> {
         // Thực hiện hành động với thông tin xác thực (token) từ Google
         print('Google Sign-In successful: ${googleAuth.idToken}');
         
-        Navigator.pushReplacementNamed(context, '/home');
+        // ignore: use_build_context_synchronously
+        Navigator.pushReplacementNamed(context, '/');
       }
     } catch (error) {
       print('Google Sign-In failed: $error');
@@ -50,6 +59,7 @@ class _SignInScreenState extends State<SignInScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      appBar: AppBar(),
       backgroundColor: Colors.white,
       body: SingleChildScrollView(
         child: Padding(
@@ -88,6 +98,7 @@ class _SignInScreenState extends State<SignInScreen> {
                           borderRadius: BorderRadius.circular(12),
                         ),
                         prefixIcon: Icon(Icons.email),
+                        hintText: 'example@gmai.com'
                       ),
                       validator: (value) {
                         if (value == null || value.isEmpty) {
@@ -101,13 +112,19 @@ class _SignInScreenState extends State<SignInScreen> {
                     ),
                     SizedBox(height: 16),
                     TextFormField(
-                      obscureText: true,
+                      obscureText: _obscureText,
                       decoration: InputDecoration(
                         labelText: 'Password',
                         border: OutlineInputBorder(
                           borderRadius: BorderRadius.circular(12),
                         ),
                         prefixIcon: Icon(Icons.lock),
+                        suffixIcon: IconButton(
+                          icon: Icon(_obscureText ? Icons.visibility : Icons.visibility_off),
+                          onPressed: () {
+                            _checkpass();
+                          }
+                        )
                       ),
                       validator: (value) {
                         if (value == null || value.isEmpty) {
@@ -122,7 +139,6 @@ class _SignInScreenState extends State<SignInScreen> {
                   ],
                 ),
               ),
-              // Quên mật khẩu
               Align(
                 alignment: Alignment.centerRight,
                 child: TextButton(
@@ -133,6 +149,7 @@ class _SignInScreenState extends State<SignInScreen> {
                   ),
                 ),
               ),
+              const SizedBox(height: 40),
               ElevatedButton(
                 onPressed: () => _signIn(),
                 style: ElevatedButton.styleFrom(
@@ -150,7 +167,17 @@ class _SignInScreenState extends State<SignInScreen> {
                   ),
                 ),
               ),
-              SizedBox(height: 16),
+              const SizedBox(height: 40),
+              TextButton(
+                onPressed: () {
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(builder: (context) => SignUpScreen()),
+                  );
+                },
+                child: Text('Don\'t have an account? Sign Up'),
+              ),
+              const SizedBox(height: 80),
               Row(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
@@ -184,15 +211,6 @@ class _SignInScreenState extends State<SignInScreen> {
                     ),
                   ),
                 ]
-              ),
-              TextButton(
-                onPressed: () {
-                  Navigator.push(
-                    context,
-                    MaterialPageRoute(builder: (context) => SignUpScreen()),
-                  );
-                },
-                child: Text('Don\'t have an account? Sign Up'),
               ),
             ],
           ),

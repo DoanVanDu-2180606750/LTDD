@@ -47,7 +47,6 @@ class _EditProfileState extends State<EditProfile> {
                     ),
                     const SizedBox(height: 20),
                     TextFormField(
-
                       controller: _emailController,
                       readOnly: true,
                       decoration: InputDecoration(

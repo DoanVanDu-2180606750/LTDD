@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.vincent.app-mergeDebugResources-46:/values-v24/values-v24.xml",
+            "outputFile": "com.example.vincent.app-mergeDebugResources-48:/values-v24/values-v24.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\vdyla\\.gradle\\caches\\8.9\\transforms\\e5c21c1bde720cca9083c72835dced85\\transformed\\media-1.0.0\\res\\values-v24\\values-v24.xml",
+                    "source": "C:\\Users\\vdyla\\.gradle\\caches\\8.9\\transforms\\558b34dba3407c65e74d3895ae3ff796\\transformed\\media-1.0.0\\res\\values-v24\\values-v24.xml",
                     "from": {
                         "startLines": "2,3,4,5",
                         "startColumns": "4,4,4,4",
@@ -21,7 +21,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\vdyla\\.gradle\\caches\\8.9\\transforms\\f6abe39fb35a044358aeedf81a18a7dd\\transformed\\appcompat-1.1.0\\res\\values-v24\\values-v24.xml",
+                    "source": "C:\\Users\\vdyla\\.gradle\\caches\\8.9\\transforms\\fa463835e6bfd011e4fc9a3156d0f060\\transformed\\appcompat-1.1.0\\res\\values-v24\\values-v24.xml",
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "4,4",

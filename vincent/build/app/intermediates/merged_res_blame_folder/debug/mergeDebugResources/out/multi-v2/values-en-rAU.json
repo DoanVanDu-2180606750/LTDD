@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.vincent.app-mergeDebugResources-46:/values-en-rAU/values-en-rAU.xml",
+            "outputFile": "com.example.vincent.app-mergeDebugResources-48:/values-en-rAU/values-en-rAU.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\vdyla\\.gradle\\caches\\8.9\\transforms\\f6abe39fb35a044358aeedf81a18a7dd\\transformed\\appcompat-1.1.0\\res\\values-en-rAU\\values-en-rAU.xml",
+                    "source": "C:\\Users\\vdyla\\.gradle\\caches\\8.9\\transforms\\fa463835e6bfd011e4fc9a3156d0f060\\transformed\\appcompat-1.1.0\\res\\values-en-rAU\\values-en-rAU.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -21,7 +21,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\vdyla\\.gradle\\caches\\8.9\\transforms\\35b99cf4cc19f6c26d89932ea808643d\\transformed\\preference-1.2.1\\res\\values-en-rAU\\values-en-rAU.xml",
+                    "source": "C:\\Users\\vdyla\\.gradle\\caches\\8.9\\transforms\\5020940725f2531f944d71a769a082da\\transformed\\preference-1.2.1\\res\\values-en-rAU\\values-en-rAU.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8",
                         "startColumns": "4,4,4,4,4,4,4",
@@ -38,7 +38,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\vdyla\\.gradle\\caches\\8.9\\transforms\\741d38d199285499741740d41247668b\\transformed\\core-1.13.1\\res\\values-en-rAU\\values-en-rAU.xml",
+                    "source": "C:\\Users\\vdyla\\.gradle\\caches\\8.9\\transforms\\42ee74e510c398ea7ef4bec344a4a032\\transformed\\core-1.13.1\\res\\values-en-rAU\\values-en-rAU.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9",
                         "startColumns": "4,4,4,4,4,4,4,4",

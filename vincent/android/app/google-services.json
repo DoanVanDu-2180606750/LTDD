@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "444512682343",
+    "firebase_url": "https://ltdd-70afa-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "ltdd-70afa",
+    "storage_bucket": "ltdd-70afa.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:444512682343:android:a7ba7b8e9476ebf9df6fc2",
+        "android_client_info": {
+          "package_name": "com.example.vincent"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "444512682343-4hlcnml2vjpdu8cqoheqnuhelhpfht61.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDXbSXDNePYow3LP4tSMdMb_n0Ctllg0K4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "444512682343-4hlcnml2vjpdu8cqoheqnuhelhpfht61.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

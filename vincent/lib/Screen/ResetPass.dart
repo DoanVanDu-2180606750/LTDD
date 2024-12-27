@@ -10,10 +10,18 @@ class ResetPassScreen extends StatefulWidget {
 }
 
 class _ResetPassScreenState extends State<ResetPassScreen> {
+  final regex = RegExp(r'^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$');
   final _formKey = GlobalKey<FormState>();
+  bool _obscureText = true;
 
   final TextEditingController _emailController = TextEditingController();
   final TextEditingController _passwordController = TextEditingController();
+
+  void _checkpass(){
+    setState(() {
+      _obscureText = !_obscureText;
+    });
+  }
 
   Future<void> _resetPassword() async {
 
@@ -69,27 +77,27 @@ class _ResetPassScreenState extends State<ResetPassScreen> {
         child: Container(
           decoration: const BoxDecoration(
             gradient: LinearGradient(
-              colors: [Color(0xFF4CA1AF), Color(0xFFC4E0E5)], // Màu gradient cho nền
+              colors: [Color(0xFF4CA1AF), Color(0xFFC4E0E5)],
               begin: Alignment.topCenter,
               end: Alignment.bottomCenter,
             ),
           ),
           child: Center(
-            child: SingleChildScrollView( // Cho phép cuộn khi nội dung dài
-              padding: const EdgeInsets.symmetric(horizontal: 30), // Padding hai bên
+            child: SingleChildScrollView( 
+              padding: const EdgeInsets.symmetric(horizontal: 30), 
               child: Column(
                 children: [
                   const Text(
-                    "Forgot Password?", // Tiêu đề
+                    "Forgot Password?",
                     style: TextStyle(
                       fontSize: 32,
                       fontWeight: FontWeight.bold,
-                      color: Colors.white, // Màu chữ
+                      color: Colors.white,
                     ),
                   ),
-                  const SizedBox(height: 20), // Khoảng cách giữa các widget
+                  const SizedBox(height: 20), 
                   const Text(
-                    "Enter your email below to receive a password reset link.", // Hướng dẫn
+                    "Enter your email below to receive a password reset link.",
                     textAlign: TextAlign.center,
                     style: TextStyle(color: Colors.white70),
                   ),
@@ -97,52 +105,57 @@ class _ResetPassScreenState extends State<ResetPassScreen> {
         
                   // Trường nhập email
                   TextFormField(
-                    controller: _emailController, // Gán controller
+                    controller: _emailController, 
                     decoration: InputDecoration(
                       filled: true,
-                      fillColor: Colors.white, // Màu nền của trường Input
-                      prefixIcon: const Icon(Icons.email, color: Colors.grey), // Biểu tượng
-                      hintText: "Email", // Gợi ý cho người dùng
-                      hintStyle: TextStyle(color: Colors.grey.shade600), // Màu chữ gợi ý
+                      fillColor: Colors.white,
+                      prefixIcon: const Icon(Icons.email, color: Colors.grey),
+                      hintText: "Email",
+                      hintStyle: TextStyle(color: Colors.grey.shade600),
                       border: OutlineInputBorder(
-                        borderRadius: BorderRadius.circular(30), // Bo tròn góc
+                        borderRadius: BorderRadius.circular(20),
                         borderSide: BorderSide.none,
                       ),
-                      contentPadding: const EdgeInsets.symmetric(vertical: 16), // Padding bên trong
+                      contentPadding: const EdgeInsets.symmetric(vertical: 16),
                     ),
                     validator: (value) {
                       if (value == null || value.isEmpty) {
-                        return 'Please enter your email'; // Thông báo nếu người dùng không nhập email
+                        return 'Please enter your email';
                       }
-                      if (!RegExp(r"^[a-zA-Z0-9.]+@[a-zA-Z0-9]+\.[a-zA-Z]+").hasMatch(value)) {
-                        return 'Please enter a valid email'; // Kiểm tra định dạng email
+                      if (!regex.hasMatch(value)) {
+                        return 'Please enter a valid email';
                       }
-                      return null; // Nếu hợp lệ
+                      return null;
                     },
                   ),
                   const SizedBox(height: 20),
         
                   // Trường nhập mật khẩu (nếu cần thiết)
                   TextFormField(
-                    controller: _passwordController, // Gán controller
+                    controller: _passwordController,
+                    obscureText: _obscureText,
                     decoration: InputDecoration(
                       filled: true,
                       fillColor: Colors.white,
-                      prefixIcon: const Icon(Icons.password, color: Colors.grey), // Biểu tượng
-                      hintText: "New password", // Gợi ý cho người dùng
+                      prefixIcon: const Icon(Icons.password, color: Colors.grey), 
+                      hintText: "New password",
                       hintStyle: TextStyle(color: Colors.grey.shade600),
+                      suffixIcon: IconButton(
+                        onPressed: _checkpass, 
+                        icon: Icon(_obscureText ? Icons.visibility : Icons.visibility_off, color: Colors.grey)
+                      ),
                       border: OutlineInputBorder(
-                        borderRadius: BorderRadius.circular(30), // Bo tròn góc
+                        borderRadius: BorderRadius.circular(20),
                         borderSide: BorderSide.none,
                       ),
                       contentPadding: const EdgeInsets.symmetric(vertical: 16),
                     ),
                     validator: (value) {
                         if (value == null || value.isEmpty) {
-                          return 'Nhập mật khẩu'; // Thông báo nếu người dùng không nhập mật khẩu
+                          return 'Nhập mật khẩu'; 
                         }
-                        if (value.length < 8) { // Kiểm tra độ dài mật khẩu
-                          return 'Mật khẩu trên 8 ký tự'; // Thông báo nếu mật khẩu ngắn
+                        if (value.length < 8) { 
+                          return 'Mật khẩu trên 8 ký tự'; 
                         }
                         return null; // Nếu hợp lệ
                       },

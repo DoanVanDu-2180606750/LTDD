@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.vincent.app-mergeDebugResources-46:/values-watch-v21/values-watch-v21.xml",
+            "outputFile": "com.example.vincent.app-mergeDebugResources-48:/values-watch-v21/values-watch-v21.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\vdyla\\.gradle\\caches\\8.9\\transforms\\f6abe39fb35a044358aeedf81a18a7dd\\transformed\\appcompat-1.1.0\\res\\values-watch-v21\\values-watch-v21.xml",
+                    "source": "C:\\Users\\vdyla\\.gradle\\caches\\8.9\\transforms\\fa463835e6bfd011e4fc9a3156d0f060\\transformed\\appcompat-1.1.0\\res\\values-watch-v21\\values-watch-v21.xml",
                     "from": {
                         "startLines": "2,6,10",
                         "startColumns": "4,4,4",

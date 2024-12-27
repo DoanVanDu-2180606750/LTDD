@@ -1,155 +1,122 @@
 import 'package:flutter/material.dart';
+import 'package:vincent/Screen/RoomList.dart';
+import 'package:vincent/Widgets/home_widget.dart';
 
 class HomeScreen extends StatefulWidget {
+  const HomeScreen({super.key});
+
   @override
   State<HomeScreen> createState() => _HomeScreenState();
 }
 
 class _HomeScreenState extends State<HomeScreen> {
 
-  Future <void> _Logout() async {
-    // await FirebaseAuth.instance.signOut();
-    Navigator.pushReplacementNamed(context, '/signin');
+   bool _isSelected = true;
+
+
+  void check() {
+    setState(() {
+      _isSelected = !_isSelected;
+    });
   }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.white,
       appBar: AppBar(
-        elevation: 0,
-        backgroundColor: Colors.blueAccent,
-        title: Text(
-          'Explore the World',
-          style: TextStyle(
-            fontSize: 20,
-            fontWeight: FontWeight.bold,
-            color: Colors.white,
+        title: Text('Vincent', style: TextStyle(color: Colors.black, fontSize: 25)),
+        actions: [
+          IconButton(
+            icon: Icon(Icons.notifications_active_outlined, color: Colors.black, size: 30),
+            onPressed: () {
+
+            },
           ),
-        ),
+        ],
       ),
-      body: Column(
-        children: [
-          Padding(
-            padding: const EdgeInsets.all(16.0),
-            child: TextField(
-              decoration: InputDecoration(
-                hintText: 'Search for destinations...',
-                prefixIcon: Icon(Icons.search),
-                border: OutlineInputBorder(
-                  borderRadius: BorderRadius.circular(12),
-                ),
-                filled: true,
-                fillColor: Colors.grey[200],
+      body: SingleChildScrollView(
+        child: Padding(
+          padding: const EdgeInsets.all(16.0),
+          child: Column(
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: [
+              Text('Hello, Ngân 👋', style: TextStyle(fontSize: 30, color: Colors.black, fontWeight: FontWeight.bold)),
+              SizedBox(height: 20),
+              SingleChildScrollView(
+                scrollDirection: Axis.horizontal,
+                child: Row(
+  mainAxisAlignment: MainAxisAlignment.spaceBetween,
+  children: [
+    const SizedBox( width: 20),
+    HomeWidget.buildCategoryButton('Recommended', isSelected: true, onPressed: () {
+      print('Recommended button pressed');
+      check();
+    }),
+    const SizedBox( width: 20),
+    HomeWidget.buildCategoryButton('Popular', onPressed: () {
+      print('Popular button pressed');
+      check();
+    }),
+    const SizedBox( width: 20),
+    HomeWidget.buildCategoryButton('Trending', onPressed: () {
+      print('Trending button pressed');
+      check();
+    }),
+    const SizedBox( width: 20),
+    HomeWidget.buildCategoryButton('New Arrive', onPressed: () {
+      print('New Arrive button pressed');
+      check();
+    }),
+  ],
+),
               ),
-            ),
-          ),
-          Expanded(
-            child: ListView(
-              padding: const EdgeInsets.all(16.0),
-              children: [
-                Text(
-                  'Popular Destinations',
-                  style: TextStyle(
-                    fontSize: 18,
-                    fontWeight: FontWeight.bold,
-                  ),
+              SizedBox(height: 10),
+              SingleChildScrollView(
+                scrollDirection: Axis.horizontal,
+                child: Row(
+                  mainAxisAlignment: MainAxisAlignment.spaceAround,
+                  children: [
+                    HomeWidget.buildHotelCard(context, 'https://wallpapertag.com/wallpaper/full/a/7/f/509904-beach-paradise-wallpaper-2560x1600-ipad-retina.jpg','Product 1','Dsdfsd, Vũ Trụ', 4.5, 5),
+                    const SizedBox(width: 20),
+                    HomeWidget.buildHotelCard(context, 'https://wallpapertag.com/wallpaper/full/a/7/f/509904-beach-paradise-wallpaper-2560x1600-ipad-retina.jpg','Product 1','Dsdfsd, Vũ Trụ', 4.5, 5),
+                    const SizedBox(width: 20),
+                    HomeWidget.buildHotelCard(context, 'https://wallpapertag.com/wallpaper/full/a/7/f/509904-beach-paradise-wallpaper-2560x1600-ipad-retina.jpg','Product 1','Dsdfsd, Vũ Trụ', 4.5, 5),
+                    const SizedBox(width: 20),
+                    HomeWidget.buildHotelCard(context, 'https://wallpapertag.com/wallpaper/full/a/7/f/509904-beach-paradise-wallpaper-2560x1600-ipad-retina.jpg','Product 1','Dsdfsd, Vũ Trụ', 4.5, 5),
+                    const SizedBox(width: 20),
+                    HomeWidget.buildHotelCard(context, 'https://wallpapertag.com/wallpaper/full/a/7/f/509904-beach-paradise-wallpaper-2560x1600-ipad-retina.jpg','Product 1','Dsdfsd, Vũ Trụ', 4.5, 5),
+                  ],
                 ),
-                SizedBox(height: 16),
-                SingleChildScrollView(
-                  scrollDirection: Axis.horizontal,
-                  child: Row(
-                    children: [
-                      DestinationCard(
-                        image: 'https://via.placeholder.com/150',
-                        title: 'Beach Paradise',
-                      ),
-                      DestinationCard(
-                        image: 'https://via.placeholder.com/150',
-                        title: 'Mountain Escape',
-                      ),
-                      DestinationCard(
-                        image: 'https://via.placeholder.com/150',
-                        title: 'City Lights',
-                      ),
-                    ],
+              ),
+              SizedBox(height: 20),
+              Row(
+                mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                children: [
+                  Text(
+                    'Recently Booked',
+                    style: TextStyle(
+                      fontSize: 18,
+                      fontWeight: FontWeight.bold,
+                    ),
                   ),
-                ),
-              ],
-            ),
-          ),
-        ],
-      ),
-      bottomNavigationBar: BottomNavigationBar(
-        type: BottomNavigationBarType.fixed,
-        items: [
-          BottomNavigationBarItem(
-            icon: Icon(Icons.home),
-            label: 'Home',
-          ),
-          BottomNavigationBarItem(
-            icon: Icon(Icons.explore),
-            label: 'Explore',
-          ),
-          BottomNavigationBarItem(
-            icon: Icon(Icons.favorite),
-            label: 'Favorites',
-          ),
-          BottomNavigationBarItem(
-            icon: Icon(Icons.person),
-            label: 'Profile',
-          ),
-        ],
-      ),
-      floatingActionButton: FloatingActionButton(
-        onPressed: () => _Logout(),
-        child: Icon(Icons.logout),
+                  TextButton(
+                    onPressed: () {
+                      Navigator.push(
+                        context,
+                        MaterialPageRoute(builder: (context) => const RoomListScreen()),);
+                    },
+                    child: Text('See All'),
+                  ),
+                ],
+              ),
+              SizedBox(height: 16),
+              HomeWidget.buildRecentlyBookedCard('https://wallpapertag.com/wallpaper/full/a/7/f/509904-beach-paradise-wallpaper-2560x1600-ipad-retina.jpg','President Hotel', 'Paris, France', 110, 4.5, 4552),
+              HomeWidget.buildRecentlyBookedCard('https://wallpapertag.com/wallpaper/full/a/7/f/509904-beach-paradise-wallpaper-2560x1600-ipad-retina.jpg','President Hotel', 'Amsterdam, Netherlands', 90, 4.7, 2592),
+              HomeWidget.buildRecentlyBookedCard('https://wallpapertag.com/wallpaper/full/a/7/f/509904-beach-paradise-wallpaper-2560x1600-ipad-retina.jpg','President Hotel', 'Amsterdam, Netherlands', 90, 4.7, 2592),
+            ]
+          )
+        ),
       )
-    );
-  }
-}
-
-class DestinationCard extends StatelessWidget {
-  final String image;
-  final String title;
-
-  const DestinationCard({
-    required this.image,
-    required this.title,
-  });
-
-  @override
-  Widget build(BuildContext context) {
-    return Container(
-      margin: EdgeInsets.only(right: 16),
-      width: 150,
-      decoration: BoxDecoration(
-        borderRadius: BorderRadius.circular(12),
-        image: DecorationImage(
-          image: NetworkImage(image),
-          fit: BoxFit.cover,
-        ),
-      ),
-      child: Align(
-        alignment: Alignment.bottomCenter,
-        child: Container(
-          padding: EdgeInsets.all(8),
-          decoration: BoxDecoration(
-            color: Colors.black.withOpacity(0.5),
-            borderRadius: BorderRadius.only(
-              bottomLeft: Radius.circular(12),
-              bottomRight: Radius.circular(12),
-            ),
-          ),
-          child: Text(
-            title,
-            style: TextStyle(
-              color: Colors.white,
-              fontWeight: FontWeight.bold,
-            ),
-            textAlign: TextAlign.center,
-          ),
-        ),
-      ),
     );
   }
 }

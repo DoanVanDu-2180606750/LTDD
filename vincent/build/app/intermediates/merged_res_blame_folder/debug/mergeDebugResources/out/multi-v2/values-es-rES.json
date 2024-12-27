@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.vincent.app-mergeDebugResources-46:/values-es-rES/values-es-rES.xml",
+            "outputFile": "com.example.vincent.app-mergeDebugResources-48:/values-es-rES/values-es-rES.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\vdyla\\.gradle\\caches\\8.9\\transforms\\5475639e8d8974a3316b08d166a7bb2a\\transformed\\jetified-facebook-login-17.0.1\\res\\values-es-rES\\values-es-rES.xml",
+                    "source": "C:\\Users\\vdyla\\.gradle\\caches\\8.9\\transforms\\7374ebfb4acac17ab819e9d6fe999dc0\\transformed\\jetified-facebook-login-17.0.1\\res\\values-es-rES\\values-es-rES.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",

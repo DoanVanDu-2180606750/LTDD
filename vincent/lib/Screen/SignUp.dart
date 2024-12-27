@@ -10,10 +10,17 @@ class SignUpScreen extends StatefulWidget {
 class _SignUpScreenState extends State<SignUpScreen> {
   final _formKey = GlobalKey<FormState>();
   final regex = RegExp(r'^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$');
+  bool  _obscureText = true;
   final _emailController = TextEditingController();
   final _passwordController = TextEditingController();
   final _confirmPasswordController = TextEditingController();
   final _nameController = TextEditingController();
+
+  void _checkpass() {
+    setState(() {
+      _obscureText = !_obscureText;
+    });
+  }
 
   Future <void> _signUp() async {
     if (_formKey.currentState!.validate()) {
@@ -28,8 +35,6 @@ class _SignUpScreenState extends State<SignUpScreen> {
       );
     }
   }
-
-
 
   @override
   Widget build(BuildContext context) {
@@ -85,6 +90,7 @@ class _SignUpScreenState extends State<SignUpScreen> {
                           borderRadius: BorderRadius.circular(12),
                         ),
                         prefixIcon: Icon(Icons.email),
+                        hintText: 'example@gmail.com',
                       ),
                       validator: (value) {
                         if (value == null || value.isEmpty) {
@@ -99,13 +105,17 @@ class _SignUpScreenState extends State<SignUpScreen> {
                     SizedBox(height: 16),
                     TextFormField(
                       controller: _passwordController,
-                      obscureText: true,
+                      obscureText: _obscureText,
                       decoration: InputDecoration(
                         labelText: 'Mật khẩu',
                         border: OutlineInputBorder(
                           borderRadius: BorderRadius.circular(12),
                         ),
                         prefixIcon: Icon(Icons.lock),
+                        suffixIcon: IconButton(
+                          onPressed: _checkpass ,
+                          icon:  Icon(_obscureText ? Icons.visibility : Icons.visibility_off),
+                        )
                       ),
                       validator: (value) {
                         if (value == null || value.isEmpty) {
