@@ -1,0 +1,29 @@
+[debug] [2025-01-02T05:24:56.154Z] ----------------------------------------------------------------------
+[debug] [2025-01-02T05:24:56.157Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\ADMIN\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js projects:list --json
+[debug] [2025-01-02T05:24:56.157Z] CLI Version:   13.29.1
+[debug] [2025-01-02T05:24:56.157Z] Platform:      win32
+[debug] [2025-01-02T05:24:56.157Z] Node Version:  v20.4.0
+[debug] [2025-01-02T05:24:56.157Z] Time:          Thu Jan 02 2025 12:24:56 GMT+0700 (Indochina Time)
+[debug] [2025-01-02T05:24:56.157Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2025-01-02T05:24:56.228Z] Object "" in "firebase.json" has unknown property: {"additionalProperty":"flutter"}
+[debug] [2025-01-02T05:24:56.231Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-01-02T05:24:56.232Z] > authorizing via signed-in user (minhallk.vk@gmail.com)
+[debug] [2025-01-02T05:24:56.235Z] Checked if tokens are valid: true, expires at: 1735799091231
+[debug] [2025-01-02T05:24:56.235Z] Checked if tokens are valid: true, expires at: 1735799091231
+[debug] [2025-01-02T05:24:56.236Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=1000
+[debug] [2025-01-02T05:24:56.986Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 200
+[debug] [2025-01-02T05:24:56.986Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
+[info] ┌──────────────────────┬────────────────────────┬────────────────┬──────────────────────┐
+│ Project Display Name │ Project ID             │ Project Number │ Resource Location ID │
+├──────────────────────┼────────────────────────┼────────────────┼──────────────────────┤
+│ Flutter firebase     │ flutter-firebase-754ac │ 105180583698   │ [Not specified]      │
+└──────────────────────┴────────────────────────┴────────────────┴──────────────────────┘
+[info] 
+[info] 1 project(s) total.
+[debug] [2025-01-02T05:25:06.998Z] Error: Timed out.
+    at Timeout._onTimeout (C:\Users\ADMIN\AppData\Roaming\npm\node_modules\firebase-tools\lib\utils.js:269:49)
+    at listOnTimeout (node:internal/timers:573:17)
+    at process.processTimers (node:internal/timers:514:7)
+[error] 
+[error] Error: An unexpected error has occurred.

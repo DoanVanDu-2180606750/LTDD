@@ -1,0 +1,58 @@
+name: vincent
+description: "A new Flutter project."
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.4
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+  intl: ^0.19.0
+  cached_network_image: ^3.4.1
+  cupertino_icons: ^1.0.8
+  flutter_svg: ^2.0.16
+  provider: ^6.1.2
+  connectivity_plus: ^6.1.1
+  flutter_switch: ^0.3.2
+  country_picker: ^2.0.27
+  smooth_page_indicator: ^1.2.0+3
+  responsive_grid_list: ^1.4.0
+  readmore: ^3.0.0
+  flutter_svg_provider: ^1.0.7
+  flutter_secure_storage: ^9.2.2
+  shared_preferences: ^2.3.4
+  firebase_core: ^3.9.0
+  firebase_database: ^11.2.0
+  carousel_slider: ^5.0.0
+  carousel_animations: ^0.0.4
+  table_calendar: ^3.1.3
+  qr_flutter: ^4.1.0
+  google_sign_in: ^6.2.2
+  firebase_auth: ^5.3.4
+  http: ^1.2.2
+  flutter_dotenv: ^5.2.1
+  image_picker: ^1.1.2
+  cloud_firestore: ^5.6.0
+  flutter_swiper_null_safety: ^1.0.2
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - .env
+    - assets/images/icons/facebook.svg
+    - assets/images/icons/google.svg
+    - assets/images/BeachParadise.png
+    - assets/images/User.jpg

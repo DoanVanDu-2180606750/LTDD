@@ -1,0 +1,161 @@
+{
+   "checksum": "85d4c90a03f7c6a307c40673871cca45",
+   "roots": {
+      "bookmark_bar": {
+         "children": [ {
+            "date_added": "13288434957856776",
+            "date_last_used": "13372959737111131",
+            "guid": "edff90e9-751a-4aad-995a-00841dbe76ce",
+            "id": "13",
+            "name": "Gmail",
+            "type": "url",
+            "url": "https://accounts.google.com/b/0/AddMailService"
+         }, {
+            "date_added": "13288434957857251",
+            "date_last_used": "13376709848637136",
+            "guid": "8376961c-1192-40ed-a104-ac44d52344d7",
+            "id": "14",
+            "name": "YouTube",
+            "type": "url",
+            "url": "https://youtube.com/"
+         }, {
+            "date_added": "13286081130470546",
+            "date_last_used": "0",
+            "guid": "b84baf12-1374-4249-bb63-53b71f02dcac",
+            "id": "15",
+            "name": "Dịch",
+            "type": "url",
+            "url": "https://translate.google.com/"
+         }, {
+            "date_added": "13375898683296276",
+            "date_last_used": "13376038975511520",
+            "guid": "cf1a5f50-09bc-4577-b987-50f1b8af23aa",
+            "id": "16",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "DoanVanDu-2180606750/DACN_FL",
+            "type": "url",
+            "url": "https://github.com/DoanVanDu-2180606750/DACN_FL"
+         }, {
+            "date_added": "13377378005572791",
+            "date_last_used": "0",
+            "guid": "0d210109-ab27-4ba0-b6a1-2c724e75abd6",
+            "id": "17",
+            "name": "Cluster0 Data | Cloud: MongoDB Cloud",
+            "type": "url",
+            "url": "https://cloud.mongodb.com/v2/674950507f7ee3091037658a#/metrics/replicaSet/674952595e46936deca0a903/explorer/test/users/find"
+         }, {
+            "date_added": "13377852166094261",
+            "date_last_used": "0",
+            "guid": "08c5e972-cf32-4e51-8286-645b951c53c7",
+            "id": "18",
+            "name": "Default Topic · Default Assistant · LobeChat",
+            "type": "url",
+            "url": "https://ai.asakuri.me/chat?session=49285833-2293-40af-9e2e-d60e1748eb55&topic=HAKLMJyw"
+         }, {
+            "children": [ {
+               "date_added": "13376703042998802",
+               "date_last_used": "0",
+               "guid": "758e91c5-92f3-443b-acbf-b0e38026b21c",
+               "id": "20",
+               "name": "Lenovo Support",
+               "type": "url",
+               "url": "http://support.lenovo.com/"
+            }, {
+               "date_added": "13376703042998802",
+               "date_last_used": "0",
+               "guid": "50ff2ac2-72f8-4bf4-b457-b74a3f0aafb4",
+               "id": "21",
+               "name": "Lenovo",
+               "type": "url",
+               "url": "http://www.lenovo.com/"
+            }, {
+               "date_added": "13379874383332824",
+               "date_last_used": "0",
+               "guid": "0996eb75-eba0-4f20-af2f-5730a229d528",
+               "id": "22",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "DhiWise | Build Flutter apps instantly",
+               "type": "url",
+               "url": "https://app.dhiwise.com/flutter/builder/677014343fd5870017c5fca3"
+            } ],
+            "date_added": "13380102536558377",
+            "date_last_used": "0",
+            "date_modified": "0",
+            "guid": "aa391bac-7d62-459c-8bf0-34110eec9460",
+            "id": "19",
+            "name": "Lenovo",
+            "type": "folder"
+         } ],
+         "date_added": "13380102531467040",
+         "date_last_used": "0",
+         "date_modified": "13377852166094261",
+         "guid": "0bc5d13f-2cba-5d74-951f-3f233fe6c908",
+         "id": "1",
+         "name": "Bookmarks bar",
+         "type": "folder"
+      },
+      "other": {
+         "children": [  ],
+         "date_added": "13380102531467051",
+         "date_last_used": "0",
+         "date_modified": "0",
+         "guid": "82b081ec-3dd3-529c-8475-ab6c344590dd",
+         "id": "2",
+         "name": "Other bookmarks",
+         "type": "folder"
+      },
+      "synced": {
+         "children": [ {
+            "date_added": "13289167950038630",
+            "date_last_used": "0",
+            "guid": "34efb357-941c-49de-abe3-a59b3207c140",
+            "id": "9",
+            "name": "Cổng Thông Tin Đào Tạo-Trường Đại Học Công Nghệ TP.HCM-KTCN",
+            "type": "url",
+            "url": "http://daotao.hutech.edu.vn/default.aspx?page=thoikhoabieu&sta=1"
+         }, {
+            "date_added": "13293604463531370",
+            "date_last_used": "0",
+            "guid": "9fb186c0-ad63-41c7-99b9-2defb964784d",
+            "id": "10",
+            "name": "Thẻ mới",
+            "type": "url",
+            "url": "chrome://newtab/"
+         }, {
+            "date_added": "13370192979917787",
+            "date_last_used": "0",
+            "guid": "46b12e4f-1444-403c-8ee1-64779c7d20bb",
+            "id": "11",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "💻 js.vd · LobeChat",
+            "type": "url",
+            "url": "https://ai.asakuri.tech/chat?session=e55e2003-0fee-482d-bb95-594ee404f00b&agent=&topic=vROA50GI"
+         }, {
+            "date_added": "13370193064203978",
+            "date_last_used": "0",
+            "guid": "1a46d1e6-bada-43f1-8947-95d124a2c497",
+            "id": "12",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "New tab",
+            "type": "url",
+            "url": "edge://newtab/"
+         } ],
+         "date_added": "13380102531467054",
+         "date_last_used": "0",
+         "date_modified": "13370193064203978",
+         "guid": "4cf2e351-0e85-532b-bb37-df045d8f8d0f",
+         "id": "3",
+         "name": "Mobile bookmarks",
+         "type": "folder"
+      }
+   },
+   "version": 1
+}
