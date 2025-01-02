@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.vincent.app-mergeDebugResources-48:/values-v21/values-v21.xml",
+            "outputFile": "com.example.vincent.app-mergeDebugResources-50:/values-v21/values-v21.xml",
             "map": [
                 {
                     "source": "C:\\Users\\vdyla\\.gradle\\caches\\8.9\\transforms\\42ee74e510c398ea7ef4bec344a4a032\\transformed\\core-1.13.1\\res\\values-v21\\values-v21.xml",
@@ -14,12 +14,12 @@
                         "endOffsets": "168,232,299,363,479,605,731,859,1031,1383"
                     },
                     "to": {
-                        "startLines": "2,3,4,5,271,272,279,283,287,290",
+                        "startLines": "2,3,4,5,271,272,273,274,283,286",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,173,237,304,19054,19170,19627,19921,20216,20388",
-                        "endLines": "2,3,4,5,271,272,279,283,289,294",
+                        "startOffsets": "55,173,237,304,19054,19170,19296,19422,20043,20215",
+                        "endLines": "2,3,4,5,271,272,273,274,285,290",
                         "endColumns": "117,63,66,63,115,125,125,127,12,12",
-                        "endOffsets": "168,232,299,363,19165,19291,19748,20044,20383,20735"
+                        "endOffsets": "168,232,299,363,19165,19291,19417,19545,20210,20562"
                     }
                 },
                 {
@@ -42,22 +42,22 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\vdyla\\.gradle\\caches\\8.9\\transforms\\558b34dba3407c65e74d3895ae3ff796\\transformed\\media-1.0.0\\res\\values-v21\\values-v21.xml",
+                    "source": "C:\\Users\\vdyla\\.gradle\\caches\\8.9\\transforms\\50ff0c1124c2ce04c3bba38f0b309144\\transformed\\jetified-credentials-play-services-auth-1.2.0-rc01\\res\\values-v21\\values-v21.xml",
                     "from": {
-                        "startLines": "2,5,8,11",
-                        "startColumns": "4,4,4,4",
-                        "startOffsets": "55,223,386,554",
-                        "endLines": "4,7,10,13",
-                        "endColumns": "12,12,12,12",
-                        "endOffsets": "218,381,549,716"
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "9",
+                        "endColumns": "12",
+                        "endOffsets": "543"
                     },
                     "to": {
-                        "startLines": "273,276,280,284",
-                        "startColumns": "4,4,4,4",
-                        "startOffsets": "19296,19464,19753,20049",
-                        "endLines": "275,278,282,286",
-                        "endColumns": "12,12,12,12",
-                        "endOffsets": "19459,19622,19916,20211"
+                        "startLines": "275",
+                        "startColumns": "4",
+                        "startOffsets": "19550",
+                        "endLines": "282",
+                        "endColumns": "12",
+                        "endOffsets": "20038"
                     }
                 },
                 {

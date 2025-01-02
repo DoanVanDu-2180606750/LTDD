@@ -27,6 +27,8 @@
     <string msgid="2650565705514630347" name="abc_shareactionprovider_share_with">"แชร์กับ"</string>
     <string msgid="9009661856846212431" name="abc_shareactionprovider_share_with_application">"แชร์ทาง <ns1:g id="APPLICATION_NAME">%s</ns1:g>"</string>
     <string msgid="6389460216547290468" name="abc_toolbar_collapse_description">"ยุบ"</string>
+    <string msgid="8397015543330865059" name="android.credentials.TYPE_PASSWORD_CREDENTIAL">"รหัสผ่าน"</string>
+    <string msgid="3929015085059320822" name="androidx.credentials.TYPE_PUBLIC_KEY_CREDENTIAL">"พาสคีย์"</string>
     <string msgid="881409763997275156" name="call_notification_answer_action">"รับสาย"</string>
     <string msgid="8793775615905189152" name="call_notification_answer_video_action">"วิดีโอ"</string>
     <string msgid="3229508546291798546" name="call_notification_decline_action">"ปฏิเสธ"</string>
@@ -34,29 +36,6 @@
     <string msgid="6107532579223922871" name="call_notification_incoming_text">"สายเรียกเข้า"</string>
     <string msgid="8623827134497363134" name="call_notification_ongoing_text">"สายที่สนทนาอยู่"</string>
     <string msgid="59049573811482460" name="call_notification_screening_text">"กำลังสกรีนสายเรียกเข้า"</string>
-    <string gender="unknown" name="com_facebook_device_auth_instructions">ไปที่ &lt;b>facebook.com/device&lt;/b> แล้วป้อนรหัสที่แสดงด้านบน</string>
-    <string gender="unknown" name="com_facebook_image_download_unknown_error">เกิดข้อผิดพลาดที่ไม่คาดคิดขณะดาวน์โหลดภาพ</string>
-    <string gender="unknown" name="com_facebook_internet_permission_error_message">การเข้าสู่ระบบ WebView ต้องได้รับสิทธิ์การอนุญาตอินเทอร์เน็ต</string>
-    <string gender="unknown" name="com_facebook_internet_permission_error_title">ข้อผิดพลาด AndroidManifest</string>
-    <string gender="unknown" name="com_facebook_like_button_liked">ถูกใจแล้ว</string>
-    <string gender="unknown" name="com_facebook_like_button_not_liked">ถูกใจ</string>
-    <string gender="unknown" name="com_facebook_loading">กำลังโหลด…</string>
-    <string gender="unknown" name="com_facebook_loginview_cancel_action">ยกเลิก</string>
-    <string gender="unknown" name="com_facebook_loginview_log_in_button">เข้าสู่ระบบ</string>
-    <string gender="unknown" name="com_facebook_loginview_log_in_button_continue">ดำเนินการต่อด้วย Facebook</string>
-    <string gender="unknown" name="com_facebook_loginview_log_in_button_long">เข้าสู่ระบบด้วย Facebook</string>
-    <string gender="unknown" name="com_facebook_loginview_log_out_action">ออกจากระบบ</string>
-    <string gender="unknown" name="com_facebook_loginview_log_out_button">ออกจากระบบ</string>
-    <string gender="unknown" name="com_facebook_loginview_logged_in_as">เข้าสู่ระบบแล้วในชื่อ %1$s</string>
-    <string gender="unknown" name="com_facebook_loginview_logged_in_using_facebook">เข้าสู่ระบบแล้วโดยใช้ Facebook</string>
-    <string gender="unknown" name="com_facebook_send_button_text">ส่ง</string>
-    <string gender="unknown" name="com_facebook_share_button_text">แชร์</string>
-    <string gender="unknown" name="com_facebook_smart_device_instructions">หากต้องการเชื่อมต่อกับบัญชีผู้ใช้ของคุณ ให้เปิดแอพ Facebook บนอุปกรณ์มือถือของคุณแล้วตรวจสอบการแจ้งเตือน</string>
-    <string gender="unknown" name="com_facebook_smart_device_instructions_or">- หรือ -</string>
-    <string gender="unknown" name="com_facebook_smart_login_confirmation_cancel">ไม่ใช่คุณใช่ไหม</string>
-    <string gender="unknown" name="com_facebook_smart_login_confirmation_continue_as">ดำเนินการต่อในชื่อ %1$s</string>
-    <string gender="unknown" name="com_facebook_smart_login_confirmation_title">ยืนยันการเข้าสู่ระบบ</string>
-    <string gender="unknown" name="com_facebook_tooltip_default">คุณควบคุมได้ เลือกว่าคุณต้องการแชร์ข้อมูลใดกับแอพ</string>
     <string msgid="2523291102206661146" name="common_google_play_services_enable_button">เปิดใช้</string>
     <string msgid="227660514972886228" name="common_google_play_services_enable_text">%1$s จะไม่ทำงานจนกว่าคุณจะเปิดใช้บริการ Google Play</string>
     <string msgid="5122002158466380389" name="common_google_play_services_enable_title">เปิดใช้บริการ Google Play</string>
@@ -76,7 +55,11 @@
     <string name="common_signin_button_text">ลงชื่อเข้าใช้</string>
     <string name="common_signin_button_text_long">ลงชื่อเข้าใช้ด้วย Google</string>
     <string msgid="6083905920877235314" name="copy">"คัดลอก"</string>
+    <string msgid="3260749812566568062" name="copy_toast_msg">"คัดลอกลิงก์ไปยังคลิปบอร์ดแล้ว"</string>
     <string msgid="2427401033573778270" name="expand_button_title">"ขั้นสูง"</string>
+    <string msgid="4566929209979330987" name="fallback_menu_item_copy_link">"คัดลอกลิงก์"</string>
+    <string msgid="3413186855122069269" name="fallback_menu_item_open_in_browser">"เปิดในเบราว์เซอร์"</string>
+    <string msgid="7145444925855055364" name="fallback_menu_item_share_link">"แชร์ลิงก์"</string>
     <string msgid="6573031135582639649" name="not_set">"ไม่ได้ตั้งค่า"</string>
     <string msgid="6685851473431805375" name="preference_copied">"คัดลอก \"<ns1:g id="SUMMARY">%1$s</ns1:g>\" ไปยังคลิปบอร์ดแล้ว"</string>
     <string msgid="730395136688082741" name="search_menu_title">"ค้นหา"</string>

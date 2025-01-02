@@ -20,10 +20,10 @@ const userSchema = new mongoose.Schema({
     enum: ['Nam', 'Nữ', 'Khác'],
   },
   phone: {
-    type: Number,
+    type: String,
   },
-  nationalid: {
-    type: Number,
+  nationalId: {
+    type: String,
   },
   image: {
     type: String,
@@ -40,5 +40,14 @@ const userSchema = new mongoose.Schema({
     type: String,
     require: true
   }, 
-}, { timestamps: true });
+}, { timestamps: true },
+{ versionKey: false });
+
+userSchema.set('toJSON', {
+  transform: (doc, ret) => {
+    delete ret.__v;
+    return ret;
+  }
+});
+
 module.exports = mongoose.model('User', userSchema);

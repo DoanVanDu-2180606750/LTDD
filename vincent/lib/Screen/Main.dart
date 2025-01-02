@@ -1,8 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:vincent/Screen/Explore.dart';
-import 'package:vincent/Screen/Favorites.dart';
+import 'package:vincent/Screen/Chat.dart';
 import 'package:vincent/Screen/Home.dart';
 import 'package:vincent/Screen/Profile.dart';
+import 'package:vincent/Screen/User.dart';
+import 'package:vincent/Screen/note.dart';
 
 class MainScreen extends StatefulWidget {
   const MainScreen({super.key});
@@ -16,8 +17,8 @@ class _MainScreenState extends State<MainScreen> {
 
   static final _screen =<Widget> [
     HomeScreen(),
-    ExploreScreen(),
-    FavoritesScreen(),
+    ChatScreen(),
+    UserScreen(),
     const ProfileScreen(),
   ];
   void _onItemTapped(int index) {
@@ -46,7 +47,7 @@ class _MainScreenState extends State<MainScreen> {
           ),
           BottomNavigationBarItem(
             icon: Icon(Icons.explore),
-            label: 'Explore',
+            label: 'Chat',
           ),
           BottomNavigationBarItem(
             icon: Icon(Icons.favorite),
@@ -58,10 +59,12 @@ class _MainScreenState extends State<MainScreen> {
           ),
         ],
       ),
-      // floatingActionButton: FloatingActionButton(
-      //   onPressed: () {} ,
-      //   child: Icon(Icons.chat, color: Colors.black, size: 30),
-      // )
+      floatingActionButton: FloatingActionButton(
+        onPressed: () {
+          Navigator.push(context, MaterialPageRoute(builder: (context) => NoteScreen()));
+        } ,
+        child: Icon(Icons.chat, color: Colors.black, size: 30),
+      )
     );
   }
 }

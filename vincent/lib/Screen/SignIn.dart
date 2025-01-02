@@ -1,10 +1,15 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:shared_preferences/shared_preferences.dart';
+import 'package:vincent/Model/user_model.dart';
 import 'package:vincent/Screen/SignUp.dart';
-import 'package:google_sign_in/google_sign_in.dart';
+import 'package:vincent/Screen/Main.dart';
+import 'package:vincent/Service/authGg_service.dart';
+import 'package:vincent/Service/authPass_service.dart';
+
 
 class SignInScreen extends StatefulWidget {
+
   const SignInScreen({super.key});
 
   @override
@@ -12,49 +17,105 @@ class SignInScreen extends StatefulWidget {
 }
 
 class _SignInScreenState extends State<SignInScreen> {
+  
   final _formKey = GlobalKey<FormState>();
   final regex = RegExp(r'^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$');
-  final GoogleSignIn _googleSignIn = GoogleSignIn();
-  bool _obscureText = true;
-  
+  final _authGg = AuthGgService();
+  final authPass = AuthpassService();
+  bool  _obscureText = true;
+  bool _isLoading = false;
+  final _email = TextEditingController();
+  final _password = TextEditingController();
 
-
-  Future<void> _signIn() async {
-    final SharedPreferences prefs = await SharedPreferences.getInstance();
-    if (_formKey.currentState!.validate()) {
-      _formKey.currentState!.save();
-      await prefs.setBool('isSignedIn', true);
-      print('Form is valid');
-      Navigator.pushReplacementNamed(context, '/');
-    } else {
-      print('Form is invalid');
-    }
+  @override
+  void dispose() {
+    super.dispose();
+    _email.dispose();
+    _password.dispose();
   }
 
   void _checkpass() {
     setState(() {
-      _obscureText = !_obscureText!;
+      _obscureText = !_obscureText;
     });
-    
   }
 
-  Future<void> _signInWithGoogle() async {
-    try {
-      final GoogleSignInAccount? googleUser = await _googleSignIn.signIn();
-      if (googleUser != null) {
-        // Lấy thông tin người dùng
-        final GoogleSignInAuthentication googleAuth = await googleUser.authentication;
-        
-        // Thực hiện hành động với thông tin xác thực (token) từ Google
-        print('Google Sign-In successful: ${googleAuth.idToken}');
-        
-        // ignore: use_build_context_synchronously
-        Navigator.pushReplacementNamed(context, '/');
+  Future<void> _login() async {
+    String email = _email.text;
+    String password = _password.text;
+    setState(() {
+      _isLoading = true;
+    });
+
+    if (_formKey.currentState!.validate()) {
+      try {
+        await Future.delayed(Duration(seconds: 2));
+        User? user = await authPass.signInAccount(email, password);
+
+        if (!mounted) return;
+
+        if (user != null) {
+          final SharedPreferences prefs = await SharedPreferences.getInstance();
+          await prefs.setBool('isSignedIn', true);
+          
+          // Check mounted before navigating
+          if (mounted) {
+            Navigator.pushReplacement(
+              context,
+              MaterialPageRoute(builder: (context) => MainScreen()),
+            );
+          }
+        } else {
+          // Check mounted before showing SnackBar
+          if (mounted) {
+            ScaffoldMessenger.of(context).showSnackBar(
+              SnackBar(
+                content: Text('Tài khoản hoặc mật khẩu không chính xác.'),
+              ),
+            );
+          }
+        }
+      } catch (e) {
+        // Check mounted before showing SnackBar
+        if (mounted) {
+          ScaffoldMessenger.of(context).showSnackBar(
+            SnackBar(
+              content: Text(e.toString()),
+            ),
+          );
+        }
+      } finally {
+        // Set loading state to false regardless of mounted status
+        if (mounted) {
+          setState(() {
+            _isLoading = false;
+          });
+        }
       }
-    } catch (error) {
-      print('Google Sign-In failed: $error');
+    } else {
+      // If the form is not valid, stop loading
+      if (mounted) {
+        setState(() {
+          _isLoading = false;
+        });
+      }
     }
   }
+
+  Future <void> _googleLogin() async {
+    final SharedPreferences prefs = await SharedPreferences.getInstance();
+    try{
+      final user = await _authGg.signInWithGoogle();
+      if (user != null) {
+        await prefs.setBool('isSignedIn', true);
+        Navigator.pushReplacement(context, MaterialPageRoute(builder: (context) => MainScreen()));
+      }
+    }catch(e){
+      print(e);
+    }
+  }
+
+
 
   @override
   Widget build(BuildContext context) {
@@ -87,18 +148,19 @@ class _SignInScreenState extends State<SignInScreen> {
                 textAlign: TextAlign.center,
               ),
               SizedBox(height: 32),
+
               Form(
                 key: _formKey,
                 child: Column(
                   children: [
                     TextFormField(
+                      controller: _email,
                       decoration: InputDecoration(
                         labelText: 'Email',
                         border: OutlineInputBorder(
                           borderRadius: BorderRadius.circular(12),
                         ),
                         prefixIcon: Icon(Icons.email),
-                        hintText: 'example@gmai.com'
                       ),
                       validator: (value) {
                         if (value == null || value.isEmpty) {
@@ -112,6 +174,7 @@ class _SignInScreenState extends State<SignInScreen> {
                     ),
                     SizedBox(height: 16),
                     TextFormField(
+                      controller: _password,
                       obscureText: _obscureText,
                       decoration: InputDecoration(
                         labelText: 'Password',
@@ -120,10 +183,8 @@ class _SignInScreenState extends State<SignInScreen> {
                         ),
                         prefixIcon: Icon(Icons.lock),
                         suffixIcon: IconButton(
-                          icon: Icon(_obscureText ? Icons.visibility : Icons.visibility_off),
-                          onPressed: () {
-                            _checkpass();
-                          }
+                          onPressed: _checkpass ,
+                          icon:  Icon(_obscureText ? Icons.visibility : Icons.visibility_off),
                         )
                       ),
                       validator: (value) {
@@ -142,16 +203,20 @@ class _SignInScreenState extends State<SignInScreen> {
               Align(
                 alignment: Alignment.centerRight,
                 child: TextButton(
-                  onPressed: () => Navigator.pushNamed(context, '/reset'), // Chuyển đến màn hình quên mật khẩu
+                  onPressed: () => Navigator.pushNamed(context, '/reset'),
                   child: const Text(
-                    "Forgot Password?", // Tên nút "Quên mật khẩu"
+                    "Forgot Password?",
                     style: TextStyle(color: Colors.blue),
                   ),
                 ),
               ),
-              const SizedBox(height: 40),
-              ElevatedButton(
-                onPressed: () => _signIn(),
+              SizedBox(height: 16),
+              _isLoading ? CircularProgressIndicator(
+                color: Colors.blue,
+                semanticsLabel: 'Loading',
+              )
+              : ElevatedButton(
+                onPressed: _isLoading ? null : () => _login(),
                 style: ElevatedButton.styleFrom(
                   backgroundColor: Colors.blueAccent,
                   padding: EdgeInsets.symmetric(vertical: 16),
@@ -167,22 +232,12 @@ class _SignInScreenState extends State<SignInScreen> {
                   ),
                 ),
               ),
-              const SizedBox(height: 40),
-              TextButton(
-                onPressed: () {
-                  Navigator.push(
-                    context,
-                    MaterialPageRoute(builder: (context) => SignUpScreen()),
-                  );
-                },
-                child: Text('Don\'t have an account? Sign Up'),
-              ),
-              const SizedBox(height: 80),
+              SizedBox(height: 16),
               Row(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
                   ElevatedButton(
-                    onPressed: () => _signInWithGoogle(),
+                    onPressed: () => _googleLogin(),
                     style: ElevatedButton.styleFrom(
                       backgroundColor: const Color.fromARGB(255, 0, 0, 0),
                       shape: RoundedRectangleBorder(
@@ -197,7 +252,7 @@ class _SignInScreenState extends State<SignInScreen> {
                   ),
                   SizedBox(width: 16),
                   ElevatedButton(
-                    onPressed: () => _signInWithGoogle(),
+                    onPressed: () {},
                     style: ElevatedButton.styleFrom(
                       backgroundColor: const Color.fromARGB(255, 0, 0, 0),
                       shape: RoundedRectangleBorder(
@@ -212,10 +267,21 @@ class _SignInScreenState extends State<SignInScreen> {
                   ),
                 ]
               ),
+              TextButton(
+                onPressed: () {
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(builder: (context) => SignUpScreen()),
+                  );
+                },
+                child: Text('Don\'t have an account? Sign Up'),
+              ),
             ],
           ),
         ),
       ),
     );
   }
+
 }
+  

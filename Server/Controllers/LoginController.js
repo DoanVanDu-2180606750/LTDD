@@ -1,7 +1,8 @@
 const User = require('../Models/Users');
 const bcrypt = require('bcrypt');
 const jwt = require('jsonwebtoken');
-
+const URL = process.env.API_URL;
+const PORT = process.env.PORT;
 const {sendEmail} = require('../Services/EmailsService')
 
 
@@ -23,7 +24,7 @@ exports.register = async (req, res) => {
       const verificationToken = jwt.sign({ id: user.id }, process.env.JWT_SECRET, { expiresIn: '1h' });
 
       // Tạo đường dẫn xác thực
-      const verificationUrl = `http://192.168.1.7:${process.env.PORT}/api/verify/${verificationToken}`; // Địa chỉ trang reset mật khẩu
+      const verificationUrl = `http://${URL}:${PORT}/api/verify/${verificationToken}`; // Địa chỉ trang reset mật khẩu
 
       // Gửi email với liên kết đặt lại mật khẩu
       const emailContent = `Vui lòng nhấp vào đường dẫn dưới đây để xác thực email của bạn: ${verificationUrl}`;
@@ -47,7 +48,7 @@ exports.getVerify = async (req, res) => {
     return res.status(400).send('Không tìm thấy token.'); // Xử lý khi không có token
   }
   try {
-    const decoded = jwt.verify(token, process.env.JWT_SECRET);
+    const decoded = jwt.verify(token, process.env.JWT_SECRET, { expiresIn: '1h' });
     const userId = decoded.id; // Chỉnh sửa key thành userId
 
     // Cập nhật trạng thái người dùng là đã được xác thực
@@ -75,7 +76,7 @@ exports.forget = async (req, res) => {
         const resetToken = jwt.sign({ id: user.id }, process.env.JWT_SECRET, { expiresIn: '1h' });
 
         // Tạo đường dẫn xác nhận thay đổi mật khẩu
-        const resetUrl = `http://192.168.1.7:${process.env.PORT}/api/reset-password/${resetToken}?email=${email}&newPassword=${newPassword}`;
+        const resetUrl = `http://${URL}:${PORT}/api/reset-password/${resetToken}?email=${email}&newPassword=${newPassword}`;
 
         // Gửi email với liên kết thay đổi mật khẩu
         const emailContent = `Nhấp vào đây để đổi mật khẩu: ${resetUrl}`;
@@ -96,7 +97,7 @@ exports.resetPassword = async (req, res) => {
 
     try {
         // Giải mã token
-        const decoded = jwt.verify(token, process.env.JWT_SECRET);
+        const decoded = jwt.verify(token, process.env.JWT_SECRET, { expiresIn: '1h' });
         const userId = decoded.id;
 
         // Tìm người dùng và cập nhật mật khẩu
@@ -126,16 +127,17 @@ exports.login = async (req, res) => {
           return res.status(401).json({ message: 'Mật khẩu không chính xác.' });
       }
 
-      // Lấy giá trị isVerified từ user
-      const isVerified = user.isVerified; // Kiểm tra trạng thái xác thực
+      
+      const isVerified = user.isVerified;
 
-      // Sử dụng trạng thái isVerified để phản hồi
+      
       if (!isVerified) {
           return res.status(401).json({ message: 'Tài khoản chưa được xác thực.' });
       }
 
-      // Nếu tất cả điều kiện đều đúng, tạo token và đăng nhập thành công
-      const token = jwt.sign({ id: user._id }, process.env.JWT_SECRET, { expiresIn: '2h' });
+      
+      const token = jwt.sign({ id: user._id }, process.env.JWT_SECRET, { expiresIn: '72h' });
+      
       return res.status(200).json({ message: 'Đăng nhập thành công', user, token });
     } catch (error) {
         console.error("Lỗi đăng nhập:", error);

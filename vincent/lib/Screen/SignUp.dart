@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:vincent/Model/user_model.dart';
+import 'package:vincent/Service/authPass_service.dart';
 
 class SignUpScreen extends StatefulWidget {
   const SignUpScreen({super.key});
@@ -10,11 +12,12 @@ class SignUpScreen extends StatefulWidget {
 class _SignUpScreenState extends State<SignUpScreen> {
   final _formKey = GlobalKey<FormState>();
   final regex = RegExp(r'^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$');
+  final authPass = AuthpassService();
   bool  _obscureText = true;
-  final _emailController = TextEditingController();
-  final _passwordController = TextEditingController();
-  final _confirmPasswordController = TextEditingController();
-  final _nameController = TextEditingController();
+  final _email = TextEditingController();
+  final _password = TextEditingController();
+  final _confirmPassword = TextEditingController();
+  final _name = TextEditingController();
 
   void _checkpass() {
     setState(() {
@@ -23,12 +26,15 @@ class _SignUpScreenState extends State<SignUpScreen> {
   }
 
   Future <void> _signUp() async {
-    if (_formKey.currentState!.validate()) {
-      Navigator.pushReplacementNamed(context, '/login');
+    String name = _name.text;
+    String email = _email.text;
+    String password = _password.text;
 
-      ScaffoldMessenger.of(context).showSnackBar(
-        SnackBar(content: Text('Processing Data')),
-      );
+    if (_formKey.currentState!.validate()) {
+      User? user =  await authPass.signUpAccount(name, email, password);
+      if (user != null) {
+        Navigator.pushReplacementNamed(context, '/login');
+      }
     } else{
       ScaffoldMessenger.of(context).showSnackBar(
         SnackBar(content: Text('Invalid Input')),
@@ -66,7 +72,7 @@ class _SignUpScreenState extends State<SignUpScreen> {
                 child: Column(
                   children: [
                     TextFormField(
-                      controller: _nameController,
+                      controller: _name,
                       decoration: InputDecoration(
                         labelText: 'Họ và Tên',
                         border: OutlineInputBorder(
@@ -83,7 +89,7 @@ class _SignUpScreenState extends State<SignUpScreen> {
                     ),
                     SizedBox(height: 16),
                     TextFormField(
-                      controller: _emailController,
+                      controller: _email,
                       decoration: InputDecoration(
                         labelText: 'Email',
                         border: OutlineInputBorder(
@@ -104,7 +110,7 @@ class _SignUpScreenState extends State<SignUpScreen> {
                     ),
                     SizedBox(height: 16),
                     TextFormField(
-                      controller: _passwordController,
+                      controller: _password,
                       obscureText: _obscureText,
                       decoration: InputDecoration(
                         labelText: 'Mật khẩu',
@@ -129,20 +135,24 @@ class _SignUpScreenState extends State<SignUpScreen> {
                     ),
                     const SizedBox(height: 16),
                     TextFormField(
-                      obscureText: true,
-                      controller: _confirmPasswordController,
+                      obscureText: _obscureText,
+                      controller: _confirmPassword,
                       decoration: InputDecoration(
                         labelText: 'Confirm Password',
                         border: OutlineInputBorder(
                           borderRadius: BorderRadius.circular(12),
                         ),
-                        prefixIcon: Icon(Icons.lock),
+                        prefixIcon: Icon(Icons.done_all),
+                        suffixIcon: IconButton(
+                          onPressed: _checkpass ,
+                          icon:  Icon(_obscureText ? Icons.visibility : Icons.visibility_off),
+                        )
                       ),
                       validator: (value) {
                         if (value == null || value.isEmpty) {
                           return 'Vui lòng nhập lại mật khẩu';
                         }
-                        if ( value != _passwordController.text) {
+                        if ( value != _password.text) {
                           return 'Mật khẩu không khớp';
                         }
                         return null;

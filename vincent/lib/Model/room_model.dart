@@ -1,4 +1,4 @@
-class User {
+class Home {
   final String? name;
   final int? price;
   final double? star;
@@ -17,7 +17,7 @@ class User {
   final List<dynamic> reviews;
   final DateTime? updatedAt;
   final String? discount;
-  User({
+  Home({
     required this.name,
     required this.price,
     required this.star,
@@ -38,7 +38,7 @@ class User {
     required this.discount,
   });
     
-  User copyWith({
+  Home copyWith({
     String? name,
     int? price,
     double? star,
@@ -58,7 +58,7 @@ class User {
     DateTime? updatedAt,
     String? discount,
   }) {
-    return User(
+    return Home(
       name: name ?? this.name,
       price: price ?? this.price,
       star: star ?? this.star,
@@ -80,8 +80,8 @@ class User {
     );
   }
 
-  factory User.fromJson(Map<String, dynamic> json){ 
-    return User(
+  factory Home.fromJson(Map<String, dynamic> json){ 
+    return Home(
       name: json["name"],
       price: json["price"],
       star: json["star"],

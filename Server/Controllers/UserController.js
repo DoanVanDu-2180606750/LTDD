@@ -1,13 +1,13 @@
 const User = require('../Models/Users');
-const { upload } = require('../Services/ImagesServices'); // Kiểm tra đường dẫn tới file upload
-const port = "8080"
+const { upload } = require('../Services/ImagesServices'); 
+const PORT = "8080";
 
 // Middleware tải lên hình ảnh
-exports.uploadImage = upload.single('image'); // Thêm dòng này
+exports.uploadImage = upload.single('image');
 
 // Lấy thông tin của người dùng hiện tại
 exports.getCurrentUser = (req, res) => {
-  res.status(200).json(req.user); // Gửi thông tin người dùng hiện tại
+  res.status(200).json(req.user);
 };
 
 // Cập nhật thông tin của người dùng hiện tại
@@ -17,7 +17,7 @@ exports.updateCurrentUser = async (req, res) => {
 
   // Kiểm tra nếu có hình ảnh đã được tải lên
   if (req.file) {
-    updateData.image = `http://192.168.1.7:${port}/uploads/${req.file.filename}`;
+    updateData.image = `http://${URL}:${PORT}/uploads/${req.file.filename}`;
   }
 
   try {
@@ -61,7 +61,7 @@ exports.getAllUsers = async (req, res) => {
 
 // Cập nhật thông tin người dùng theo ID (chỉ admin)
 exports.updateUserById = async (req, res) => {
-  const userId = req.params.id; // ID người dùng từ tham số
+  const userId = req.params.id;
 
   try {
     const updatedUser = await User.findByIdAndUpdate(userId, req.body, { new: true, select: '-__v' });
@@ -79,7 +79,7 @@ exports.updateUserById = async (req, res) => {
 
 // Xóa người dùng (chỉ admin)
 exports.deleteUserById = async (req, res) => {
-  const userId = req.params.id; // ID người dùng từ tham số
+  const userId = req.params.id;
   try {
     const deletedUser = await User.findByIdAndDelete(userId);
     if (!deletedUser) {

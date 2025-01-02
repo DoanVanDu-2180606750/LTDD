@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.vincent.app-mergeDebugResources-48:/values-v16/values-v16.xml",
+            "outputFile": "com.example.vincent.app-mergeDebugResources-50:/values-v16/values-v16.xml",
             "map": [
                 {
                     "source": "C:\\Users\\vdyla\\.gradle\\caches\\8.9\\transforms\\fa463835e6bfd011e4fc9a3156d0f060\\transformed\\appcompat-1.1.0\\res\\values-v16\\values-v16.xml",

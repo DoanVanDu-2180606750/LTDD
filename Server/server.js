@@ -6,6 +6,8 @@ dotenv.config();
 const cors = require('cors');
 const app = express();
 const port = process.env.PORT;
+const URL = process.env.API_URL;
+
 
 // Middleware
 app.use(express.json());
@@ -28,7 +30,7 @@ app.use('/api', require('./Routes/LoginRoutes'));
 
 // Start server
 app.listen(port, () => {
-  console.log(`Server is running at http://192.168.1.7:${port}`);
+  console.log(`Server is running at http://${URL}:${port}`);
 });
 
 app.get('/' , (req, res) => {

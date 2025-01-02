@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:vincent/Screen/RoomDetails.dart';
+import 'package:vincent/Screen/HomeDetails.dart';
 
-class HomeWidget {
+abstract class HomeWidget extends StatefulWidget {
+  const HomeWidget({super.key});
+
 
   static Widget buildCategoryButton(
   String title, {
@@ -26,7 +28,7 @@ class HomeWidget {
     return GestureDetector(
       onTap: () {
         print('$name card tapped');
-        Navigator.push(context, MaterialPageRoute(builder: (context) => RoomDetailScreen()));
+        Navigator.push(context, MaterialPageRoute(builder: (context) => HomeDetailScreen()));
       },
       child: Container(
         width: 200,
