@@ -12,14 +12,20 @@ MERGED from [:firebase_core] D:\LTDD\vincent\build\firebase_core\intermediates\m
 MERGED from [:firebase_core] D:\LTDD\vincent\build\firebase_core\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:7:5-13:19
 MERGED from [:image_picker_android] D:\LTDD\vincent\build\image_picker_android\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:8:5-32:19
 MERGED from [:image_picker_android] D:\LTDD\vincent\build\image_picker_android\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:8:5-32:19
+MERGED from [:printing] D:\LTDD\vincent\build\printing\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:7:5-17:19
+MERGED from [:printing] D:\LTDD\vincent\build\printing\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:7:5-17:19
 MERGED from [com.google.android.gms:play-services-location:21.3.0] C:\Users\vdyla\.gradle\caches\8.9\transforms\ad57810d1a29daad480d9f09939fa3be\transformed\jetified-play-services-location-21.3.0\AndroidManifest.xml:6:5-20
 MERGED from [com.google.android.gms:play-services-location:21.3.0] C:\Users\vdyla\.gradle\caches\8.9\transforms\ad57810d1a29daad480d9f09939fa3be\transformed\jetified-play-services-location-21.3.0\AndroidManifest.xml:6:5-20
+MERGED from [com.stripe:financial-connections:20.52.2] C:\Users\vdyla\.gradle\caches\8.9\transforms\3cdad45bd107537813d36e1a468da439\transformed\jetified-financial-connections-20.52.2\AndroidManifest.xml:20:5-75:19
+MERGED from [com.stripe:financial-connections:20.52.2] C:\Users\vdyla\.gradle\caches\8.9\transforms\3cdad45bd107537813d36e1a468da439\transformed\jetified-financial-connections-20.52.2\AndroidManifest.xml:20:5-75:19
 MERGED from [com.google.firebase:firebase-auth:23.1.0] C:\Users\vdyla\.gradle\caches\8.9\transforms\ff4026c723aaadc2ca988fe8c4fd63e9\transformed\jetified-firebase-auth-23.1.0\AndroidManifest.xml:28:5-73:19
 MERGED from [com.google.firebase:firebase-auth:23.1.0] C:\Users\vdyla\.gradle\caches\8.9\transforms\ff4026c723aaadc2ca988fe8c4fd63e9\transformed\jetified-firebase-auth-23.1.0\AndroidManifest.xml:28:5-73:19
 MERGED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\vdyla\.gradle\caches\8.9\transforms\50ff0c1124c2ce04c3bba38f0b309144\transformed\jetified-credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:23:5-42:19
 MERGED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\vdyla\.gradle\caches\8.9\transforms\50ff0c1124c2ce04c3bba38f0b309144\transformed\jetified-credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:23:5-42:19
 MERGED from [com.google.android.gms:play-services-auth:21.3.0] C:\Users\vdyla\.gradle\caches\8.9\transforms\f671cd31bc6123aafc6f885c3f90ae32\transformed\jetified-play-services-auth-21.3.0\AndroidManifest.xml:22:5-38:19
 MERGED from [com.google.android.gms:play-services-auth:21.3.0] C:\Users\vdyla\.gradle\caches\8.9\transforms\f671cd31bc6123aafc6f885c3f90ae32\transformed\jetified-play-services-auth-21.3.0\AndroidManifest.xml:22:5-38:19
+MERGED from [com.github.bumptech.glide:glide:4.12.0] C:\Users\vdyla\.gradle\caches\8.9\transforms\1dc21f086fdf4d6c32f8626e6213529b\transformed\jetified-glide-4.12.0\AndroidManifest.xml:10:5-20
+MERGED from [com.github.bumptech.glide:glide:4.12.0] C:\Users\vdyla\.gradle\caches\8.9\transforms\1dc21f086fdf4d6c32f8626e6213529b\transformed\jetified-glide-4.12.0\AndroidManifest.xml:10:5-20
 MERGED from [com.google.firebase:firebase-firestore:25.1.1] C:\Users\vdyla\.gradle\caches\8.9\transforms\cfa17515e5f3250a6598af39a7efbc42\transformed\jetified-firebase-firestore-25.1.1\AndroidManifest.xml:13:5-24:19
 MERGED from [com.google.firebase:firebase-firestore:25.1.1] C:\Users\vdyla\.gradle\caches\8.9\transforms\cfa17515e5f3250a6598af39a7efbc42\transformed\jetified-firebase-firestore-25.1.1\AndroidManifest.xml:13:5-24:19
 MERGED from [com.google.firebase:firebase-database:21.0.0] C:\Users\vdyla\.gradle\caches\8.9\transforms\c072ca278452925a70564f9ac4ffc83a\transformed\jetified-firebase-database-21.0.0\AndroidManifest.xml:25:5-36:19
@@ -28,6 +34,14 @@ MERGED from [com.google.firebase:firebase-appcheck-interop:17.1.0] C:\Users\vdyl
 MERGED from [com.google.firebase:firebase-appcheck-interop:17.1.0] C:\Users\vdyla\.gradle\caches\8.9\transforms\e0511aa4a7911bec171218e371c67b1a\transformed\jetified-firebase-appcheck-interop-17.1.0\AndroidManifest.xml:21:5-20
 MERGED from [com.google.android.gms:play-services-fido:20.1.0] C:\Users\vdyla\.gradle\caches\8.9\transforms\6e318b3a5072664c55fc8b135ebfc073\transformed\jetified-play-services-fido-20.1.0\AndroidManifest.xml:7:5-8:19
 MERGED from [com.google.android.gms:play-services-fido:20.1.0] C:\Users\vdyla\.gradle\caches\8.9\transforms\6e318b3a5072664c55fc8b135ebfc073\transformed\jetified-play-services-fido-20.1.0\AndroidManifest.xml:7:5-8:19
+MERGED from [com.stripe:paymentsheet:20.52.2] C:\Users\vdyla\.gradle\caches\8.9\transforms\1a9f22b7fd08abdc6c834300b9c2044d\transformed\jetified-paymentsheet-20.52.2\AndroidManifest.xml:7:5-43:19
+MERGED from [com.stripe:paymentsheet:20.52.2] C:\Users\vdyla\.gradle\caches\8.9\transforms\1a9f22b7fd08abdc6c834300b9c2044d\transformed\jetified-paymentsheet-20.52.2\AndroidManifest.xml:7:5-43:19
+MERGED from [com.stripe:link:20.52.2] C:\Users\vdyla\.gradle\caches\8.9\transforms\187c81040b7fa9ac7b0b06b352697ee0\transformed\jetified-link-20.52.2\AndroidManifest.xml:7:5-38:19
+MERGED from [com.stripe:link:20.52.2] C:\Users\vdyla\.gradle\caches\8.9\transforms\187c81040b7fa9ac7b0b06b352697ee0\transformed\jetified-link-20.52.2\AndroidManifest.xml:7:5-38:19
+MERGED from [com.stripe:payments-ui-core:20.52.2] C:\Users\vdyla\.gradle\caches\8.9\transforms\c257e907498504d9bb0fc7577de432d6\transformed\jetified-payments-ui-core-20.52.2\AndroidManifest.xml:7:5-12:19
+MERGED from [com.stripe:payments-ui-core:20.52.2] C:\Users\vdyla\.gradle\caches\8.9\transforms\c257e907498504d9bb0fc7577de432d6\transformed\jetified-payments-ui-core-20.52.2\AndroidManifest.xml:7:5-12:19
+MERGED from [com.stripe:payments-core:20.52.2] C:\Users\vdyla\.gradle\caches\8.9\transforms\935ec215426bde67d0e887da37d708ba\transformed\jetified-payments-core-20.52.2\AndroidManifest.xml:14:5-83:19
+MERGED from [com.stripe:payments-core:20.52.2] C:\Users\vdyla\.gradle\caches\8.9\transforms\935ec215426bde67d0e887da37d708ba\transformed\jetified-payments-core-20.52.2\AndroidManifest.xml:14:5-83:19
 MERGED from [com.google.firebase:firebase-analytics-ktx:22.1.2] C:\Users\vdyla\.gradle\caches\8.9\transforms\6444156c89a151d6bbcd046479fa3beb\transformed\jetified-firebase-analytics-ktx-22.1.2\AndroidManifest.xml:7:5-15:19
 MERGED from [com.google.firebase:firebase-analytics-ktx:22.1.2] C:\Users\vdyla\.gradle\caches\8.9\transforms\6444156c89a151d6bbcd046479fa3beb\transformed\jetified-firebase-analytics-ktx-22.1.2\AndroidManifest.xml:7:5-15:19
 MERGED from [com.google.firebase:firebase-analytics:22.1.2] C:\Users\vdyla\.gradle\caches\8.9\transforms\be5c192aebe033c801aedc0702d734a2\transformed\jetified-firebase-analytics-22.1.2\AndroidManifest.xml:7:5-20
@@ -38,6 +52,10 @@ MERGED from [com.google.android.gms:play-services-measurement-sdk:22.1.2] C:\Use
 MERGED from [com.google.android.gms:play-services-measurement-sdk:22.1.2] C:\Users\vdyla\.gradle\caches\8.9\transforms\330fd4432af64eaccd97e5dbda3a871d\transformed\jetified-play-services-measurement-sdk-22.1.2\AndroidManifest.xml:22:5-23:19
 MERGED from [com.google.android.gms:play-services-measurement-impl:22.1.2] C:\Users\vdyla\.gradle\caches\8.9\transforms\b938310f596112774d51292b574adfad\transformed\jetified-play-services-measurement-impl-22.1.2\AndroidManifest.xml:29:5-30:19
 MERGED from [com.google.android.gms:play-services-measurement-impl:22.1.2] C:\Users\vdyla\.gradle\caches\8.9\transforms\b938310f596112774d51292b574adfad\transformed\jetified-play-services-measurement-impl-22.1.2\AndroidManifest.xml:29:5-30:19
+MERGED from [com.google.android.gms:play-services-identity:18.0.1] C:\Users\vdyla\.gradle\caches\8.9\transforms\2dd6044a2c40d79898b8d0d57b2e5520\transformed\jetified-play-services-identity-18.0.1\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-identity:18.0.1] C:\Users\vdyla\.gradle\caches\8.9\transforms\2dd6044a2c40d79898b8d0d57b2e5520\transformed\jetified-play-services-identity-18.0.1\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-maps:18.0.2] C:\Users\vdyla\.gradle\caches\8.9\transforms\fcb604d0b585297604d7b639bd65d227\transformed\jetified-play-services-maps-18.0.2\AndroidManifest.xml:36:5-42:19
+MERGED from [com.google.android.gms:play-services-maps:18.0.2] C:\Users\vdyla\.gradle\caches\8.9\transforms\fcb604d0b585297604d7b639bd65d227\transformed\jetified-play-services-maps-18.0.2\AndroidManifest.xml:36:5-42:19
 MERGED from [com.google.android.gms:play-services-base:18.5.0] C:\Users\vdyla\.gradle\caches\8.9\transforms\39705ce7de390e7aefac4155855d325b\transformed\jetified-play-services-base-18.5.0\AndroidManifest.xml:4:5-6:19
 MERGED from [com.google.android.gms:play-services-base:18.5.0] C:\Users\vdyla\.gradle\caches\8.9\transforms\39705ce7de390e7aefac4155855d325b\transformed\jetified-play-services-base-18.5.0\AndroidManifest.xml:4:5-6:19
 MERGED from [com.google.android.gms:play-services-measurement-api:22.1.2] C:\Users\vdyla\.gradle\caches\8.9\transforms\994cc7b53a4fcabbb7363bf5cc6b4545\transformed\jetified-play-services-measurement-api-22.1.2\AndroidManifest.xml:29:5-41:19
@@ -54,6 +72,14 @@ MERGED from [com.google.android.play:integrity:1.3.0] C:\Users\vdyla\.gradle\cac
 MERGED from [com.google.android.play:integrity:1.3.0] C:\Users\vdyla\.gradle\caches\8.9\transforms\3f0c50e5bdba73bf5e0ab0472433186c\transformed\jetified-integrity-1.3.0\AndroidManifest.xml:5:5-6:19
 MERGED from [androidx.window:window:1.2.0] C:\Users\vdyla\.gradle\caches\8.9\transforms\57b6ee417abbcd94ff0f24fe127aebf2\transformed\jetified-window-1.2.0\AndroidManifest.xml:22:5-29:19
 MERGED from [androidx.window:window:1.2.0] C:\Users\vdyla\.gradle\caches\8.9\transforms\57b6ee417abbcd94ff0f24fe127aebf2\transformed\jetified-window-1.2.0\AndroidManifest.xml:22:5-29:19
+MERGED from [com.stripe:stripe-3ds2-android:6.1.8] C:\Users\vdyla\.gradle\caches\8.9\transforms\d0fa654c2cf549e3335343580f67afff\transformed\jetified-stripe-3ds2-android-6.1.8\AndroidManifest.xml:7:5-12:19
+MERGED from [com.stripe:stripe-3ds2-android:6.1.8] C:\Users\vdyla\.gradle\caches\8.9\transforms\d0fa654c2cf549e3335343580f67afff\transformed\jetified-stripe-3ds2-android-6.1.8\AndroidManifest.xml:7:5-12:19
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] C:\Users\vdyla\.gradle\caches\8.9\transforms\6d4ed1e739db5dff13eed6ce2cfc9242\transformed\jetified-play-services-stats-17.0.2\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] C:\Users\vdyla\.gradle\caches\8.9\transforms\6d4ed1e739db5dff13eed6ce2cfc9242\transformed\jetified-play-services-stats-17.0.2\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.material:material:1.11.0] C:\Users\vdyla\.gradle\caches\8.9\transforms\88df3f333fb244dbcb02aa9c569dd624\transformed\material-1.11.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.11.0] C:\Users\vdyla\.gradle\caches\8.9\transforms\88df3f333fb244dbcb02aa9c569dd624\transformed\material-1.11.0\AndroidManifest.xml:22:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\vdyla\.gradle\caches\8.9\transforms\3fa1e915cba345b5d4ee2a800f1b49e5\transformed\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\vdyla\.gradle\caches\8.9\transforms\3fa1e915cba345b5d4ee2a800f1b49e5\transformed\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
 MERGED from [androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] C:\Users\vdyla\.gradle\caches\8.9\transforms\e7452770c274ecf406f57289e58d929f\transformed\jetified-ads-adservices-1.0.0-beta05\AndroidManifest.xml:22:5-26:19
 MERGED from [androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] C:\Users\vdyla\.gradle\caches\8.9\transforms\e7452770c274ecf406f57289e58d929f\transformed\jetified-ads-adservices-1.0.0-beta05\AndroidManifest.xml:22:5-26:19
 MERGED from [com.google.android.gms:play-services-tasks:18.2.0] C:\Users\vdyla\.gradle\caches\8.9\transforms\b8003032e56020bb4fc9256632c31786\transformed\jetified-play-services-tasks-18.2.0\AndroidManifest.xml:4:5-20
@@ -62,12 +88,12 @@ MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] C:\User
 MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] C:\Users\vdyla\.gradle\caches\8.9\transforms\12981faa349f643e798b6b7284ced752\transformed\jetified-play-services-ads-identifier-18.0.0\AndroidManifest.xml:25:5-20
 MERGED from [com.google.android.gms:play-services-measurement-base:22.1.2] C:\Users\vdyla\.gradle\caches\8.9\transforms\62ebb04fd27649a819beff1400974ea6\transformed\jetified-play-services-measurement-base-22.1.2\AndroidManifest.xml:7:5-20
 MERGED from [com.google.android.gms:play-services-measurement-base:22.1.2] C:\Users\vdyla\.gradle\caches\8.9\transforms\62ebb04fd27649a819beff1400974ea6\transformed\jetified-play-services-measurement-base-22.1.2\AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-stats:17.0.2] C:\Users\vdyla\.gradle\caches\8.9\transforms\6d4ed1e739db5dff13eed6ce2cfc9242\transformed\jetified-play-services-stats-17.0.2\AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-stats:17.0.2] C:\Users\vdyla\.gradle\caches\8.9\transforms\6d4ed1e739db5dff13eed6ce2cfc9242\transformed\jetified-play-services-stats-17.0.2\AndroidManifest.xml:7:5-20
 MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] C:\Users\vdyla\.gradle\caches\8.9\transforms\f6f16220a9adac0c151929c5ccb2ecb3\transformed\jetified-firebase-measurement-connector-19.0.0\AndroidManifest.xml:22:5-23:19
 MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] C:\Users\vdyla\.gradle\caches\8.9\transforms\f6f16220a9adac0c151929c5ccb2ecb3\transformed\jetified-firebase-measurement-connector-19.0.0\AndroidManifest.xml:22:5-23:19
 MERGED from [com.google.android.gms:play-services-basement:18.4.0] C:\Users\vdyla\.gradle\caches\8.9\transforms\cfa95c20518ae9b6e07c887b1b898d8f\transformed\jetified-play-services-basement-18.4.0\AndroidManifest.xml:5:5-7:19
 MERGED from [com.google.android.gms:play-services-basement:18.4.0] C:\Users\vdyla\.gradle\caches\8.9\transforms\cfa95c20518ae9b6e07c887b1b898d8f\transformed\jetified-play-services-basement-18.4.0\AndroidManifest.xml:5:5-7:19
+MERGED from [androidx.emoji2:emoji2:1.4.0] C:\Users\vdyla\.gradle\caches\8.9\transforms\b1aa34e6bb503a3f45c595af73f6d62f\transformed\jetified-emoji2-1.4.0\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.emoji2:emoji2:1.4.0] C:\Users\vdyla\.gradle\caches\8.9\transforms\b1aa34e6bb503a3f45c595af73f6d62f\transformed\jetified-emoji2-1.4.0\AndroidManifest.xml:23:5-33:19
 MERGED from [androidx.core:core:1.13.1] C:\Users\vdyla\.gradle\caches\8.9\transforms\42ee74e510c398ea7ef4bec344a4a032\transformed\core-1.13.1\AndroidManifest.xml:28:5-89
 MERGED from [androidx.core:core:1.13.1] C:\Users\vdyla\.gradle\caches\8.9\transforms\42ee74e510c398ea7ef4bec344a4a032\transformed\core-1.13.1\AndroidManifest.xml:28:5-89
 MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\vdyla\.gradle\caches\8.9\transforms\b59d8f9c088262219fc6f51067cc5009\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:23:5-33:19
@@ -78,8 +104,12 @@ MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\vdyla\.gradle\cach
 MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\vdyla\.gradle\caches\8.9\transforms\7e2ca79ec59555b7d789822ff54588e7\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\vdyla\.gradle\caches\8.9\transforms\ae66b1de3d5714893fd9b1dde1aaf06a\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\vdyla\.gradle\caches\8.9\transforms\ae66b1de3d5714893fd9b1dde1aaf06a\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [com.github.bumptech.glide:gifdecoder:4.12.0] C:\Users\vdyla\.gradle\caches\8.9\transforms\c1ba0ee4d18c5c951825a6a721b4de73\transformed\jetified-gifdecoder-4.12.0\AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:gifdecoder:4.12.0] C:\Users\vdyla\.gradle\caches\8.9\transforms\c1ba0ee4d18c5c951825a6a721b4de73\transformed\jetified-gifdecoder-4.12.0\AndroidManifest.xml:9:5-20
 MERGED from [com.google.android.play:core-common:2.0.3] C:\Users\vdyla\.gradle\caches\8.9\transforms\347a1fd268aab016a797a450b3d12f94\transformed\jetified-core-common-2.0.3\AndroidManifest.xml:11:5-19:19
 MERGED from [com.google.android.play:core-common:2.0.3] C:\Users\vdyla\.gradle\caches\8.9\transforms\347a1fd268aab016a797a450b3d12f94\transformed\jetified-core-common-2.0.3\AndroidManifest.xml:11:5-19:19
+MERGED from [com.google.android.instantapps:instantapps:1.1.0] C:\Users\vdyla\.gradle\caches\8.9\transforms\583ea9e9baffa15565680ed9b3884496\transformed\jetified-instantapps-1.1.0\AndroidManifest.xml:9:5-13:19
+MERGED from [com.google.android.instantapps:instantapps:1.1.0] C:\Users\vdyla\.gradle\caches\8.9\transforms\583ea9e9baffa15565680ed9b3884496\transformed\jetified-instantapps-1.1.0\AndroidManifest.xml:9:5-13:19
 	android:extractNativeLibs
 		INJECTED from D:\LTDD\vincent\android\app\src\debug\AndroidManifest.xml
 	android:appComponentFactory
@@ -102,13 +132,18 @@ MERGED from [:flutter_plugin_android_lifecycle] D:\LTDD\vincent\build\flutter_pl
 MERGED from [:flutter_secure_storage] D:\LTDD\vincent\build\flutter_secure_storage\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:2:1-10:12
 MERGED from [:google_sign_in_android] D:\LTDD\vincent\build\google_sign_in_android\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:2:1-9:12
 MERGED from [:path_provider_android] D:\LTDD\vincent\build\path_provider_android\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:2:1-7:12
+MERGED from [:printing] D:\LTDD\vincent\build\printing\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:2:1-19:12
 MERGED from [:shared_preferences_android] D:\LTDD\vincent\build\shared_preferences_android\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:2:1-7:12
 MERGED from [:sqflite_android] D:\LTDD\vincent\build\sqflite_android\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:2:1-7:12
+MERGED from [:stripe_android] D:\LTDD\vincent\build\stripe_android\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:2:1-7:12
 MERGED from [com.google.android.gms:play-services-location:21.3.0] C:\Users\vdyla\.gradle\caches\8.9\transforms\ad57810d1a29daad480d9f09939fa3be\transformed\jetified-play-services-location-21.3.0\AndroidManifest.xml:2:1-8:12
+MERGED from [com.stripe:financial-connections:20.52.2] C:\Users\vdyla\.gradle\caches\8.9\transforms\3cdad45bd107537813d36e1a468da439\transformed\jetified-financial-connections-20.52.2\AndroidManifest.xml:2:1-77:12
 MERGED from [com.google.firebase:firebase-auth:23.1.0] C:\Users\vdyla\.gradle\caches\8.9\transforms\ff4026c723aaadc2ca988fe8c4fd63e9\transformed\jetified-firebase-auth-23.1.0\AndroidManifest.xml:17:1-75:12
 MERGED from [androidx.credentials:credentials:1.2.0-rc01] C:\Users\vdyla\.gradle\caches\8.9\transforms\1c2505de3e9e8f2bedb7ecbf7d886cfd\transformed\jetified-credentials-1.2.0-rc01\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\vdyla\.gradle\caches\8.9\transforms\50ff0c1124c2ce04c3bba38f0b309144\transformed\jetified-credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:17:1-44:12
 MERGED from [com.google.android.gms:play-services-auth:21.3.0] C:\Users\vdyla\.gradle\caches\8.9\transforms\f671cd31bc6123aafc6f885c3f90ae32\transformed\jetified-play-services-auth-21.3.0\AndroidManifest.xml:17:1-40:12
+MERGED from [com.github.bumptech.glide:glide:4.12.0] C:\Users\vdyla\.gradle\caches\8.9\transforms\1dc21f086fdf4d6c32f8626e6213529b\transformed\jetified-glide-4.12.0\AndroidManifest.xml:2:1-12:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\vdyla\.gradle\caches\8.9\transforms\ec65c95275efb286ad3100750351fd2d\transformed\legacy-support-v4-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [com.google.firebase:firebase-firestore:25.1.1] C:\Users\vdyla\.gradle\caches\8.9\transforms\cfa17515e5f3250a6598af39a7efbc42\transformed\jetified-firebase-firestore-25.1.1\AndroidManifest.xml:2:1-26:12
 MERGED from [com.google.firebase:firebase-database:21.0.0] C:\Users\vdyla\.gradle\caches\8.9\transforms\c072ca278452925a70564f9ac4ffc83a\transformed\jetified-firebase-database-21.0.0\AndroidManifest.xml:15:1-38:12
 MERGED from [com.google.android.gms:play-services-auth-api-phone:18.0.2] C:\Users\vdyla\.gradle\caches\8.9\transforms\f2eebf0ec5d22639316328f82354de76\transformed\jetified-play-services-auth-api-phone-18.0.2\AndroidManifest.xml:2:1-7:12
@@ -116,11 +151,20 @@ MERGED from [com.google.android.gms:play-services-auth-base:18.0.10] C:\Users\vd
 MERGED from [com.google.firebase:firebase-database-collection:18.0.1] C:\Users\vdyla\.gradle\caches\8.9\transforms\292dc1355d9bbfd053f84aa641c3f254\transformed\jetified-firebase-database-collection-18.0.1\AndroidManifest.xml:2:1-9:12
 MERGED from [com.google.firebase:firebase-appcheck-interop:17.1.0] C:\Users\vdyla\.gradle\caches\8.9\transforms\e0511aa4a7911bec171218e371c67b1a\transformed\jetified-firebase-appcheck-interop-17.1.0\AndroidManifest.xml:15:1-23:12
 MERGED from [com.google.android.gms:play-services-fido:20.1.0] C:\Users\vdyla\.gradle\caches\8.9\transforms\6e318b3a5072664c55fc8b135ebfc073\transformed\jetified-play-services-fido-20.1.0\AndroidManifest.xml:2:1-10:12
+MERGED from [com.stripe:stripe-android:20.52.2] C:\Users\vdyla\.gradle\caches\8.9\transforms\08c965d773f41aa5fc8c1b7d45e601a0\transformed\jetified-stripe-android-20.52.2\AndroidManifest.xml:2:1-7:12
+MERGED from [com.stripe:paymentsheet:20.52.2] C:\Users\vdyla\.gradle\caches\8.9\transforms\1a9f22b7fd08abdc6c834300b9c2044d\transformed\jetified-paymentsheet-20.52.2\AndroidManifest.xml:2:1-45:12
+MERGED from [com.stripe:link:20.52.2] C:\Users\vdyla\.gradle\caches\8.9\transforms\187c81040b7fa9ac7b0b06b352697ee0\transformed\jetified-link-20.52.2\AndroidManifest.xml:2:1-40:12
+MERGED from [com.stripe:payments-ui-core:20.52.2] C:\Users\vdyla\.gradle\caches\8.9\transforms\c257e907498504d9bb0fc7577de432d6\transformed\jetified-payments-ui-core-20.52.2\AndroidManifest.xml:2:1-14:12
+MERGED from [com.stripe:payments-core:20.52.2] C:\Users\vdyla\.gradle\caches\8.9\transforms\935ec215426bde67d0e887da37d708ba\transformed\jetified-payments-core-20.52.2\AndroidManifest.xml:2:1-85:12
+MERGED from [com.google.pay.button:compose-pay-button:0.1.3] C:\Users\vdyla\.gradle\caches\8.9\transforms\5229e1eb7db6363c219dcc9446efdbb1\transformed\jetified-compose-pay-button-0.1.3\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-wallet:19.3.0] C:\Users\vdyla\.gradle\caches\8.9\transforms\c3710a3d5f7c148c5fc3c91f870bc2af\transformed\jetified-play-services-wallet-19.3.0\AndroidManifest.xml:17:1-22:12
 MERGED from [com.google.firebase:firebase-analytics-ktx:22.1.2] C:\Users\vdyla\.gradle\caches\8.9\transforms\6444156c89a151d6bbcd046479fa3beb\transformed\jetified-firebase-analytics-ktx-22.1.2\AndroidManifest.xml:2:1-17:12
 MERGED from [com.google.firebase:firebase-analytics:22.1.2] C:\Users\vdyla\.gradle\caches\8.9\transforms\be5c192aebe033c801aedc0702d734a2\transformed\jetified-firebase-analytics-22.1.2\AndroidManifest.xml:2:1-9:12
 MERGED from [com.google.android.gms:play-services-measurement:22.1.2] C:\Users\vdyla\.gradle\caches\8.9\transforms\8c6112c968f766e0337f37b007852a5e\transformed\jetified-play-services-measurement-22.1.2\AndroidManifest.xml:17:1-46:12
 MERGED from [com.google.android.gms:play-services-measurement-sdk:22.1.2] C:\Users\vdyla\.gradle\caches\8.9\transforms\330fd4432af64eaccd97e5dbda3a871d\transformed\jetified-play-services-measurement-sdk-22.1.2\AndroidManifest.xml:17:1-25:12
 MERGED from [com.google.android.gms:play-services-measurement-impl:22.1.2] C:\Users\vdyla\.gradle\caches\8.9\transforms\b938310f596112774d51292b574adfad\transformed\jetified-play-services-measurement-impl-22.1.2\AndroidManifest.xml:17:1-32:12
+MERGED from [com.google.android.gms:play-services-identity:18.0.1] C:\Users\vdyla\.gradle\caches\8.9\transforms\2dd6044a2c40d79898b8d0d57b2e5520\transformed\jetified-play-services-identity-18.0.1\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-maps:18.0.2] C:\Users\vdyla\.gradle\caches\8.9\transforms\fcb604d0b585297604d7b639bd65d227\transformed\jetified-play-services-maps-18.0.2\AndroidManifest.xml:17:1-44:12
 MERGED from [com.google.android.gms:play-services-base:18.5.0] C:\Users\vdyla\.gradle\caches\8.9\transforms\39705ce7de390e7aefac4155855d325b\transformed\jetified-play-services-base-18.5.0\AndroidManifest.xml:2:1-7:12
 MERGED from [com.google.android.gms:play-services-measurement-api:22.1.2] C:\Users\vdyla\.gradle\caches\8.9\transforms\994cc7b53a4fcabbb7363bf5cc6b4545\transformed\jetified-play-services-measurement-api-22.1.2\AndroidManifest.xml:17:1-43:12
 MERGED from [com.google.firebase:firebase-installations:18.0.0] C:\Users\vdyla\.gradle\caches\8.9\transforms\0c8194feae6e281bcb364210138e5242\transformed\jetified-firebase-installations-18.0.0\AndroidManifest.xml:2:1-24:12
@@ -132,11 +176,65 @@ MERGED from [com.google.android.play:integrity:1.3.0] C:\Users\vdyla\.gradle\cac
 MERGED from [androidx.datastore:datastore-preferences:1.0.0] C:\Users\vdyla\.gradle\caches\8.9\transforms\7f95ff87ae28a840aa72157f1916bd46\transformed\jetified-datastore-preferences-1.0.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.datastore:datastore:1.0.0] C:\Users\vdyla\.gradle\caches\8.9\transforms\49f214907f139980a805ed6e0a638691\transformed\jetified-datastore-1.0.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.preference:preference:1.2.1] C:\Users\vdyla\.gradle\caches\8.9\transforms\5020940725f2531f944d71a769a082da\transformed\preference-1.2.1\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.recyclerview:recyclerview:1.0.0] C:\Users\vdyla\.gradle\caches\8.9\transforms\d5232e5629bca78cd411cb6c354df50a\transformed\recyclerview-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\vdyla\.gradle\caches\8.9\transforms\c45c72af103b6e76aeb8d1115744df54\transformed\legacy-support-core-ui-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.2.0] C:\Users\vdyla\.gradle\caches\8.9\transforms\5a0c7e1cfb74ebce5e823cf8dc6d7f63\transformed\slidingpanelayout-1.2.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.window:window:1.2.0] C:\Users\vdyla\.gradle\caches\8.9\transforms\57b6ee417abbcd94ff0f24fe127aebf2\transformed\jetified-window-1.2.0\AndroidManifest.xml:17:1-31:12
 MERGED from [androidx.window:window-java:1.2.0] C:\Users\vdyla\.gradle\caches\8.9\transforms\dc6dd740c2afeabcd8f6ca0c1494b043\transformed\jetified-window-java-1.2.0\AndroidManifest.xml:17:1-21:12
+MERGED from [com.stripe:stripe-ui-core:20.52.2] C:\Users\vdyla\.gradle\caches\8.9\transforms\b8d26548afe0202295becff395699b76\transformed\jetified-stripe-ui-core-20.52.2\AndroidManifest.xml:2:1-7:12
+MERGED from [com.stripe:payments-model:20.52.2] C:\Users\vdyla\.gradle\caches\8.9\transforms\74d5f57fb3efc46ce7a0844768557f73\transformed\jetified-payments-model-20.52.2\AndroidManifest.xml:2:1-7:12
+MERGED from [com.stripe:stripe-core:20.52.2] C:\Users\vdyla\.gradle\caches\8.9\transforms\d45f0899881ab1b1b934c92cd7a22c03\transformed\jetified-stripe-core-20.52.2\AndroidManifest.xml:2:1-9:12
+MERGED from [com.stripe:stripe-3ds2-android:6.1.8] C:\Users\vdyla\.gradle\caches\8.9\transforms\d0fa654c2cf549e3335343580f67afff\transformed\jetified-stripe-3ds2-android-6.1.8\AndroidManifest.xml:2:1-14:12
+MERGED from [androidx.navigation:navigation-common:2.7.6] C:\Users\vdyla\.gradle\caches\8.9\transforms\9ea44f238ebeb90651b867cd39a997de\transformed\navigation-common-2.7.6\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-runtime:2.7.6] C:\Users\vdyla\.gradle\caches\8.9\transforms\ffbb6b9e9038629a6d14f898e2203ae1\transformed\navigation-runtime-2.7.6\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-common-ktx:2.7.6] C:\Users\vdyla\.gradle\caches\8.9\transforms\1028bf7119291470218f7bb4fc92b920\transformed\navigation-common-ktx-2.7.6\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.7.6] C:\Users\vdyla\.gradle\caches\8.9\transforms\e6da099674810b30ffed998d04f857fe\transformed\navigation-runtime-ktx-2.7.6\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.navigation:navigation-compose:2.7.6] C:\Users\vdyla\.gradle\caches\8.9\transforms\77caf3fe733830f5c32d0de21b248374\transformed\jetified-navigation-compose-2.7.6\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.accompanist:accompanist-themeadapter-appcompat:0.32.0] C:\Users\vdyla\.gradle\caches\8.9\transforms\9d249fb50116ec167c36f8397d46fab9\transformed\jetified-accompanist-themeadapter-appcompat-0.32.0\AndroidManifest.xml:17:1-23:12
+MERGED from [com.google.accompanist:accompanist-themeadapter-material:0.32.0] C:\Users\vdyla\.gradle\caches\8.9\transforms\8ba9de3bdc6c45afe577d4917cdc769f\transformed\jetified-accompanist-themeadapter-material-0.32.0\AndroidManifest.xml:17:1-23:12
+MERGED from [com.google.accompanist:accompanist-themeadapter-material3:0.32.0] C:\Users\vdyla\.gradle\caches\8.9\transforms\761a2fcbbf33dde16841c080d3b0d114\transformed\jetified-accompanist-themeadapter-material3-0.32.0\AndroidManifest.xml:17:1-23:12
+MERGED from [androidx.compose.material3:material3:1.0.1] C:\Users\vdyla\.gradle\caches\8.9\transforms\4256a418b5a390aec5b5c9bf6425c8c2\transformed\jetified-material3-1.0.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.material:material-ripple-android:1.5.4] C:\Users\vdyla\.gradle\caches\8.9\transforms\05e5334fd912348d1263a000b6e06a68\transformed\jetified-material-ripple-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.material:material-icons-core-android:1.5.4] C:\Users\vdyla\.gradle\caches\8.9\transforms\b44124ccb2f64669fc52c736d6af3daf\transformed\jetified-material-icons-core-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.material:material-android:1.5.4] C:\Users\vdyla\.gradle\caches\8.9\transforms\d241d5b4c3c5d58afece2f621f2c038b\transformed\jetified-material-release\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.accompanist:accompanist-themeadapter-core:0.32.0] C:\Users\vdyla\.gradle\caches\8.9\transforms\b191f1bbf825cd5f2e2483bf35d02a41\transformed\jetified-accompanist-themeadapter-core-0.32.0\AndroidManifest.xml:17:1-23:12
+MERGED from [com.google.accompanist:accompanist-flowlayout:0.32.0] C:\Users\vdyla\.gradle\caches\8.9\transforms\eed8b77f05c11690cf45c49f98b4e8f7\transformed\jetified-accompanist-flowlayout-0.32.0\AndroidManifest.xml:17:1-23:12
+MERGED from [androidx.compose.animation:animation-core-android:1.5.4] C:\Users\vdyla\.gradle\caches\8.9\transforms\b0250258e235863e29670f15949e2bb9\transformed\jetified-animation-core-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.animation:animation-android:1.5.4] C:\Users\vdyla\.gradle\caches\8.9\transforms\db6f3d7d9ea8a280e325daf024a4f061\transformed\jetified-animation-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.foundation:foundation-layout-android:1.5.4] C:\Users\vdyla\.gradle\caches\8.9\transforms\b5aff795a4cc25893e2178be563f6e7e\transformed\jetified-foundation-layout-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.foundation:foundation-android:1.5.4] C:\Users\vdyla\.gradle\caches\8.9\transforms\d3ee9e344d2c98ed27be13b327850d7a\transformed\jetified-foundation-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-unit-android:1.5.4] C:\Users\vdyla\.gradle\caches\8.9\transforms\9644c5570b58ff1ef4d88885dbacd028\transformed\jetified-ui-unit-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-graphics-android:1.5.4] C:\Users\vdyla\.gradle\caches\8.9\transforms\467d27e2a9f747343b02e597cf124dad\transformed\jetified-ui-graphics-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-geometry-android:1.5.4] C:\Users\vdyla\.gradle\caches\8.9\transforms\a979a11e212b1066b6671ebb75220229\transformed\jetified-ui-geometry-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-text-android:1.5.4] C:\Users\vdyla\.gradle\caches\8.9\transforms\e1c5fb8b7aed802b7d394fa5fc759025\transformed\jetified-ui-text-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-util-android:1.5.4] C:\Users\vdyla\.gradle\caches\8.9\transforms\d5d3780b1173a9ddef50278a34bc3326\transformed\jetified-ui-util-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-tooling-preview-android:1.5.4] C:\Users\vdyla\.gradle\caches\8.9\transforms\eaab933bdd1729f4ca8119ebe9951593\transformed\jetified-ui-tooling-preview-release\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.ui:ui-viewbinding:1.5.4] C:\Users\vdyla\.gradle\caches\8.9\transforms\8ab7fec20b444ce0750ff9d351b6fcb2\transformed\jetified-ui-viewbinding-1.5.4\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.fragment:fragment-ktx:1.7.1] C:\Users\vdyla\.gradle\caches\8.9\transforms\aa5b81fc40676b8a0ac561510ab65383\transformed\jetified-fragment-ktx-1.7.1\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.activity:activity-ktx:1.9.3] C:\Users\vdyla\.gradle\caches\8.9\transforms\44687aa8832ef0b6fa411bcf9585b2d7\transformed\jetified-activity-ktx-1.9.3\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.activity:activity-compose:1.9.3] C:\Users\vdyla\.gradle\caches\8.9\transforms\9b72929caa6584ebe7be638f023e5e0f\transformed\jetified-activity-compose-1.9.3\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.accompanist:accompanist-systemuicontroller:0.32.0] C:\Users\vdyla\.gradle\caches\8.9\transforms\850d5905048fa11ec34d72fce71ddbb8\transformed\jetified-accompanist-systemuicontroller-0.32.0\AndroidManifest.xml:17:1-23:12
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] C:\Users\vdyla\.gradle\caches\8.9\transforms\6d4ed1e739db5dff13eed6ce2cfc9242\transformed\jetified-play-services-stats-17.0.2\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.material:material:1.11.0] C:\Users\vdyla\.gradle\caches\8.9\transforms\88df3f333fb244dbcb02aa9c569dd624\transformed\material-1.11.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\vdyla\.gradle\caches\8.9\transforms\cc97172b46920d4425f438da46feeaad\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\vdyla\.gradle\caches\8.9\transforms\38b9175ca4db07d42653f357b8d76407\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.1.0] C:\Users\vdyla\.gradle\caches\8.9\transforms\3657a4da5489e89d4deac5e13bf114a5\transformed\loader-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\vdyla\.gradle\caches\8.9\transforms\3fa1e915cba345b5d4ee2a800f1b49e5\transformed\constraintlayout-2.1.4\AndroidManifest.xml:2:1-11:12
+MERGED from [com.stripe:hcaptcha:20.52.2] C:\Users\vdyla\.gradle\caches\8.9\transforms\90fb58413ed541e1d48a4a17324bca89\transformed\jetified-hcaptcha-20.52.2\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] C:\Users\vdyla\.gradle\caches\8.9\transforms\1ce0b4edaf8062a990976491d579d745\transformed\jetified-appcompat-resources-1.6.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.appcompat:appcompat:1.6.1] C:\Users\vdyla\.gradle\caches\8.9\transforms\c686da62970b53d72c45b53cac1d6f96\transformed\appcompat-1.6.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.runtime:runtime-saveable-android:1.5.4] C:\Users\vdyla\.gradle\caches\8.9\transforms\02421d0d6c13a95148814a918ed7eeac\transformed\jetified-runtime-saveable-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.runtime:runtime-android:1.5.4] C:\Users\vdyla\.gradle\caches\8.9\transforms\2b8a3cdf4c39a68ad15bc84a6db08d80\transformed\jetified-runtime-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.runtime:runtime-livedata:1.5.4] C:\Users\vdyla\.gradle\caches\8.9\transforms\83206eb48498323277ca8a31907afbb7\transformed\jetified-runtime-livedata-1.5.4\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.7.0] C:\Users\vdyla\.gradle\caches\8.9\transforms\6e081c60601c56f11e668e840cb4d06e\transformed\lifecycle-livedata-2.7.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.7.0] C:\Users\vdyla\.gradle\caches\8.9\transforms\d4c9f9f91bc9e04d19d1d5d42f4670a9\transformed\jetified-lifecycle-livedata-ktx-2.7.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.7.0] C:\Users\vdyla\.gradle\caches\8.9\transforms\c1e694d2c3073fedc0f87074320d67eb\transformed\jetified-lifecycle-livedata-core-ktx-2.7.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.7.0] C:\Users\vdyla\.gradle\caches\8.9\transforms\93424de91b6793c5c88266f50b390ac5\transformed\lifecycle-viewmodel-2.7.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.7.0] C:\Users\vdyla\.gradle\caches\8.9\transforms\44f63a77abae6c9708d649b780b77577\transformed\lifecycle-livedata-core-2.7.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.7.0] C:\Users\vdyla\.gradle\caches\8.9\transforms\ccfe2de424bb05cf1d548a8ed51e42f3\transformed\jetified-lifecycle-viewmodel-savedstate-2.7.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.7.0] C:\Users\vdyla\.gradle\caches\8.9\transforms\102226622a2b099f1ee417bb0656ad5b\transformed\jetified-lifecycle-runtime-ktx-2.7.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.7.0] C:\Users\vdyla\.gradle\caches\8.9\transforms\75dbcaaf2c286095fec4f1733495f836\transformed\jetified-lifecycle-viewmodel-ktx-2.7.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-compose:2.7.0] C:\Users\vdyla\.gradle\caches\8.9\transforms\0402e902d0c4865f8c98f71970751514\transformed\jetified-lifecycle-viewmodel-compose-2.7.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-android:1.5.4] C:\Users\vdyla\.gradle\caches\8.9\transforms\697c73b862aedfb5acab22c1a765cb85\transformed\jetified-ui-release\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.privacysandbox.ads:ads-adservices-java:1.0.0-beta05] C:\Users\vdyla\.gradle\caches\8.9\transforms\9a4672d64b47e307227d1e0df5efd203\transformed\jetified-ads-adservices-java-1.0.0-beta05\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] C:\Users\vdyla\.gradle\caches\8.9\transforms\e7452770c274ecf406f57289e58d929f\transformed\jetified-ads-adservices-1.0.0-beta05\AndroidManifest.xml:17:1-28:12
 MERGED from [com.google.firebase:firebase-installations-interop:17.1.1] C:\Users\vdyla\.gradle\caches\8.9\transforms\f523734412857770050b5c14840265b7\transformed\jetified-firebase-installations-interop-17.1.1\AndroidManifest.xml:15:1-19:12
@@ -144,40 +242,33 @@ MERGED from [com.google.android.gms:play-services-tasks:18.2.0] C:\Users\vdyla\.
 MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] C:\Users\vdyla\.gradle\caches\8.9\transforms\12981faa349f643e798b6b7284ced752\transformed\jetified-play-services-ads-identifier-18.0.0\AndroidManifest.xml:17:1-27:12
 MERGED from [com.google.android.gms:play-services-measurement-sdk-api:22.1.2] C:\Users\vdyla\.gradle\caches\8.9\transforms\523f9b62815c6f071896f661719d2b41\transformed\jetified-play-services-measurement-sdk-api-22.1.2\AndroidManifest.xml:17:1-30:12
 MERGED from [com.google.android.gms:play-services-measurement-base:22.1.2] C:\Users\vdyla\.gradle\caches\8.9\transforms\62ebb04fd27649a819beff1400974ea6\transformed\jetified-play-services-measurement-base-22.1.2\AndroidManifest.xml:2:1-9:12
-MERGED from [com.google.android.gms:play-services-stats:17.0.2] C:\Users\vdyla\.gradle\caches\8.9\transforms\6d4ed1e739db5dff13eed6ce2cfc9242\transformed\jetified-play-services-stats-17.0.2\AndroidManifest.xml:2:1-9:12
 MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] C:\Users\vdyla\.gradle\caches\8.9\transforms\f6f16220a9adac0c151929c5ccb2ecb3\transformed\jetified-firebase-measurement-connector-19.0.0\AndroidManifest.xml:17:1-25:12
 MERGED from [com.google.android.gms:play-services-basement:18.4.0] C:\Users\vdyla\.gradle\caches\8.9\transforms\cfa95c20518ae9b6e07c887b1b898d8f\transformed\jetified-play-services-basement-18.4.0\AndroidManifest.xml:2:1-9:12
-MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Users\vdyla\.gradle\caches\8.9\transforms\fa463835e6bfd011e4fc9a3156d0f060\transformed\appcompat-1.1.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.fragment:fragment-ktx:1.7.1] C:\Users\vdyla\.gradle\caches\8.9\transforms\aa5b81fc40676b8a0ac561510ab65383\transformed\jetified-fragment-ktx-1.7.1\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.recyclerview:recyclerview:1.3.2] C:\Users\vdyla\.gradle\caches\8.9\transforms\654812624edafaa3d04e03c671efcfe4\transformed\recyclerview-1.3.2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager2:viewpager2:1.1.0-beta02] C:\Users\vdyla\.gradle\caches\8.9\transforms\30b8387920a683060a606c2e2d1d3094\transformed\jetified-viewpager2-1.1.0-beta02\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.fragment:fragment:1.7.1] C:\Users\vdyla\.gradle\caches\8.9\transforms\b220a28c9cf01e410046fcf5f21077f4\transformed\fragment-1.7.1\AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.activity:activity-ktx:1.9.3] C:\Users\vdyla\.gradle\caches\8.9\transforms\44687aa8832ef0b6fa411bcf9585b2d7\transformed\jetified-activity-ktx-1.9.3\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.activity:activity:1.9.3] C:\Users\vdyla\.gradle\caches\8.9\transforms\565e7bb49c958a075796ecb511859403\transformed\jetified-activity-1.9.3\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\vdyla\.gradle\caches\8.9\transforms\38b9175ca4db07d42653f357b8d76407\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.loader:loader:1.1.0] C:\Users\vdyla\.gradle\caches\8.9\transforms\3657a4da5489e89d4deac5e13bf114a5\transformed\loader-1.1.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.browser:browser:1.4.0] C:\Users\vdyla\.gradle\caches\8.9\transforms\36a17a4e1d45215b9ce6dbf102fefe6d\transformed\browser-1.4.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.browser:browser:1.7.0] C:\Users\vdyla\.gradle\caches\8.9\transforms\44841cbddbaed9fc38ecdbfdb67abf8d\transformed\browser-1.7.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.media:media:1.0.0] C:\Users\vdyla\.gradle\caches\8.9\transforms\558b34dba3407c65e74d3895ae3ff796\transformed\media-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\vdyla\.gradle\caches\8.9\transforms\a3c11f1d564046ee9be6f24a957fd8db\transformed\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.7.0] C:\Users\vdyla\.gradle\caches\8.9\transforms\c1e694d2c3073fedc0f87074320d67eb\transformed\jetified-lifecycle-livedata-core-ktx-2.7.0\AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.7.0] C:\Users\vdyla\.gradle\caches\8.9\transforms\75dbcaaf2c286095fec4f1733495f836\transformed\jetified-lifecycle-viewmodel-ktx-2.7.0\AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.7.0] C:\Users\vdyla\.gradle\caches\8.9\transforms\102226622a2b099f1ee417bb0656ad5b\transformed\jetified-lifecycle-runtime-ktx-2.7.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.7.0] C:\Users\vdyla\.gradle\caches\8.9\transforms\93424de91b6793c5c88266f50b390ac5\transformed\lifecycle-viewmodel-2.7.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.7.0] C:\Users\vdyla\.gradle\caches\8.9\transforms\44f63a77abae6c9708d649b780b77577\transformed\lifecycle-livedata-core-2.7.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.7.0] C:\Users\vdyla\.gradle\caches\8.9\transforms\ccfe2de424bb05cf1d548a8ed51e42f3\transformed\jetified-lifecycle-viewmodel-savedstate-2.7.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] C:\Users\vdyla\.gradle\caches\8.9\transforms\8b693dfd1b751b0da10d1155c23eb15c\transformed\jetified-customview-poolingcontainer-1.0.0\AndroidManifest.xml:17:1-23:12
 MERGED from [androidx.core:core-ktx:1.13.1] C:\Users\vdyla\.gradle\caches\8.9\transforms\c10b77147cd56ea382dd23d5212cff82\transformed\jetified-core-ktx-1.13.1\AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.appcompat:appcompat-resources:1.1.0] C:\Users\vdyla\.gradle\caches\8.9\transforms\440c451345a3251e26198c99c2f33008\transformed\jetified-appcompat-resources-1.1.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\vdyla\.gradle\caches\8.9\transforms\b25a4f0f107d244956e86f22bc1328e1\transformed\drawerlayout-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\vdyla\.gradle\caches\8.9\transforms\3727e4b1157cb7efec04310aeca6f032\transformed\coordinatorlayout-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.customview:customview:1.1.0] C:\Users\vdyla\.gradle\caches\8.9\transforms\804592977ec75c05f787ce3bedc2daa6\transformed\customview-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.transition:transition:1.4.1] C:\Users\vdyla\.gradle\caches\8.9\transforms\a0a7dc4dcaaedf721ca733e5616369c5\transformed\transition-1.4.1\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\vdyla\.gradle\caches\8.9\transforms\ea19cda4f8a4104231a0f01fc08e64bc\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\vdyla\.gradle\caches\8.9\transforms\2a6c4e4f14ceb3bafdcb422169bd0486\transformed\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\vdyla\.gradle\caches\8.9\transforms\ab296ad06e08a7c19b25bd25ef91739e\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\vdyla\.gradle\caches\8.9\transforms\7f655127192c957d4603f63c97eedc18\transformed\drawerlayout-1.1.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\vdyla\.gradle\caches\8.9\transforms\804592977ec75c05f787ce3bedc2daa6\transformed\customview-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\vdyla\.gradle\caches\8.9\transforms\313d10644725cb98a25ab3dbd88dacd3\transformed\swiperefreshlayout-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\vdyla\.gradle\caches\8.9\transforms\42c56749d0fce5ad0704b05999ff44c1\transformed\asynclayoutinflater-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\vdyla\.gradle\caches\8.9\transforms\ea19cda4f8a4104231a0f01fc08e64bc\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\vdyla\.gradle\caches\8.9\transforms\2a6c4e4f14ceb3bafdcb422169bd0486\transformed\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.emoji2:emoji2-views-helper:1.4.0] C:\Users\vdyla\.gradle\caches\8.9\transforms\41211b9ac295cddf625d3034fe4b52d6\transformed\jetified-emoji2-views-helper-1.4.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.emoji2:emoji2:1.4.0] C:\Users\vdyla\.gradle\caches\8.9\transforms\b1aa34e6bb503a3f45c595af73f6d62f\transformed\jetified-emoji2-1.4.0\AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.autofill:autofill:1.0.0] C:\Users\vdyla\.gradle\caches\8.9\transforms\fd149a8774897889685654d32095ac4e\transformed\jetified-autofill-1.0.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.core:core:1.13.1] C:\Users\vdyla\.gradle\caches\8.9\transforms\42ee74e510c398ea7ef4bec344a4a032\transformed\core-1.13.1\AndroidManifest.xml:17:1-30:12
 MERGED from [androidx.lifecycle:lifecycle-runtime:2.7.0] C:\Users\vdyla\.gradle\caches\8.9\transforms\08382813b79ab261261202dfa6931e75\transformed\lifecycle-runtime-2.7.0\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\vdyla\.gradle\caches\8.9\transforms\b59d8f9c088262219fc6f51067cc5009\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:17:1-35:12
 MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] C:\Users\vdyla\.gradle\caches\8.9\transforms\e9bd8c92e24811d169af12012710e6f8\transformed\jetified-savedstate-ktx-1.2.1\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\vdyla\.gradle\caches\8.9\transforms\2e82b9d0220b233a94abe78884d140e2\transformed\jetified-savedstate-1.2.1\AndroidManifest.xml:17:1-22:12
-MERGED from [com.google.android.libraries.identity.googleid:googleid:1.1.0] C:\Users\vdyla\.gradle\caches\8.9\transforms\359a68cb2599f734409fdecf4a818b5d\transformed\jetified-googleid-1.1.0\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.security:security-crypto:1.1.0-alpha06] C:\Users\vdyla\.gradle\caches\8.9\transforms\a33913b50998ad839f51228dbffbaf77\transformed\jetified-security-crypto-1.1.0-alpha06\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.exifinterface:exifinterface:1.3.7] C:\Users\vdyla\.gradle\caches\8.9\transforms\607068560182b1df9f1a2718166e8680\transformed\exifinterface-1.3.7\AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.firebase:firebase-components:18.0.0] C:\Users\vdyla\.gradle\caches\8.9\transforms\f5b1d4abb61585b5b048ecc2b532df44\transformed\jetified-firebase-components-18.0.0\AndroidManifest.xml:15:1-20:12
@@ -187,16 +278,21 @@ MERGED from [androidx.tracing:tracing:1.2.0] C:\Users\vdyla\.gradle\caches\8.9\t
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\vdyla\.gradle\caches\8.9\transforms\01cb59a38c31dd088f49e869b77ef4ec\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\vdyla\.gradle\caches\8.9\transforms\ae66b1de3d5714893fd9b1dde1aaf06a\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:17:1-27:12
 MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\vdyla\.gradle\caches\8.9\transforms\dc8ba0e425be2f907c4ac982df1616c7\transformed\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.bumptech.glide:gifdecoder:4.12.0] C:\Users\vdyla\.gradle\caches\8.9\transforms\c1ba0ee4d18c5c951825a6a721b4de73\transformed\jetified-gifdecoder-4.12.0\AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\vdyla\.gradle\caches\8.9\transforms\b898fcc61fff0ec64360fecd4b533b08\transformed\core-runtime-2.2.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.databinding:viewbinding:8.5.2] C:\Users\vdyla\.gradle\caches\8.9\transforms\f79d82f100bc296d19845188eb970b1d\transformed\jetified-viewbinding-8.5.2\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\vdyla\.gradle\caches\8.9\transforms\39b7ca750cdfdec24de644f531f328c3\transformed\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.window.extensions.core:core:1.0.0] C:\Users\vdyla\.gradle\caches\8.9\transforms\9b97ebc519c7d97709ca240552592d53\transformed\jetified-core-1.0.0\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\vdyla\.gradle\caches\8.9\transforms\be6851e0146326d2753ae2be54c60829\transformed\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.print:print:1.0.0] C:\Users\vdyla\.gradle\caches\8.9\transforms\4deb929f3d353a2f7669ddef011056c7\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.window.extensions.core:core:1.0.0] C:\Users\vdyla\.gradle\caches\8.9\transforms\9b97ebc519c7d97709ca240552592d53\transformed\jetified-core-1.0.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\vdyla\.gradle\caches\8.9\transforms\3fd7bc6e9037647ae0a74c502e697585\transformed\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.annotation:annotation-experimental:1.4.0] C:\Users\vdyla\.gradle\caches\8.9\transforms\c25996ef2d15757a7214f44eda08282c\transformed\jetified-annotation-experimental-1.4.0\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.libraries.identity.googleid:googleid:1.1.0] C:\Users\vdyla\.gradle\caches\8.9\transforms\359a68cb2599f734409fdecf4a818b5d\transformed\jetified-googleid-1.1.0\AndroidManifest.xml:2:1-7:12
 MERGED from [io.grpc:grpc-android:1.62.2] C:\Users\vdyla\.gradle\caches\8.9\transforms\b304161aa766bae3cc9e5923be0abf74\transformed\jetified-grpc-android-1.62.2\AndroidManifest.xml:2:1-9:12
 MERGED from [com.getkeepsafe.relinker:relinker:1.4.5] C:\Users\vdyla\.gradle\caches\8.9\transforms\a087ec69a94fb5b0fbbba500b12411c3\transformed\jetified-relinker-1.4.5\AndroidManifest.xml:2:1-7:12
 MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] C:\Users\vdyla\.gradle\caches\8.9\transforms\6566d5a51c057314b46cb4f54340483f\transformed\jetified-protolite-well-known-types-18.0.0\AndroidManifest.xml:2:1-11:12
 MERGED from [com.google.android.play:core-common:2.0.3] C:\Users\vdyla\.gradle\caches\8.9\transforms\347a1fd268aab016a797a450b3d12f94\transformed\jetified-core-common-2.0.3\AndroidManifest.xml:2:1-21:12
+MERGED from [com.google.android.instantapps:instantapps:1.1.0] C:\Users\vdyla\.gradle\caches\8.9\transforms\583ea9e9baffa15565680ed9b3884496\transformed\jetified-instantapps-1.1.0\AndroidManifest.xml:2:1-15:12
 	package
 		INJECTED from D:\LTDD\vincent\android\app\src\debug\AndroidManifest.xml
 	android:versionName
@@ -211,6 +307,8 @@ MERGED from D:\LTDD\vincent\android\app\src\main\AndroidManifest.xml:3:5-66
 MERGED from D:\LTDD\vincent\android\app\src\main\AndroidManifest.xml:3:5-66
 MERGED from [:google_sign_in_android] D:\LTDD\vincent\build\google_sign_in_android\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:7:5-67
 MERGED from [:google_sign_in_android] D:\LTDD\vincent\build\google_sign_in_android\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:7:5-67
+MERGED from [com.stripe:financial-connections:20.52.2] C:\Users\vdyla\.gradle\caches\8.9\transforms\3cdad45bd107537813d36e1a468da439\transformed\jetified-financial-connections-20.52.2\AndroidManifest.xml:7:5-67
+MERGED from [com.stripe:financial-connections:20.52.2] C:\Users\vdyla\.gradle\caches\8.9\transforms\3cdad45bd107537813d36e1a468da439\transformed\jetified-financial-connections-20.52.2\AndroidManifest.xml:7:5-67
 MERGED from [com.google.firebase:firebase-auth:23.1.0] C:\Users\vdyla\.gradle\caches\8.9\transforms\ff4026c723aaadc2ca988fe8c4fd63e9\transformed\jetified-firebase-auth-23.1.0\AndroidManifest.xml:25:5-67
 MERGED from [com.google.firebase:firebase-auth:23.1.0] C:\Users\vdyla\.gradle\caches\8.9\transforms\ff4026c723aaadc2ca988fe8c4fd63e9\transformed\jetified-firebase-auth-23.1.0\AndroidManifest.xml:25:5-67
 MERGED from [com.google.firebase:firebase-firestore:25.1.1] C:\Users\vdyla\.gradle\caches\8.9\transforms\cfa17515e5f3250a6598af39a7efbc42\transformed\jetified-firebase-firestore-25.1.1\AndroidManifest.xml:11:5-67
@@ -221,6 +319,8 @@ MERGED from [com.google.android.gms:play-services-measurement:22.1.2] C:\Users\v
 MERGED from [com.google.android.gms:play-services-measurement:22.1.2] C:\Users\vdyla\.gradle\caches\8.9\transforms\8c6112c968f766e0337f37b007852a5e\transformed\jetified-play-services-measurement-22.1.2\AndroidManifest.xml:23:5-67
 MERGED from [com.google.android.gms:play-services-measurement-impl:22.1.2] C:\Users\vdyla\.gradle\caches\8.9\transforms\b938310f596112774d51292b574adfad\transformed\jetified-play-services-measurement-impl-22.1.2\AndroidManifest.xml:23:5-67
 MERGED from [com.google.android.gms:play-services-measurement-impl:22.1.2] C:\Users\vdyla\.gradle\caches\8.9\transforms\b938310f596112774d51292b574adfad\transformed\jetified-play-services-measurement-impl-22.1.2\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-maps:18.0.2] C:\Users\vdyla\.gradle\caches\8.9\transforms\fcb604d0b585297604d7b639bd65d227\transformed\jetified-play-services-maps-18.0.2\AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-maps:18.0.2] C:\Users\vdyla\.gradle\caches\8.9\transforms\fcb604d0b585297604d7b639bd65d227\transformed\jetified-play-services-maps-18.0.2\AndroidManifest.xml:24:5-67
 MERGED from [com.google.android.gms:play-services-measurement-api:22.1.2] C:\Users\vdyla\.gradle\caches\8.9\transforms\994cc7b53a4fcabbb7363bf5cc6b4545\transformed\jetified-play-services-measurement-api-22.1.2\AndroidManifest.xml:22:5-67
 MERGED from [com.google.android.gms:play-services-measurement-api:22.1.2] C:\Users\vdyla\.gradle\caches\8.9\transforms\994cc7b53a4fcabbb7363bf5cc6b4545\transformed\jetified-play-services-measurement-api-22.1.2\AndroidManifest.xml:22:5-67
 MERGED from [com.google.firebase:firebase-installations:18.0.0] C:\Users\vdyla\.gradle\caches\8.9\transforms\0c8194feae6e281bcb364210138e5242\transformed\jetified-firebase-installations-18.0.0\AndroidManifest.xml:8:5-67
@@ -241,6 +341,12 @@ ADDED from D:\LTDD\vincent\android\app\src\main\AndroidManifest.xml:5:5-79
 		ADDED from D:\LTDD\vincent\android\app\src\main\AndroidManifest.xml:5:22-77
 queries
 ADDED from D:\LTDD\vincent\android\app\src\main\AndroidManifest.xml:50:5-55:15
+MERGED from [com.stripe:financial-connections:20.52.2] C:\Users\vdyla\.gradle\caches\8.9\transforms\3cdad45bd107537813d36e1a468da439\transformed\jetified-financial-connections-20.52.2\AndroidManifest.xml:10:5-18:15
+MERGED from [com.stripe:financial-connections:20.52.2] C:\Users\vdyla\.gradle\caches\8.9\transforms\3cdad45bd107537813d36e1a468da439\transformed\jetified-financial-connections-20.52.2\AndroidManifest.xml:10:5-18:15
+MERGED from [com.stripe:payments-core:20.52.2] C:\Users\vdyla\.gradle\caches\8.9\transforms\935ec215426bde67d0e887da37d708ba\transformed\jetified-payments-core-20.52.2\AndroidManifest.xml:8:5-12:15
+MERGED from [com.stripe:payments-core:20.52.2] C:\Users\vdyla\.gradle\caches\8.9\transforms\935ec215426bde67d0e887da37d708ba\transformed\jetified-payments-core-20.52.2\AndroidManifest.xml:8:5-12:15
+MERGED from [com.google.android.gms:play-services-maps:18.0.2] C:\Users\vdyla\.gradle\caches\8.9\transforms\fcb604d0b585297604d7b639bd65d227\transformed\jetified-play-services-maps-18.0.2\AndroidManifest.xml:30:5-34:15
+MERGED from [com.google.android.gms:play-services-maps:18.0.2] C:\Users\vdyla\.gradle\caches\8.9\transforms\fcb604d0b585297604d7b639bd65d227\transformed\jetified-play-services-maps-18.0.2\AndroidManifest.xml:30:5-34:15
 intent#action:name:android.intent.action.PROCESS_TEXT+data:mimeType:text/plain
 ADDED from D:\LTDD\vincent\android\app\src\main\AndroidManifest.xml:51:9-54:18
 action#android.intent.action.PROCESS_TEXT
@@ -275,12 +381,18 @@ MERGED from [:google_sign_in_android] D:\LTDD\vincent\build\google_sign_in_andro
 MERGED from [:google_sign_in_android] D:\LTDD\vincent\build\google_sign_in_android\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:5:5-44
 MERGED from [:path_provider_android] D:\LTDD\vincent\build\path_provider_android\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:5:5-44
 MERGED from [:path_provider_android] D:\LTDD\vincent\build\path_provider_android\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:5:5-44
+MERGED from [:printing] D:\LTDD\vincent\build\printing\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:5:5-44
+MERGED from [:printing] D:\LTDD\vincent\build\printing\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:5:5-44
 MERGED from [:shared_preferences_android] D:\LTDD\vincent\build\shared_preferences_android\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:5:5-44
 MERGED from [:shared_preferences_android] D:\LTDD\vincent\build\shared_preferences_android\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:5:5-44
 MERGED from [:sqflite_android] D:\LTDD\vincent\build\sqflite_android\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:5:5-44
 MERGED from [:sqflite_android] D:\LTDD\vincent\build\sqflite_android\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:5:5-44
+MERGED from [:stripe_android] D:\LTDD\vincent\build\stripe_android\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:5:5-44
+MERGED from [:stripe_android] D:\LTDD\vincent\build\stripe_android\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.gms:play-services-location:21.3.0] C:\Users\vdyla\.gradle\caches\8.9\transforms\ad57810d1a29daad480d9f09939fa3be\transformed\jetified-play-services-location-21.3.0\AndroidManifest.xml:4:5-44
 MERGED from [com.google.android.gms:play-services-location:21.3.0] C:\Users\vdyla\.gradle\caches\8.9\transforms\ad57810d1a29daad480d9f09939fa3be\transformed\jetified-play-services-location-21.3.0\AndroidManifest.xml:4:5-44
+MERGED from [com.stripe:financial-connections:20.52.2] C:\Users\vdyla\.gradle\caches\8.9\transforms\3cdad45bd107537813d36e1a468da439\transformed\jetified-financial-connections-20.52.2\AndroidManifest.xml:5:5-44
+MERGED from [com.stripe:financial-connections:20.52.2] C:\Users\vdyla\.gradle\caches\8.9\transforms\3cdad45bd107537813d36e1a468da439\transformed\jetified-financial-connections-20.52.2\AndroidManifest.xml:5:5-44
 MERGED from [com.google.firebase:firebase-auth:23.1.0] C:\Users\vdyla\.gradle\caches\8.9\transforms\ff4026c723aaadc2ca988fe8c4fd63e9\transformed\jetified-firebase-auth-23.1.0\AndroidManifest.xml:21:5-23:151
 MERGED from [com.google.firebase:firebase-auth:23.1.0] C:\Users\vdyla\.gradle\caches\8.9\transforms\ff4026c723aaadc2ca988fe8c4fd63e9\transformed\jetified-firebase-auth-23.1.0\AndroidManifest.xml:21:5-23:151
 MERGED from [androidx.credentials:credentials:1.2.0-rc01] C:\Users\vdyla\.gradle\caches\8.9\transforms\1c2505de3e9e8f2bedb7ecbf7d886cfd\transformed\jetified-credentials-1.2.0-rc01\AndroidManifest.xml:5:5-44
@@ -289,6 +401,10 @@ MERGED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\
 MERGED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\vdyla\.gradle\caches\8.9\transforms\50ff0c1124c2ce04c3bba38f0b309144\transformed\jetified-credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:21:5-44
 MERGED from [com.google.android.gms:play-services-auth:21.3.0] C:\Users\vdyla\.gradle\caches\8.9\transforms\f671cd31bc6123aafc6f885c3f90ae32\transformed\jetified-play-services-auth-21.3.0\AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-auth:21.3.0] C:\Users\vdyla\.gradle\caches\8.9\transforms\f671cd31bc6123aafc6f885c3f90ae32\transformed\jetified-play-services-auth-21.3.0\AndroidManifest.xml:20:5-44
+MERGED from [com.github.bumptech.glide:glide:4.12.0] C:\Users\vdyla\.gradle\caches\8.9\transforms\1dc21f086fdf4d6c32f8626e6213529b\transformed\jetified-glide-4.12.0\AndroidManifest.xml:6:5-8:41
+MERGED from [com.github.bumptech.glide:glide:4.12.0] C:\Users\vdyla\.gradle\caches\8.9\transforms\1dc21f086fdf4d6c32f8626e6213529b\transformed\jetified-glide-4.12.0\AndroidManifest.xml:6:5-8:41
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\vdyla\.gradle\caches\8.9\transforms\ec65c95275efb286ad3100750351fd2d\transformed\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\vdyla\.gradle\caches\8.9\transforms\ec65c95275efb286ad3100750351fd2d\transformed\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [com.google.firebase:firebase-firestore:25.1.1] C:\Users\vdyla\.gradle\caches\8.9\transforms\cfa17515e5f3250a6598af39a7efbc42\transformed\jetified-firebase-firestore-25.1.1\AndroidManifest.xml:6:5-44
 MERGED from [com.google.firebase:firebase-firestore:25.1.1] C:\Users\vdyla\.gradle\caches\8.9\transforms\cfa17515e5f3250a6598af39a7efbc42\transformed\jetified-firebase-firestore-25.1.1\AndroidManifest.xml:6:5-44
 MERGED from [com.google.firebase:firebase-database:21.0.0] C:\Users\vdyla\.gradle\caches\8.9\transforms\c072ca278452925a70564f9ac4ffc83a\transformed\jetified-firebase-database-21.0.0\AndroidManifest.xml:18:5-44
@@ -303,6 +419,20 @@ MERGED from [com.google.firebase:firebase-appcheck-interop:17.1.0] C:\Users\vdyl
 MERGED from [com.google.firebase:firebase-appcheck-interop:17.1.0] C:\Users\vdyla\.gradle\caches\8.9\transforms\e0511aa4a7911bec171218e371c67b1a\transformed\jetified-firebase-appcheck-interop-17.1.0\AndroidManifest.xml:18:5-44
 MERGED from [com.google.android.gms:play-services-fido:20.1.0] C:\Users\vdyla\.gradle\caches\8.9\transforms\6e318b3a5072664c55fc8b135ebfc073\transformed\jetified-play-services-fido-20.1.0\AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.gms:play-services-fido:20.1.0] C:\Users\vdyla\.gradle\caches\8.9\transforms\6e318b3a5072664c55fc8b135ebfc073\transformed\jetified-play-services-fido-20.1.0\AndroidManifest.xml:5:5-44
+MERGED from [com.stripe:stripe-android:20.52.2] C:\Users\vdyla\.gradle\caches\8.9\transforms\08c965d773f41aa5fc8c1b7d45e601a0\transformed\jetified-stripe-android-20.52.2\AndroidManifest.xml:5:5-44
+MERGED from [com.stripe:stripe-android:20.52.2] C:\Users\vdyla\.gradle\caches\8.9\transforms\08c965d773f41aa5fc8c1b7d45e601a0\transformed\jetified-stripe-android-20.52.2\AndroidManifest.xml:5:5-44
+MERGED from [com.stripe:paymentsheet:20.52.2] C:\Users\vdyla\.gradle\caches\8.9\transforms\1a9f22b7fd08abdc6c834300b9c2044d\transformed\jetified-paymentsheet-20.52.2\AndroidManifest.xml:5:5-44
+MERGED from [com.stripe:paymentsheet:20.52.2] C:\Users\vdyla\.gradle\caches\8.9\transforms\1a9f22b7fd08abdc6c834300b9c2044d\transformed\jetified-paymentsheet-20.52.2\AndroidManifest.xml:5:5-44
+MERGED from [com.stripe:link:20.52.2] C:\Users\vdyla\.gradle\caches\8.9\transforms\187c81040b7fa9ac7b0b06b352697ee0\transformed\jetified-link-20.52.2\AndroidManifest.xml:5:5-44
+MERGED from [com.stripe:link:20.52.2] C:\Users\vdyla\.gradle\caches\8.9\transforms\187c81040b7fa9ac7b0b06b352697ee0\transformed\jetified-link-20.52.2\AndroidManifest.xml:5:5-44
+MERGED from [com.stripe:payments-ui-core:20.52.2] C:\Users\vdyla\.gradle\caches\8.9\transforms\c257e907498504d9bb0fc7577de432d6\transformed\jetified-payments-ui-core-20.52.2\AndroidManifest.xml:5:5-44
+MERGED from [com.stripe:payments-ui-core:20.52.2] C:\Users\vdyla\.gradle\caches\8.9\transforms\c257e907498504d9bb0fc7577de432d6\transformed\jetified-payments-ui-core-20.52.2\AndroidManifest.xml:5:5-44
+MERGED from [com.stripe:payments-core:20.52.2] C:\Users\vdyla\.gradle\caches\8.9\transforms\935ec215426bde67d0e887da37d708ba\transformed\jetified-payments-core-20.52.2\AndroidManifest.xml:5:5-44
+MERGED from [com.stripe:payments-core:20.52.2] C:\Users\vdyla\.gradle\caches\8.9\transforms\935ec215426bde67d0e887da37d708ba\transformed\jetified-payments-core-20.52.2\AndroidManifest.xml:5:5-44
+MERGED from [com.google.pay.button:compose-pay-button:0.1.3] C:\Users\vdyla\.gradle\caches\8.9\transforms\5229e1eb7db6363c219dcc9446efdbb1\transformed\jetified-compose-pay-button-0.1.3\AndroidManifest.xml:5:5-44
+MERGED from [com.google.pay.button:compose-pay-button:0.1.3] C:\Users\vdyla\.gradle\caches\8.9\transforms\5229e1eb7db6363c219dcc9446efdbb1\transformed\jetified-compose-pay-button-0.1.3\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-wallet:19.3.0] C:\Users\vdyla\.gradle\caches\8.9\transforms\c3710a3d5f7c148c5fc3c91f870bc2af\transformed\jetified-play-services-wallet-19.3.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-wallet:19.3.0] C:\Users\vdyla\.gradle\caches\8.9\transforms\c3710a3d5f7c148c5fc3c91f870bc2af\transformed\jetified-play-services-wallet-19.3.0\AndroidManifest.xml:20:5-44
 MERGED from [com.google.firebase:firebase-analytics-ktx:22.1.2] C:\Users\vdyla\.gradle\caches\8.9\transforms\6444156c89a151d6bbcd046479fa3beb\transformed\jetified-firebase-analytics-ktx-22.1.2\AndroidManifest.xml:5:5-44
 MERGED from [com.google.firebase:firebase-analytics-ktx:22.1.2] C:\Users\vdyla\.gradle\caches\8.9\transforms\6444156c89a151d6bbcd046479fa3beb\transformed\jetified-firebase-analytics-ktx-22.1.2\AndroidManifest.xml:5:5-44
 MERGED from [com.google.firebase:firebase-analytics:22.1.2] C:\Users\vdyla\.gradle\caches\8.9\transforms\be5c192aebe033c801aedc0702d734a2\transformed\jetified-firebase-analytics-22.1.2\AndroidManifest.xml:5:5-44
@@ -313,6 +443,10 @@ MERGED from [com.google.android.gms:play-services-measurement-sdk:22.1.2] C:\Use
 MERGED from [com.google.android.gms:play-services-measurement-sdk:22.1.2] C:\Users\vdyla\.gradle\caches\8.9\transforms\330fd4432af64eaccd97e5dbda3a871d\transformed\jetified-play-services-measurement-sdk-22.1.2\AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-measurement-impl:22.1.2] C:\Users\vdyla\.gradle\caches\8.9\transforms\b938310f596112774d51292b574adfad\transformed\jetified-play-services-measurement-impl-22.1.2\AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-measurement-impl:22.1.2] C:\Users\vdyla\.gradle\caches\8.9\transforms\b938310f596112774d51292b574adfad\transformed\jetified-play-services-measurement-impl-22.1.2\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-identity:18.0.1] C:\Users\vdyla\.gradle\caches\8.9\transforms\2dd6044a2c40d79898b8d0d57b2e5520\transformed\jetified-play-services-identity-18.0.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-identity:18.0.1] C:\Users\vdyla\.gradle\caches\8.9\transforms\2dd6044a2c40d79898b8d0d57b2e5520\transformed\jetified-play-services-identity-18.0.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-maps:18.0.2] C:\Users\vdyla\.gradle\caches\8.9\transforms\fcb604d0b585297604d7b639bd65d227\transformed\jetified-play-services-maps-18.0.2\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-maps:18.0.2] C:\Users\vdyla\.gradle\caches\8.9\transforms\fcb604d0b585297604d7b639bd65d227\transformed\jetified-play-services-maps-18.0.2\AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-base:18.5.0] C:\Users\vdyla\.gradle\caches\8.9\transforms\39705ce7de390e7aefac4155855d325b\transformed\jetified-play-services-base-18.5.0\AndroidManifest.xml:3:5-44
 MERGED from [com.google.android.gms:play-services-base:18.5.0] C:\Users\vdyla\.gradle\caches\8.9\transforms\39705ce7de390e7aefac4155855d325b\transformed\jetified-play-services-base-18.5.0\AndroidManifest.xml:3:5-44
 MERGED from [com.google.android.gms:play-services-measurement-api:22.1.2] C:\Users\vdyla\.gradle\caches\8.9\transforms\994cc7b53a4fcabbb7363bf5cc6b4545\transformed\jetified-play-services-measurement-api-22.1.2\AndroidManifest.xml:20:5-44
@@ -335,8 +469,6 @@ MERGED from [androidx.datastore:datastore:1.0.0] C:\Users\vdyla\.gradle\caches\8
 MERGED from [androidx.datastore:datastore:1.0.0] C:\Users\vdyla\.gradle\caches\8.9\transforms\49f214907f139980a805ed6e0a638691\transformed\jetified-datastore-1.0.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.preference:preference:1.2.1] C:\Users\vdyla\.gradle\caches\8.9\transforms\5020940725f2531f944d71a769a082da\transformed\preference-1.2.1\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.preference:preference:1.2.1] C:\Users\vdyla\.gradle\caches\8.9\transforms\5020940725f2531f944d71a769a082da\transformed\preference-1.2.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.recyclerview:recyclerview:1.0.0] C:\Users\vdyla\.gradle\caches\8.9\transforms\d5232e5629bca78cd411cb6c354df50a\transformed\recyclerview-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.recyclerview:recyclerview:1.0.0] C:\Users\vdyla\.gradle\caches\8.9\transforms\d5232e5629bca78cd411cb6c354df50a\transformed\recyclerview-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\vdyla\.gradle\caches\8.9\transforms\c45c72af103b6e76aeb8d1115744df54\transformed\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\vdyla\.gradle\caches\8.9\transforms\c45c72af103b6e76aeb8d1115744df54\transformed\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.2.0] C:\Users\vdyla\.gradle\caches\8.9\transforms\5a0c7e1cfb74ebce5e823cf8dc6d7f63\transformed\slidingpanelayout-1.2.0\AndroidManifest.xml:20:5-22:41
@@ -345,6 +477,116 @@ MERGED from [androidx.window:window:1.2.0] C:\Users\vdyla\.gradle\caches\8.9\tra
 MERGED from [androidx.window:window:1.2.0] C:\Users\vdyla\.gradle\caches\8.9\transforms\57b6ee417abbcd94ff0f24fe127aebf2\transformed\jetified-window-1.2.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.window:window-java:1.2.0] C:\Users\vdyla\.gradle\caches\8.9\transforms\dc6dd740c2afeabcd8f6ca0c1494b043\transformed\jetified-window-java-1.2.0\AndroidManifest.xml:19:5-44
 MERGED from [androidx.window:window-java:1.2.0] C:\Users\vdyla\.gradle\caches\8.9\transforms\dc6dd740c2afeabcd8f6ca0c1494b043\transformed\jetified-window-java-1.2.0\AndroidManifest.xml:19:5-44
+MERGED from [com.stripe:stripe-ui-core:20.52.2] C:\Users\vdyla\.gradle\caches\8.9\transforms\b8d26548afe0202295becff395699b76\transformed\jetified-stripe-ui-core-20.52.2\AndroidManifest.xml:5:5-44
+MERGED from [com.stripe:stripe-ui-core:20.52.2] C:\Users\vdyla\.gradle\caches\8.9\transforms\b8d26548afe0202295becff395699b76\transformed\jetified-stripe-ui-core-20.52.2\AndroidManifest.xml:5:5-44
+MERGED from [com.stripe:payments-model:20.52.2] C:\Users\vdyla\.gradle\caches\8.9\transforms\74d5f57fb3efc46ce7a0844768557f73\transformed\jetified-payments-model-20.52.2\AndroidManifest.xml:5:5-44
+MERGED from [com.stripe:payments-model:20.52.2] C:\Users\vdyla\.gradle\caches\8.9\transforms\74d5f57fb3efc46ce7a0844768557f73\transformed\jetified-payments-model-20.52.2\AndroidManifest.xml:5:5-44
+MERGED from [com.stripe:stripe-core:20.52.2] C:\Users\vdyla\.gradle\caches\8.9\transforms\d45f0899881ab1b1b934c92cd7a22c03\transformed\jetified-stripe-core-20.52.2\AndroidManifest.xml:5:5-44
+MERGED from [com.stripe:stripe-core:20.52.2] C:\Users\vdyla\.gradle\caches\8.9\transforms\d45f0899881ab1b1b934c92cd7a22c03\transformed\jetified-stripe-core-20.52.2\AndroidManifest.xml:5:5-44
+MERGED from [com.stripe:stripe-3ds2-android:6.1.8] C:\Users\vdyla\.gradle\caches\8.9\transforms\d0fa654c2cf549e3335343580f67afff\transformed\jetified-stripe-3ds2-android-6.1.8\AndroidManifest.xml:5:5-44
+MERGED from [com.stripe:stripe-3ds2-android:6.1.8] C:\Users\vdyla\.gradle\caches\8.9\transforms\d0fa654c2cf549e3335343580f67afff\transformed\jetified-stripe-3ds2-android-6.1.8\AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-common:2.7.6] C:\Users\vdyla\.gradle\caches\8.9\transforms\9ea44f238ebeb90651b867cd39a997de\transformed\navigation-common-2.7.6\AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-common:2.7.6] C:\Users\vdyla\.gradle\caches\8.9\transforms\9ea44f238ebeb90651b867cd39a997de\transformed\navigation-common-2.7.6\AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-runtime:2.7.6] C:\Users\vdyla\.gradle\caches\8.9\transforms\ffbb6b9e9038629a6d14f898e2203ae1\transformed\navigation-runtime-2.7.6\AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-runtime:2.7.6] C:\Users\vdyla\.gradle\caches\8.9\transforms\ffbb6b9e9038629a6d14f898e2203ae1\transformed\navigation-runtime-2.7.6\AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-common-ktx:2.7.6] C:\Users\vdyla\.gradle\caches\8.9\transforms\1028bf7119291470218f7bb4fc92b920\transformed\navigation-common-ktx-2.7.6\AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-common-ktx:2.7.6] C:\Users\vdyla\.gradle\caches\8.9\transforms\1028bf7119291470218f7bb4fc92b920\transformed\navigation-common-ktx-2.7.6\AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.7.6] C:\Users\vdyla\.gradle\caches\8.9\transforms\e6da099674810b30ffed998d04f857fe\transformed\navigation-runtime-ktx-2.7.6\AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.7.6] C:\Users\vdyla\.gradle\caches\8.9\transforms\e6da099674810b30ffed998d04f857fe\transformed\navigation-runtime-ktx-2.7.6\AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-compose:2.7.6] C:\Users\vdyla\.gradle\caches\8.9\transforms\77caf3fe733830f5c32d0de21b248374\transformed\jetified-navigation-compose-2.7.6\AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-compose:2.7.6] C:\Users\vdyla\.gradle\caches\8.9\transforms\77caf3fe733830f5c32d0de21b248374\transformed\jetified-navigation-compose-2.7.6\AndroidManifest.xml:5:5-44
+MERGED from [com.google.accompanist:accompanist-themeadapter-appcompat:0.32.0] C:\Users\vdyla\.gradle\caches\8.9\transforms\9d249fb50116ec167c36f8397d46fab9\transformed\jetified-accompanist-themeadapter-appcompat-0.32.0\AndroidManifest.xml:21:5-44
+MERGED from [com.google.accompanist:accompanist-themeadapter-appcompat:0.32.0] C:\Users\vdyla\.gradle\caches\8.9\transforms\9d249fb50116ec167c36f8397d46fab9\transformed\jetified-accompanist-themeadapter-appcompat-0.32.0\AndroidManifest.xml:21:5-44
+MERGED from [com.google.accompanist:accompanist-themeadapter-material:0.32.0] C:\Users\vdyla\.gradle\caches\8.9\transforms\8ba9de3bdc6c45afe577d4917cdc769f\transformed\jetified-accompanist-themeadapter-material-0.32.0\AndroidManifest.xml:21:5-44
+MERGED from [com.google.accompanist:accompanist-themeadapter-material:0.32.0] C:\Users\vdyla\.gradle\caches\8.9\transforms\8ba9de3bdc6c45afe577d4917cdc769f\transformed\jetified-accompanist-themeadapter-material-0.32.0\AndroidManifest.xml:21:5-44
+MERGED from [com.google.accompanist:accompanist-themeadapter-material3:0.32.0] C:\Users\vdyla\.gradle\caches\8.9\transforms\761a2fcbbf33dde16841c080d3b0d114\transformed\jetified-accompanist-themeadapter-material3-0.32.0\AndroidManifest.xml:21:5-44
+MERGED from [com.google.accompanist:accompanist-themeadapter-material3:0.32.0] C:\Users\vdyla\.gradle\caches\8.9\transforms\761a2fcbbf33dde16841c080d3b0d114\transformed\jetified-accompanist-themeadapter-material3-0.32.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.compose.material3:material3:1.0.1] C:\Users\vdyla\.gradle\caches\8.9\transforms\4256a418b5a390aec5b5c9bf6425c8c2\transformed\jetified-material3-1.0.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.material3:material3:1.0.1] C:\Users\vdyla\.gradle\caches\8.9\transforms\4256a418b5a390aec5b5c9bf6425c8c2\transformed\jetified-material3-1.0.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.material:material-ripple-android:1.5.4] C:\Users\vdyla\.gradle\caches\8.9\transforms\05e5334fd912348d1263a000b6e06a68\transformed\jetified-material-ripple-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-ripple-android:1.5.4] C:\Users\vdyla\.gradle\caches\8.9\transforms\05e5334fd912348d1263a000b6e06a68\transformed\jetified-material-ripple-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-icons-core-android:1.5.4] C:\Users\vdyla\.gradle\caches\8.9\transforms\b44124ccb2f64669fc52c736d6af3daf\transformed\jetified-material-icons-core-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-icons-core-android:1.5.4] C:\Users\vdyla\.gradle\caches\8.9\transforms\b44124ccb2f64669fc52c736d6af3daf\transformed\jetified-material-icons-core-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-android:1.5.4] C:\Users\vdyla\.gradle\caches\8.9\transforms\d241d5b4c3c5d58afece2f621f2c038b\transformed\jetified-material-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-android:1.5.4] C:\Users\vdyla\.gradle\caches\8.9\transforms\d241d5b4c3c5d58afece2f621f2c038b\transformed\jetified-material-release\AndroidManifest.xml:5:5-44
+MERGED from [com.google.accompanist:accompanist-themeadapter-core:0.32.0] C:\Users\vdyla\.gradle\caches\8.9\transforms\b191f1bbf825cd5f2e2483bf35d02a41\transformed\jetified-accompanist-themeadapter-core-0.32.0\AndroidManifest.xml:21:5-44
+MERGED from [com.google.accompanist:accompanist-themeadapter-core:0.32.0] C:\Users\vdyla\.gradle\caches\8.9\transforms\b191f1bbf825cd5f2e2483bf35d02a41\transformed\jetified-accompanist-themeadapter-core-0.32.0\AndroidManifest.xml:21:5-44
+MERGED from [com.google.accompanist:accompanist-flowlayout:0.32.0] C:\Users\vdyla\.gradle\caches\8.9\transforms\eed8b77f05c11690cf45c49f98b4e8f7\transformed\jetified-accompanist-flowlayout-0.32.0\AndroidManifest.xml:21:5-44
+MERGED from [com.google.accompanist:accompanist-flowlayout:0.32.0] C:\Users\vdyla\.gradle\caches\8.9\transforms\eed8b77f05c11690cf45c49f98b4e8f7\transformed\jetified-accompanist-flowlayout-0.32.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.compose.animation:animation-core-android:1.5.4] C:\Users\vdyla\.gradle\caches\8.9\transforms\b0250258e235863e29670f15949e2bb9\transformed\jetified-animation-core-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-core-android:1.5.4] C:\Users\vdyla\.gradle\caches\8.9\transforms\b0250258e235863e29670f15949e2bb9\transformed\jetified-animation-core-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-android:1.5.4] C:\Users\vdyla\.gradle\caches\8.9\transforms\db6f3d7d9ea8a280e325daf024a4f061\transformed\jetified-animation-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-android:1.5.4] C:\Users\vdyla\.gradle\caches\8.9\transforms\db6f3d7d9ea8a280e325daf024a4f061\transformed\jetified-animation-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-layout-android:1.5.4] C:\Users\vdyla\.gradle\caches\8.9\transforms\b5aff795a4cc25893e2178be563f6e7e\transformed\jetified-foundation-layout-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-layout-android:1.5.4] C:\Users\vdyla\.gradle\caches\8.9\transforms\b5aff795a4cc25893e2178be563f6e7e\transformed\jetified-foundation-layout-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-android:1.5.4] C:\Users\vdyla\.gradle\caches\8.9\transforms\d3ee9e344d2c98ed27be13b327850d7a\transformed\jetified-foundation-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-android:1.5.4] C:\Users\vdyla\.gradle\caches\8.9\transforms\d3ee9e344d2c98ed27be13b327850d7a\transformed\jetified-foundation-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-unit-android:1.5.4] C:\Users\vdyla\.gradle\caches\8.9\transforms\9644c5570b58ff1ef4d88885dbacd028\transformed\jetified-ui-unit-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-unit-android:1.5.4] C:\Users\vdyla\.gradle\caches\8.9\transforms\9644c5570b58ff1ef4d88885dbacd028\transformed\jetified-ui-unit-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-graphics-android:1.5.4] C:\Users\vdyla\.gradle\caches\8.9\transforms\467d27e2a9f747343b02e597cf124dad\transformed\jetified-ui-graphics-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-graphics-android:1.5.4] C:\Users\vdyla\.gradle\caches\8.9\transforms\467d27e2a9f747343b02e597cf124dad\transformed\jetified-ui-graphics-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-geometry-android:1.5.4] C:\Users\vdyla\.gradle\caches\8.9\transforms\a979a11e212b1066b6671ebb75220229\transformed\jetified-ui-geometry-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-geometry-android:1.5.4] C:\Users\vdyla\.gradle\caches\8.9\transforms\a979a11e212b1066b6671ebb75220229\transformed\jetified-ui-geometry-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-text-android:1.5.4] C:\Users\vdyla\.gradle\caches\8.9\transforms\e1c5fb8b7aed802b7d394fa5fc759025\transformed\jetified-ui-text-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-text-android:1.5.4] C:\Users\vdyla\.gradle\caches\8.9\transforms\e1c5fb8b7aed802b7d394fa5fc759025\transformed\jetified-ui-text-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-util-android:1.5.4] C:\Users\vdyla\.gradle\caches\8.9\transforms\d5d3780b1173a9ddef50278a34bc3326\transformed\jetified-ui-util-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-util-android:1.5.4] C:\Users\vdyla\.gradle\caches\8.9\transforms\d5d3780b1173a9ddef50278a34bc3326\transformed\jetified-ui-util-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-tooling-preview-android:1.5.4] C:\Users\vdyla\.gradle\caches\8.9\transforms\eaab933bdd1729f4ca8119ebe9951593\transformed\jetified-ui-tooling-preview-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-tooling-preview-android:1.5.4] C:\Users\vdyla\.gradle\caches\8.9\transforms\eaab933bdd1729f4ca8119ebe9951593\transformed\jetified-ui-tooling-preview-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-viewbinding:1.5.4] C:\Users\vdyla\.gradle\caches\8.9\transforms\8ab7fec20b444ce0750ff9d351b6fcb2\transformed\jetified-ui-viewbinding-1.5.4\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-viewbinding:1.5.4] C:\Users\vdyla\.gradle\caches\8.9\transforms\8ab7fec20b444ce0750ff9d351b6fcb2\transformed\jetified-ui-viewbinding-1.5.4\AndroidManifest.xml:5:5-44
+MERGED from [androidx.fragment:fragment-ktx:1.7.1] C:\Users\vdyla\.gradle\caches\8.9\transforms\aa5b81fc40676b8a0ac561510ab65383\transformed\jetified-fragment-ktx-1.7.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.fragment:fragment-ktx:1.7.1] C:\Users\vdyla\.gradle\caches\8.9\transforms\aa5b81fc40676b8a0ac561510ab65383\transformed\jetified-fragment-ktx-1.7.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity-ktx:1.9.3] C:\Users\vdyla\.gradle\caches\8.9\transforms\44687aa8832ef0b6fa411bcf9585b2d7\transformed\jetified-activity-ktx-1.9.3\AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity-ktx:1.9.3] C:\Users\vdyla\.gradle\caches\8.9\transforms\44687aa8832ef0b6fa411bcf9585b2d7\transformed\jetified-activity-ktx-1.9.3\AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity-compose:1.9.3] C:\Users\vdyla\.gradle\caches\8.9\transforms\9b72929caa6584ebe7be638f023e5e0f\transformed\jetified-activity-compose-1.9.3\AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity-compose:1.9.3] C:\Users\vdyla\.gradle\caches\8.9\transforms\9b72929caa6584ebe7be638f023e5e0f\transformed\jetified-activity-compose-1.9.3\AndroidManifest.xml:5:5-44
+MERGED from [com.google.accompanist:accompanist-systemuicontroller:0.32.0] C:\Users\vdyla\.gradle\caches\8.9\transforms\850d5905048fa11ec34d72fce71ddbb8\transformed\jetified-accompanist-systemuicontroller-0.32.0\AndroidManifest.xml:21:5-44
+MERGED from [com.google.accompanist:accompanist-systemuicontroller:0.32.0] C:\Users\vdyla\.gradle\caches\8.9\transforms\850d5905048fa11ec34d72fce71ddbb8\transformed\jetified-accompanist-systemuicontroller-0.32.0\AndroidManifest.xml:21:5-44
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] C:\Users\vdyla\.gradle\caches\8.9\transforms\6d4ed1e739db5dff13eed6ce2cfc9242\transformed\jetified-play-services-stats-17.0.2\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] C:\Users\vdyla\.gradle\caches\8.9\transforms\6d4ed1e739db5dff13eed6ce2cfc9242\transformed\jetified-play-services-stats-17.0.2\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.material:material:1.11.0] C:\Users\vdyla\.gradle\caches\8.9\transforms\88df3f333fb244dbcb02aa9c569dd624\transformed\material-1.11.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.11.0] C:\Users\vdyla\.gradle\caches\8.9\transforms\88df3f333fb244dbcb02aa9c569dd624\transformed\material-1.11.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\vdyla\.gradle\caches\8.9\transforms\cc97172b46920d4425f438da46feeaad\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\vdyla\.gradle\caches\8.9\transforms\cc97172b46920d4425f438da46feeaad\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\vdyla\.gradle\caches\8.9\transforms\38b9175ca4db07d42653f357b8d76407\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\vdyla\.gradle\caches\8.9\transforms\38b9175ca4db07d42653f357b8d76407\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.1.0] C:\Users\vdyla\.gradle\caches\8.9\transforms\3657a4da5489e89d4deac5e13bf114a5\transformed\loader-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.loader:loader:1.1.0] C:\Users\vdyla\.gradle\caches\8.9\transforms\3657a4da5489e89d4deac5e13bf114a5\transformed\loader-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\vdyla\.gradle\caches\8.9\transforms\3fa1e915cba345b5d4ee2a800f1b49e5\transformed\constraintlayout-2.1.4\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\vdyla\.gradle\caches\8.9\transforms\3fa1e915cba345b5d4ee2a800f1b49e5\transformed\constraintlayout-2.1.4\AndroidManifest.xml:5:5-7:41
+MERGED from [com.stripe:hcaptcha:20.52.2] C:\Users\vdyla\.gradle\caches\8.9\transforms\90fb58413ed541e1d48a4a17324bca89\transformed\jetified-hcaptcha-20.52.2\AndroidManifest.xml:5:5-44
+MERGED from [com.stripe:hcaptcha:20.52.2] C:\Users\vdyla\.gradle\caches\8.9\transforms\90fb58413ed541e1d48a4a17324bca89\transformed\jetified-hcaptcha-20.52.2\AndroidManifest.xml:5:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] C:\Users\vdyla\.gradle\caches\8.9\transforms\1ce0b4edaf8062a990976491d579d745\transformed\jetified-appcompat-resources-1.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] C:\Users\vdyla\.gradle\caches\8.9\transforms\1ce0b4edaf8062a990976491d579d745\transformed\jetified-appcompat-resources-1.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.6.1] C:\Users\vdyla\.gradle\caches\8.9\transforms\c686da62970b53d72c45b53cac1d6f96\transformed\appcompat-1.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.6.1] C:\Users\vdyla\.gradle\caches\8.9\transforms\c686da62970b53d72c45b53cac1d6f96\transformed\appcompat-1.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.runtime:runtime-saveable-android:1.5.4] C:\Users\vdyla\.gradle\caches\8.9\transforms\02421d0d6c13a95148814a918ed7eeac\transformed\jetified-runtime-saveable-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-saveable-android:1.5.4] C:\Users\vdyla\.gradle\caches\8.9\transforms\02421d0d6c13a95148814a918ed7eeac\transformed\jetified-runtime-saveable-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-android:1.5.4] C:\Users\vdyla\.gradle\caches\8.9\transforms\2b8a3cdf4c39a68ad15bc84a6db08d80\transformed\jetified-runtime-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-android:1.5.4] C:\Users\vdyla\.gradle\caches\8.9\transforms\2b8a3cdf4c39a68ad15bc84a6db08d80\transformed\jetified-runtime-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-livedata:1.5.4] C:\Users\vdyla\.gradle\caches\8.9\transforms\83206eb48498323277ca8a31907afbb7\transformed\jetified-runtime-livedata-1.5.4\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-livedata:1.5.4] C:\Users\vdyla\.gradle\caches\8.9\transforms\83206eb48498323277ca8a31907afbb7\transformed\jetified-runtime-livedata-1.5.4\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.7.0] C:\Users\vdyla\.gradle\caches\8.9\transforms\6e081c60601c56f11e668e840cb4d06e\transformed\lifecycle-livedata-2.7.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.7.0] C:\Users\vdyla\.gradle\caches\8.9\transforms\6e081c60601c56f11e668e840cb4d06e\transformed\lifecycle-livedata-2.7.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.7.0] C:\Users\vdyla\.gradle\caches\8.9\transforms\d4c9f9f91bc9e04d19d1d5d42f4670a9\transformed\jetified-lifecycle-livedata-ktx-2.7.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.7.0] C:\Users\vdyla\.gradle\caches\8.9\transforms\d4c9f9f91bc9e04d19d1d5d42f4670a9\transformed\jetified-lifecycle-livedata-ktx-2.7.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.7.0] C:\Users\vdyla\.gradle\caches\8.9\transforms\c1e694d2c3073fedc0f87074320d67eb\transformed\jetified-lifecycle-livedata-core-ktx-2.7.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.7.0] C:\Users\vdyla\.gradle\caches\8.9\transforms\c1e694d2c3073fedc0f87074320d67eb\transformed\jetified-lifecycle-livedata-core-ktx-2.7.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.7.0] C:\Users\vdyla\.gradle\caches\8.9\transforms\93424de91b6793c5c88266f50b390ac5\transformed\lifecycle-viewmodel-2.7.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.7.0] C:\Users\vdyla\.gradle\caches\8.9\transforms\93424de91b6793c5c88266f50b390ac5\transformed\lifecycle-viewmodel-2.7.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.7.0] C:\Users\vdyla\.gradle\caches\8.9\transforms\44f63a77abae6c9708d649b780b77577\transformed\lifecycle-livedata-core-2.7.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.7.0] C:\Users\vdyla\.gradle\caches\8.9\transforms\44f63a77abae6c9708d649b780b77577\transformed\lifecycle-livedata-core-2.7.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.7.0] C:\Users\vdyla\.gradle\caches\8.9\transforms\ccfe2de424bb05cf1d548a8ed51e42f3\transformed\jetified-lifecycle-viewmodel-savedstate-2.7.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.7.0] C:\Users\vdyla\.gradle\caches\8.9\transforms\ccfe2de424bb05cf1d548a8ed51e42f3\transformed\jetified-lifecycle-viewmodel-savedstate-2.7.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.7.0] C:\Users\vdyla\.gradle\caches\8.9\transforms\102226622a2b099f1ee417bb0656ad5b\transformed\jetified-lifecycle-runtime-ktx-2.7.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.7.0] C:\Users\vdyla\.gradle\caches\8.9\transforms\102226622a2b099f1ee417bb0656ad5b\transformed\jetified-lifecycle-runtime-ktx-2.7.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.7.0] C:\Users\vdyla\.gradle\caches\8.9\transforms\75dbcaaf2c286095fec4f1733495f836\transformed\jetified-lifecycle-viewmodel-ktx-2.7.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.7.0] C:\Users\vdyla\.gradle\caches\8.9\transforms\75dbcaaf2c286095fec4f1733495f836\transformed\jetified-lifecycle-viewmodel-ktx-2.7.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-compose:2.7.0] C:\Users\vdyla\.gradle\caches\8.9\transforms\0402e902d0c4865f8c98f71970751514\transformed\jetified-lifecycle-viewmodel-compose-2.7.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-compose:2.7.0] C:\Users\vdyla\.gradle\caches\8.9\transforms\0402e902d0c4865f8c98f71970751514\transformed\jetified-lifecycle-viewmodel-compose-2.7.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-android:1.5.4] C:\Users\vdyla\.gradle\caches\8.9\transforms\697c73b862aedfb5acab22c1a765cb85\transformed\jetified-ui-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-android:1.5.4] C:\Users\vdyla\.gradle\caches\8.9\transforms\697c73b862aedfb5acab22c1a765cb85\transformed\jetified-ui-release\AndroidManifest.xml:5:5-44
 MERGED from [androidx.privacysandbox.ads:ads-adservices-java:1.0.0-beta05] C:\Users\vdyla\.gradle\caches\8.9\transforms\9a4672d64b47e307227d1e0df5efd203\transformed\jetified-ads-adservices-java-1.0.0-beta05\AndroidManifest.xml:5:5-44
 MERGED from [androidx.privacysandbox.ads:ads-adservices-java:1.0.0-beta05] C:\Users\vdyla\.gradle\caches\8.9\transforms\9a4672d64b47e307227d1e0df5efd203\transformed\jetified-ads-adservices-java-1.0.0-beta05\AndroidManifest.xml:5:5-44
 MERGED from [androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] C:\Users\vdyla\.gradle\caches\8.9\transforms\e7452770c274ecf406f57289e58d929f\transformed\jetified-ads-adservices-1.0.0-beta05\AndroidManifest.xml:20:5-44
@@ -359,62 +601,50 @@ MERGED from [com.google.android.gms:play-services-measurement-sdk-api:22.1.2] C:
 MERGED from [com.google.android.gms:play-services-measurement-sdk-api:22.1.2] C:\Users\vdyla\.gradle\caches\8.9\transforms\523f9b62815c6f071896f661719d2b41\transformed\jetified-play-services-measurement-sdk-api-22.1.2\AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-measurement-base:22.1.2] C:\Users\vdyla\.gradle\caches\8.9\transforms\62ebb04fd27649a819beff1400974ea6\transformed\jetified-play-services-measurement-base-22.1.2\AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.gms:play-services-measurement-base:22.1.2] C:\Users\vdyla\.gradle\caches\8.9\transforms\62ebb04fd27649a819beff1400974ea6\transformed\jetified-play-services-measurement-base-22.1.2\AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-stats:17.0.2] C:\Users\vdyla\.gradle\caches\8.9\transforms\6d4ed1e739db5dff13eed6ce2cfc9242\transformed\jetified-play-services-stats-17.0.2\AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-stats:17.0.2] C:\Users\vdyla\.gradle\caches\8.9\transforms\6d4ed1e739db5dff13eed6ce2cfc9242\transformed\jetified-play-services-stats-17.0.2\AndroidManifest.xml:5:5-44
 MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] C:\Users\vdyla\.gradle\caches\8.9\transforms\f6f16220a9adac0c151929c5ccb2ecb3\transformed\jetified-firebase-measurement-connector-19.0.0\AndroidManifest.xml:20:5-44
 MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] C:\Users\vdyla\.gradle\caches\8.9\transforms\f6f16220a9adac0c151929c5ccb2ecb3\transformed\jetified-firebase-measurement-connector-19.0.0\AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-basement:18.4.0] C:\Users\vdyla\.gradle\caches\8.9\transforms\cfa95c20518ae9b6e07c887b1b898d8f\transformed\jetified-play-services-basement-18.4.0\AndroidManifest.xml:3:5-44
 MERGED from [com.google.android.gms:play-services-basement:18.4.0] C:\Users\vdyla\.gradle\caches\8.9\transforms\cfa95c20518ae9b6e07c887b1b898d8f\transformed\jetified-play-services-basement-18.4.0\AndroidManifest.xml:3:5-44
-MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Users\vdyla\.gradle\caches\8.9\transforms\fa463835e6bfd011e4fc9a3156d0f060\transformed\appcompat-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Users\vdyla\.gradle\caches\8.9\transforms\fa463835e6bfd011e4fc9a3156d0f060\transformed\appcompat-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.fragment:fragment-ktx:1.7.1] C:\Users\vdyla\.gradle\caches\8.9\transforms\aa5b81fc40676b8a0ac561510ab65383\transformed\jetified-fragment-ktx-1.7.1\AndroidManifest.xml:5:5-44
-MERGED from [androidx.fragment:fragment-ktx:1.7.1] C:\Users\vdyla\.gradle\caches\8.9\transforms\aa5b81fc40676b8a0ac561510ab65383\transformed\jetified-fragment-ktx-1.7.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.3.2] C:\Users\vdyla\.gradle\caches\8.9\transforms\654812624edafaa3d04e03c671efcfe4\transformed\recyclerview-1.3.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.3.2] C:\Users\vdyla\.gradle\caches\8.9\transforms\654812624edafaa3d04e03c671efcfe4\transformed\recyclerview-1.3.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager2:viewpager2:1.1.0-beta02] C:\Users\vdyla\.gradle\caches\8.9\transforms\30b8387920a683060a606c2e2d1d3094\transformed\jetified-viewpager2-1.1.0-beta02\AndroidManifest.xml:5:5-44
+MERGED from [androidx.viewpager2:viewpager2:1.1.0-beta02] C:\Users\vdyla\.gradle\caches\8.9\transforms\30b8387920a683060a606c2e2d1d3094\transformed\jetified-viewpager2-1.1.0-beta02\AndroidManifest.xml:5:5-44
 MERGED from [androidx.fragment:fragment:1.7.1] C:\Users\vdyla\.gradle\caches\8.9\transforms\b220a28c9cf01e410046fcf5f21077f4\transformed\fragment-1.7.1\AndroidManifest.xml:5:5-44
 MERGED from [androidx.fragment:fragment:1.7.1] C:\Users\vdyla\.gradle\caches\8.9\transforms\b220a28c9cf01e410046fcf5f21077f4\transformed\fragment-1.7.1\AndroidManifest.xml:5:5-44
-MERGED from [androidx.activity:activity-ktx:1.9.3] C:\Users\vdyla\.gradle\caches\8.9\transforms\44687aa8832ef0b6fa411bcf9585b2d7\transformed\jetified-activity-ktx-1.9.3\AndroidManifest.xml:5:5-44
-MERGED from [androidx.activity:activity-ktx:1.9.3] C:\Users\vdyla\.gradle\caches\8.9\transforms\44687aa8832ef0b6fa411bcf9585b2d7\transformed\jetified-activity-ktx-1.9.3\AndroidManifest.xml:5:5-44
 MERGED from [androidx.activity:activity:1.9.3] C:\Users\vdyla\.gradle\caches\8.9\transforms\565e7bb49c958a075796ecb511859403\transformed\jetified-activity-1.9.3\AndroidManifest.xml:20:5-44
 MERGED from [androidx.activity:activity:1.9.3] C:\Users\vdyla\.gradle\caches\8.9\transforms\565e7bb49c958a075796ecb511859403\transformed\jetified-activity-1.9.3\AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\vdyla\.gradle\caches\8.9\transforms\38b9175ca4db07d42653f357b8d76407\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\vdyla\.gradle\caches\8.9\transforms\38b9175ca4db07d42653f357b8d76407\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.loader:loader:1.1.0] C:\Users\vdyla\.gradle\caches\8.9\transforms\3657a4da5489e89d4deac5e13bf114a5\transformed\loader-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.loader:loader:1.1.0] C:\Users\vdyla\.gradle\caches\8.9\transforms\3657a4da5489e89d4deac5e13bf114a5\transformed\loader-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.browser:browser:1.4.0] C:\Users\vdyla\.gradle\caches\8.9\transforms\36a17a4e1d45215b9ce6dbf102fefe6d\transformed\browser-1.4.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.browser:browser:1.4.0] C:\Users\vdyla\.gradle\caches\8.9\transforms\36a17a4e1d45215b9ce6dbf102fefe6d\transformed\browser-1.4.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.browser:browser:1.7.0] C:\Users\vdyla\.gradle\caches\8.9\transforms\44841cbddbaed9fc38ecdbfdb67abf8d\transformed\browser-1.7.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.browser:browser:1.7.0] C:\Users\vdyla\.gradle\caches\8.9\transforms\44841cbddbaed9fc38ecdbfdb67abf8d\transformed\browser-1.7.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.media:media:1.0.0] C:\Users\vdyla\.gradle\caches\8.9\transforms\558b34dba3407c65e74d3895ae3ff796\transformed\media-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] C:\Users\vdyla\.gradle\caches\8.9\transforms\558b34dba3407c65e74d3895ae3ff796\transformed\media-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\vdyla\.gradle\caches\8.9\transforms\a3c11f1d564046ee9be6f24a957fd8db\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\vdyla\.gradle\caches\8.9\transforms\a3c11f1d564046ee9be6f24a957fd8db\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.7.0] C:\Users\vdyla\.gradle\caches\8.9\transforms\c1e694d2c3073fedc0f87074320d67eb\transformed\jetified-lifecycle-livedata-core-ktx-2.7.0\AndroidManifest.xml:5:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.7.0] C:\Users\vdyla\.gradle\caches\8.9\transforms\c1e694d2c3073fedc0f87074320d67eb\transformed\jetified-lifecycle-livedata-core-ktx-2.7.0\AndroidManifest.xml:5:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.7.0] C:\Users\vdyla\.gradle\caches\8.9\transforms\75dbcaaf2c286095fec4f1733495f836\transformed\jetified-lifecycle-viewmodel-ktx-2.7.0\AndroidManifest.xml:5:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.7.0] C:\Users\vdyla\.gradle\caches\8.9\transforms\75dbcaaf2c286095fec4f1733495f836\transformed\jetified-lifecycle-viewmodel-ktx-2.7.0\AndroidManifest.xml:5:5-44
-MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.7.0] C:\Users\vdyla\.gradle\caches\8.9\transforms\102226622a2b099f1ee417bb0656ad5b\transformed\jetified-lifecycle-runtime-ktx-2.7.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.7.0] C:\Users\vdyla\.gradle\caches\8.9\transforms\102226622a2b099f1ee417bb0656ad5b\transformed\jetified-lifecycle-runtime-ktx-2.7.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.7.0] C:\Users\vdyla\.gradle\caches\8.9\transforms\93424de91b6793c5c88266f50b390ac5\transformed\lifecycle-viewmodel-2.7.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.7.0] C:\Users\vdyla\.gradle\caches\8.9\transforms\93424de91b6793c5c88266f50b390ac5\transformed\lifecycle-viewmodel-2.7.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.7.0] C:\Users\vdyla\.gradle\caches\8.9\transforms\44f63a77abae6c9708d649b780b77577\transformed\lifecycle-livedata-core-2.7.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.7.0] C:\Users\vdyla\.gradle\caches\8.9\transforms\44f63a77abae6c9708d649b780b77577\transformed\lifecycle-livedata-core-2.7.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.7.0] C:\Users\vdyla\.gradle\caches\8.9\transforms\ccfe2de424bb05cf1d548a8ed51e42f3\transformed\jetified-lifecycle-viewmodel-savedstate-2.7.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.7.0] C:\Users\vdyla\.gradle\caches\8.9\transforms\ccfe2de424bb05cf1d548a8ed51e42f3\transformed\jetified-lifecycle-viewmodel-savedstate-2.7.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] C:\Users\vdyla\.gradle\caches\8.9\transforms\8b693dfd1b751b0da10d1155c23eb15c\transformed\jetified-customview-poolingcontainer-1.0.0\AndroidManifest.xml:20:5-21:38
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] C:\Users\vdyla\.gradle\caches\8.9\transforms\8b693dfd1b751b0da10d1155c23eb15c\transformed\jetified-customview-poolingcontainer-1.0.0\AndroidManifest.xml:20:5-21:38
 MERGED from [androidx.core:core-ktx:1.13.1] C:\Users\vdyla\.gradle\caches\8.9\transforms\c10b77147cd56ea382dd23d5212cff82\transformed\jetified-core-ktx-1.13.1\AndroidManifest.xml:5:5-44
 MERGED from [androidx.core:core-ktx:1.13.1] C:\Users\vdyla\.gradle\caches\8.9\transforms\c10b77147cd56ea382dd23d5212cff82\transformed\jetified-core-ktx-1.13.1\AndroidManifest.xml:5:5-44
-MERGED from [androidx.appcompat:appcompat-resources:1.1.0] C:\Users\vdyla\.gradle\caches\8.9\transforms\440c451345a3251e26198c99c2f33008\transformed\jetified-appcompat-resources-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.appcompat:appcompat-resources:1.1.0] C:\Users\vdyla\.gradle\caches\8.9\transforms\440c451345a3251e26198c99c2f33008\transformed\jetified-appcompat-resources-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\vdyla\.gradle\caches\8.9\transforms\b25a4f0f107d244956e86f22bc1328e1\transformed\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\vdyla\.gradle\caches\8.9\transforms\b25a4f0f107d244956e86f22bc1328e1\transformed\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\vdyla\.gradle\caches\8.9\transforms\3727e4b1157cb7efec04310aeca6f032\transformed\coordinatorlayout-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\vdyla\.gradle\caches\8.9\transforms\3727e4b1157cb7efec04310aeca6f032\transformed\coordinatorlayout-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.customview:customview:1.1.0] C:\Users\vdyla\.gradle\caches\8.9\transforms\804592977ec75c05f787ce3bedc2daa6\transformed\customview-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.customview:customview:1.1.0] C:\Users\vdyla\.gradle\caches\8.9\transforms\804592977ec75c05f787ce3bedc2daa6\transformed\customview-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.transition:transition:1.4.1] C:\Users\vdyla\.gradle\caches\8.9\transforms\a0a7dc4dcaaedf721ca733e5616369c5\transformed\transition-1.4.1\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.transition:transition:1.4.1] C:\Users\vdyla\.gradle\caches\8.9\transforms\a0a7dc4dcaaedf721ca733e5616369c5\transformed\transition-1.4.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\vdyla\.gradle\caches\8.9\transforms\ea19cda4f8a4104231a0f01fc08e64bc\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\vdyla\.gradle\caches\8.9\transforms\ea19cda4f8a4104231a0f01fc08e64bc\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\vdyla\.gradle\caches\8.9\transforms\2a6c4e4f14ceb3bafdcb422169bd0486\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\vdyla\.gradle\caches\8.9\transforms\2a6c4e4f14ceb3bafdcb422169bd0486\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\vdyla\.gradle\caches\8.9\transforms\ab296ad06e08a7c19b25bd25ef91739e\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\vdyla\.gradle\caches\8.9\transforms\ab296ad06e08a7c19b25bd25ef91739e\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\vdyla\.gradle\caches\8.9\transforms\7f655127192c957d4603f63c97eedc18\transformed\drawerlayout-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\vdyla\.gradle\caches\8.9\transforms\7f655127192c957d4603f63c97eedc18\transformed\drawerlayout-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\vdyla\.gradle\caches\8.9\transforms\804592977ec75c05f787ce3bedc2daa6\transformed\customview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\vdyla\.gradle\caches\8.9\transforms\804592977ec75c05f787ce3bedc2daa6\transformed\customview-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\vdyla\.gradle\caches\8.9\transforms\313d10644725cb98a25ab3dbd88dacd3\transformed\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\vdyla\.gradle\caches\8.9\transforms\313d10644725cb98a25ab3dbd88dacd3\transformed\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\vdyla\.gradle\caches\8.9\transforms\42c56749d0fce5ad0704b05999ff44c1\transformed\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\vdyla\.gradle\caches\8.9\transforms\42c56749d0fce5ad0704b05999ff44c1\transformed\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\vdyla\.gradle\caches\8.9\transforms\ea19cda4f8a4104231a0f01fc08e64bc\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\vdyla\.gradle\caches\8.9\transforms\ea19cda4f8a4104231a0f01fc08e64bc\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\vdyla\.gradle\caches\8.9\transforms\2a6c4e4f14ceb3bafdcb422169bd0486\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\vdyla\.gradle\caches\8.9\transforms\2a6c4e4f14ceb3bafdcb422169bd0486\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.emoji2:emoji2-views-helper:1.4.0] C:\Users\vdyla\.gradle\caches\8.9\transforms\41211b9ac295cddf625d3034fe4b52d6\transformed\jetified-emoji2-views-helper-1.4.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.4.0] C:\Users\vdyla\.gradle\caches\8.9\transforms\41211b9ac295cddf625d3034fe4b52d6\transformed\jetified-emoji2-views-helper-1.4.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2:1.4.0] C:\Users\vdyla\.gradle\caches\8.9\transforms\b1aa34e6bb503a3f45c595af73f6d62f\transformed\jetified-emoji2-1.4.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.emoji2:emoji2:1.4.0] C:\Users\vdyla\.gradle\caches\8.9\transforms\b1aa34e6bb503a3f45c595af73f6d62f\transformed\jetified-emoji2-1.4.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.autofill:autofill:1.0.0] C:\Users\vdyla\.gradle\caches\8.9\transforms\fd149a8774897889685654d32095ac4e\transformed\jetified-autofill-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.autofill:autofill:1.0.0] C:\Users\vdyla\.gradle\caches\8.9\transforms\fd149a8774897889685654d32095ac4e\transformed\jetified-autofill-1.0.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.core:core:1.13.1] C:\Users\vdyla\.gradle\caches\8.9\transforms\42ee74e510c398ea7ef4bec344a4a032\transformed\core-1.13.1\AndroidManifest.xml:20:5-44
 MERGED from [androidx.core:core:1.13.1] C:\Users\vdyla\.gradle\caches\8.9\transforms\42ee74e510c398ea7ef4bec344a4a032\transformed\core-1.13.1\AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-runtime:2.7.0] C:\Users\vdyla\.gradle\caches\8.9\transforms\08382813b79ab261261202dfa6931e75\transformed\lifecycle-runtime-2.7.0\AndroidManifest.xml:5:5-44
@@ -425,8 +655,6 @@ MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] C:\Users\vdyla\.gradle\ca
 MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] C:\Users\vdyla\.gradle\caches\8.9\transforms\e9bd8c92e24811d169af12012710e6f8\transformed\jetified-savedstate-ktx-1.2.1\AndroidManifest.xml:20:5-44
 MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\vdyla\.gradle\caches\8.9\transforms\2e82b9d0220b233a94abe78884d140e2\transformed\jetified-savedstate-1.2.1\AndroidManifest.xml:20:5-44
 MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\vdyla\.gradle\caches\8.9\transforms\2e82b9d0220b233a94abe78884d140e2\transformed\jetified-savedstate-1.2.1\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.libraries.identity.googleid:googleid:1.1.0] C:\Users\vdyla\.gradle\caches\8.9\transforms\359a68cb2599f734409fdecf4a818b5d\transformed\jetified-googleid-1.1.0\AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.libraries.identity.googleid:googleid:1.1.0] C:\Users\vdyla\.gradle\caches\8.9\transforms\359a68cb2599f734409fdecf4a818b5d\transformed\jetified-googleid-1.1.0\AndroidManifest.xml:5:5-44
 MERGED from [androidx.security:security-crypto:1.1.0-alpha06] C:\Users\vdyla\.gradle\caches\8.9\transforms\a33913b50998ad839f51228dbffbaf77\transformed\jetified-security-crypto-1.1.0-alpha06\AndroidManifest.xml:20:5-44
 MERGED from [androidx.security:security-crypto:1.1.0-alpha06] C:\Users\vdyla\.gradle\caches\8.9\transforms\a33913b50998ad839f51228dbffbaf77\transformed\jetified-security-crypto-1.1.0-alpha06\AndroidManifest.xml:20:5-44
 MERGED from [androidx.exifinterface:exifinterface:1.3.7] C:\Users\vdyla\.gradle\caches\8.9\transforms\607068560182b1df9f1a2718166e8680\transformed\exifinterface-1.3.7\AndroidManifest.xml:20:5-22:41
@@ -445,18 +673,26 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\vd
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\vdyla\.gradle\caches\8.9\transforms\ae66b1de3d5714893fd9b1dde1aaf06a\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\vdyla\.gradle\caches\8.9\transforms\dc8ba0e425be2f907c4ac982df1616c7\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\vdyla\.gradle\caches\8.9\transforms\dc8ba0e425be2f907c4ac982df1616c7\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.github.bumptech.glide:gifdecoder:4.12.0] C:\Users\vdyla\.gradle\caches\8.9\transforms\c1ba0ee4d18c5c951825a6a721b4de73\transformed\jetified-gifdecoder-4.12.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.12.0] C:\Users\vdyla\.gradle\caches\8.9\transforms\c1ba0ee4d18c5c951825a6a721b4de73\transformed\jetified-gifdecoder-4.12.0\AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\vdyla\.gradle\caches\8.9\transforms\b898fcc61fff0ec64360fecd4b533b08\transformed\core-runtime-2.2.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\vdyla\.gradle\caches\8.9\transforms\b898fcc61fff0ec64360fecd4b533b08\transformed\core-runtime-2.2.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.databinding:viewbinding:8.5.2] C:\Users\vdyla\.gradle\caches\8.9\transforms\f79d82f100bc296d19845188eb970b1d\transformed\jetified-viewbinding-8.5.2\AndroidManifest.xml:5:5-44
+MERGED from [androidx.databinding:viewbinding:8.5.2] C:\Users\vdyla\.gradle\caches\8.9\transforms\f79d82f100bc296d19845188eb970b1d\transformed\jetified-viewbinding-8.5.2\AndroidManifest.xml:5:5-44
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\vdyla\.gradle\caches\8.9\transforms\39b7ca750cdfdec24de644f531f328c3\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\vdyla\.gradle\caches\8.9\transforms\39b7ca750cdfdec24de644f531f328c3\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.window.extensions.core:core:1.0.0] C:\Users\vdyla\.gradle\caches\8.9\transforms\9b97ebc519c7d97709ca240552592d53\transformed\jetified-core-1.0.0\AndroidManifest.xml:5:5-44
-MERGED from [androidx.window.extensions.core:core:1.0.0] C:\Users\vdyla\.gradle\caches\8.9\transforms\9b97ebc519c7d97709ca240552592d53\transformed\jetified-core-1.0.0\AndroidManifest.xml:5:5-44
 MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\vdyla\.gradle\caches\8.9\transforms\be6851e0146326d2753ae2be54c60829\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\vdyla\.gradle\caches\8.9\transforms\be6851e0146326d2753ae2be54c60829\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.print:print:1.0.0] C:\Users\vdyla\.gradle\caches\8.9\transforms\4deb929f3d353a2f7669ddef011056c7\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.print:print:1.0.0] C:\Users\vdyla\.gradle\caches\8.9\transforms\4deb929f3d353a2f7669ddef011056c7\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.window.extensions.core:core:1.0.0] C:\Users\vdyla\.gradle\caches\8.9\transforms\9b97ebc519c7d97709ca240552592d53\transformed\jetified-core-1.0.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.window.extensions.core:core:1.0.0] C:\Users\vdyla\.gradle\caches\8.9\transforms\9b97ebc519c7d97709ca240552592d53\transformed\jetified-core-1.0.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\vdyla\.gradle\caches\8.9\transforms\3fd7bc6e9037647ae0a74c502e697585\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\vdyla\.gradle\caches\8.9\transforms\3fd7bc6e9037647ae0a74c502e697585\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.annotation:annotation-experimental:1.4.0] C:\Users\vdyla\.gradle\caches\8.9\transforms\c25996ef2d15757a7214f44eda08282c\transformed\jetified-annotation-experimental-1.4.0\AndroidManifest.xml:5:5-44
 MERGED from [androidx.annotation:annotation-experimental:1.4.0] C:\Users\vdyla\.gradle\caches\8.9\transforms\c25996ef2d15757a7214f44eda08282c\transformed\jetified-annotation-experimental-1.4.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.libraries.identity.googleid:googleid:1.1.0] C:\Users\vdyla\.gradle\caches\8.9\transforms\359a68cb2599f734409fdecf4a818b5d\transformed\jetified-googleid-1.1.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.libraries.identity.googleid:googleid:1.1.0] C:\Users\vdyla\.gradle\caches\8.9\transforms\359a68cb2599f734409fdecf4a818b5d\transformed\jetified-googleid-1.1.0\AndroidManifest.xml:5:5-44
 MERGED from [io.grpc:grpc-android:1.62.2] C:\Users\vdyla\.gradle\caches\8.9\transforms\b304161aa766bae3cc9e5923be0abf74\transformed\jetified-grpc-android-1.62.2\AndroidManifest.xml:5:5-44
 MERGED from [io.grpc:grpc-android:1.62.2] C:\Users\vdyla\.gradle\caches\8.9\transforms\b304161aa766bae3cc9e5923be0abf74\transformed\jetified-grpc-android-1.62.2\AndroidManifest.xml:5:5-44
 MERGED from [com.getkeepsafe.relinker:relinker:1.4.5] C:\Users\vdyla\.gradle\caches\8.9\transforms\a087ec69a94fb5b0fbbba500b12411c3\transformed\jetified-relinker-1.4.5\AndroidManifest.xml:5:5-43
@@ -465,6 +701,8 @@ MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] C:\Users\vdy
 MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] C:\Users\vdyla\.gradle\caches\8.9\transforms\6566d5a51c057314b46cb4f54340483f\transformed\jetified-protolite-well-known-types-18.0.0\AndroidManifest.xml:7:5-9:41
 MERGED from [com.google.android.play:core-common:2.0.3] C:\Users\vdyla\.gradle\caches\8.9\transforms\347a1fd268aab016a797a450b3d12f94\transformed\jetified-core-common-2.0.3\AndroidManifest.xml:7:5-9:41
 MERGED from [com.google.android.play:core-common:2.0.3] C:\Users\vdyla\.gradle\caches\8.9\transforms\347a1fd268aab016a797a450b3d12f94\transformed\jetified-core-common-2.0.3\AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.android.instantapps:instantapps:1.1.0] C:\Users\vdyla\.gradle\caches\8.9\transforms\583ea9e9baffa15565680ed9b3884496\transformed\jetified-instantapps-1.1.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.instantapps:instantapps:1.1.0] C:\Users\vdyla\.gradle\caches\8.9\transforms\583ea9e9baffa15565680ed9b3884496\transformed\jetified-instantapps-1.1.0\AndroidManifest.xml:5:5-7:41
 	tools:overrideLibrary
 		ADDED from [:flutter_secure_storage] D:\LTDD\vincent\build\flutter_secure_storage\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:8:9-50
 	android:targetSdkVersion
@@ -521,12 +759,16 @@ MERGED from [com.google.android.gms:play-services-measurement:22.1.2] C:\Users\v
 MERGED from [com.google.android.gms:play-services-measurement:22.1.2] C:\Users\vdyla\.gradle\caches\8.9\transforms\8c6112c968f766e0337f37b007852a5e\transformed\jetified-play-services-measurement-22.1.2\AndroidManifest.xml:24:5-79
 MERGED from [com.google.android.gms:play-services-measurement-impl:22.1.2] C:\Users\vdyla\.gradle\caches\8.9\transforms\b938310f596112774d51292b574adfad\transformed\jetified-play-services-measurement-impl-22.1.2\AndroidManifest.xml:24:5-79
 MERGED from [com.google.android.gms:play-services-measurement-impl:22.1.2] C:\Users\vdyla\.gradle\caches\8.9\transforms\b938310f596112774d51292b574adfad\transformed\jetified-play-services-measurement-impl-22.1.2\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-maps:18.0.2] C:\Users\vdyla\.gradle\caches\8.9\transforms\fcb604d0b585297604d7b639bd65d227\transformed\jetified-play-services-maps-18.0.2\AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-maps:18.0.2] C:\Users\vdyla\.gradle\caches\8.9\transforms\fcb604d0b585297604d7b639bd65d227\transformed\jetified-play-services-maps-18.0.2\AndroidManifest.xml:23:5-79
 MERGED from [com.google.android.gms:play-services-measurement-api:22.1.2] C:\Users\vdyla\.gradle\caches\8.9\transforms\994cc7b53a4fcabbb7363bf5cc6b4545\transformed\jetified-play-services-measurement-api-22.1.2\AndroidManifest.xml:23:5-79
 MERGED from [com.google.android.gms:play-services-measurement-api:22.1.2] C:\Users\vdyla\.gradle\caches\8.9\transforms\994cc7b53a4fcabbb7363bf5cc6b4545\transformed\jetified-play-services-measurement-api-22.1.2\AndroidManifest.xml:23:5-79
 MERGED from [com.google.firebase:firebase-installations:18.0.0] C:\Users\vdyla\.gradle\caches\8.9\transforms\0c8194feae6e281bcb364210138e5242\transformed\jetified-firebase-installations-18.0.0\AndroidManifest.xml:7:5-79
 MERGED from [com.google.firebase:firebase-installations:18.0.0] C:\Users\vdyla\.gradle\caches\8.9\transforms\0c8194feae6e281bcb364210138e5242\transformed\jetified-firebase-installations-18.0.0\AndroidManifest.xml:7:5-79
 MERGED from [com.google.android.recaptcha:recaptcha:18.5.1] C:\Users\vdyla\.gradle\caches\8.9\transforms\02502aefe8f9d37c832c16cfffa2f0df\transformed\jetified-recaptcha-18.5.1\AndroidManifest.xml:8:5-79
 MERGED from [com.google.android.recaptcha:recaptcha:18.5.1] C:\Users\vdyla\.gradle\caches\8.9\transforms\02502aefe8f9d37c832c16cfffa2f0df\transformed\jetified-recaptcha-18.5.1\AndroidManifest.xml:8:5-79
+MERGED from [com.stripe:stripe-core:20.52.2] C:\Users\vdyla\.gradle\caches\8.9\transforms\d45f0899881ab1b1b934c92cd7a22c03\transformed\jetified-stripe-core-20.52.2\AndroidManifest.xml:7:5-79
+MERGED from [com.stripe:stripe-core:20.52.2] C:\Users\vdyla\.gradle\caches\8.9\transforms\d45f0899881ab1b1b934c92cd7a22c03\transformed\jetified-stripe-core-20.52.2\AndroidManifest.xml:7:5-79
 MERGED from [com.google.android.gms:play-services-measurement-sdk-api:22.1.2] C:\Users\vdyla\.gradle\caches\8.9\transforms\523f9b62815c6f071896f661719d2b41\transformed\jetified-play-services-measurement-sdk-api-22.1.2\AndroidManifest.xml:24:5-79
 MERGED from [com.google.android.gms:play-services-measurement-sdk-api:22.1.2] C:\Users\vdyla\.gradle\caches\8.9\transforms\523f9b62815c6f071896f661719d2b41\transformed\jetified-play-services-measurement-sdk-api-22.1.2\AndroidManifest.xml:24:5-79
 MERGED from [io.grpc:grpc-android:1.62.2] C:\Users\vdyla\.gradle\caches\8.9\transforms\b304161aa766bae3cc9e5923be0abf74\transformed\jetified-grpc-android-1.62.2\AndroidManifest.xml:7:5-79
@@ -589,6 +831,60 @@ ADDED from [:image_picker_android] D:\LTDD\vincent\build\image_picker_android\in
 		ADDED from [:image_picker_android] D:\LTDD\vincent\build\image_picker_android\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:30:17-33
 	android:name
 		ADDED from [:image_picker_android] D:\LTDD\vincent\build\image_picker_android\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:29:17-63
+provider#net.nfet.flutter.printing.PrintFileProvider
+ADDED from [:printing] D:\LTDD\vincent\build\printing\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:8:9-16:20
+	android:grantUriPermissions
+		ADDED from [:printing] D:\LTDD\vincent\build\printing\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:12:13-47
+	android:authorities
+		ADDED from [:printing] D:\LTDD\vincent\build\printing\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:10:13-68
+	android:exported
+		ADDED from [:printing] D:\LTDD\vincent\build\printing\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:11:13-37
+	android:name
+		ADDED from [:printing] D:\LTDD\vincent\build\printing\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:9:13-71
+intent#action:name:android.intent.action.VIEW+data:scheme:http
+ADDED from [com.stripe:financial-connections:20.52.2] C:\Users\vdyla\.gradle\caches\8.9\transforms\3cdad45bd107537813d36e1a468da439\transformed\jetified-financial-connections-20.52.2\AndroidManifest.xml:13:9-17:18
+action#android.intent.action.VIEW
+ADDED from [com.stripe:financial-connections:20.52.2] C:\Users\vdyla\.gradle\caches\8.9\transforms\3cdad45bd107537813d36e1a468da439\transformed\jetified-financial-connections-20.52.2\AndroidManifest.xml:14:13-65
+	android:name
+		ADDED from [com.stripe:financial-connections:20.52.2] C:\Users\vdyla\.gradle\caches\8.9\transforms\3cdad45bd107537813d36e1a468da439\transformed\jetified-financial-connections-20.52.2\AndroidManifest.xml:14:21-62
+activity#com.stripe.android.financialconnections.FinancialConnectionsSheetRedirectActivity
+ADDED from [com.stripe:financial-connections:20.52.2] C:\Users\vdyla\.gradle\caches\8.9\transforms\3cdad45bd107537813d36e1a468da439\transformed\jetified-financial-connections-20.52.2\AndroidManifest.xml:21:9-65:20
+	android:launchMode
+		ADDED from [com.stripe:financial-connections:20.52.2] C:\Users\vdyla\.gradle\caches\8.9\transforms\3cdad45bd107537813d36e1a468da439\transformed\jetified-financial-connections-20.52.2\AndroidManifest.xml:24:13-44
+	android:exported
+		ADDED from [com.stripe:financial-connections:20.52.2] C:\Users\vdyla\.gradle\caches\8.9\transforms\3cdad45bd107537813d36e1a468da439\transformed\jetified-financial-connections-20.52.2\AndroidManifest.xml:23:13-36
+	android:name
+		ADDED from [com.stripe:financial-connections:20.52.2] C:\Users\vdyla\.gradle\caches\8.9\transforms\3cdad45bd107537813d36e1a468da439\transformed\jetified-financial-connections-20.52.2\AndroidManifest.xml:22:13-109
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:auth-redirect+data:host:link-accounts+data:host:link-accounts+data:host:link-accounts+data:host:link-native-accounts+data:host:native-redirect+data:path:/${applicationId}/cancel+data:path:/${applicationId}/success+data:pathPrefix:/${applicationId}+data:pathPrefix:/${applicationId}+data:pathPrefix:/${applicationId}/authentication_return+data:pathPrefix:/${applicationId}/authentication_return+data:scheme:stripe+data:scheme:stripe-auth+data:scheme:stripe-auth+data:scheme:stripe-auth+data:scheme:stripe-auth+data:scheme:stripe-auth
+ADDED from [com.stripe:financial-connections:20.52.2] C:\Users\vdyla\.gradle\caches\8.9\transforms\3cdad45bd107537813d36e1a468da439\transformed\jetified-financial-connections-20.52.2\AndroidManifest.xml:25:13-64:29
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:auth-redirect+data:host:link-accounts+data:host:link-accounts+data:host:link-accounts+data:host:link-native-accounts+data:host:native-redirect+data:path:/com.example.vincent/cancel+data:path:/com.example.vincent/success+data:pathPrefix:/com.example.vincent+data:pathPrefix:/com.example.vincent+data:pathPrefix:/com.example.vincent/authentication_return+data:pathPrefix:/com.example.vincent/authentication_return+data:scheme:stripe+data:scheme:stripe-auth+data:scheme:stripe-auth+data:scheme:stripe-auth+data:scheme:stripe-auth+data:scheme:stripe-auth
+ADDED from [com.stripe:financial-connections:20.52.2] C:\Users\vdyla\.gradle\caches\8.9\transforms\3cdad45bd107537813d36e1a468da439\transformed\jetified-financial-connections-20.52.2\AndroidManifest.xml:25:13-64:29
+category#android.intent.category.DEFAULT
+ADDED from [com.stripe:financial-connections:20.52.2] C:\Users\vdyla\.gradle\caches\8.9\transforms\3cdad45bd107537813d36e1a468da439\transformed\jetified-financial-connections-20.52.2\AndroidManifest.xml:28:17-76
+	android:name
+		ADDED from [com.stripe:financial-connections:20.52.2] C:\Users\vdyla\.gradle\caches\8.9\transforms\3cdad45bd107537813d36e1a468da439\transformed\jetified-financial-connections-20.52.2\AndroidManifest.xml:28:27-73
+category#android.intent.category.BROWSABLE
+ADDED from [com.stripe:financial-connections:20.52.2] C:\Users\vdyla\.gradle\caches\8.9\transforms\3cdad45bd107537813d36e1a468da439\transformed\jetified-financial-connections-20.52.2\AndroidManifest.xml:29:17-78
+	android:name
+		ADDED from [com.stripe:financial-connections:20.52.2] C:\Users\vdyla\.gradle\caches\8.9\transforms\3cdad45bd107537813d36e1a468da439\transformed\jetified-financial-connections-20.52.2\AndroidManifest.xml:29:27-75
+activity#com.stripe.android.financialconnections.FinancialConnectionsSheetActivity
+ADDED from [com.stripe:financial-connections:20.52.2] C:\Users\vdyla\.gradle\caches\8.9\transforms\3cdad45bd107537813d36e1a468da439\transformed\jetified-financial-connections-20.52.2\AndroidManifest.xml:66:9-69:77
+	android:exported
+		ADDED from [com.stripe:financial-connections:20.52.2] C:\Users\vdyla\.gradle\caches\8.9\transforms\3cdad45bd107537813d36e1a468da439\transformed\jetified-financial-connections-20.52.2\AndroidManifest.xml:68:13-37
+	android:theme
+		ADDED from [com.stripe:financial-connections:20.52.2] C:\Users\vdyla\.gradle\caches\8.9\transforms\3cdad45bd107537813d36e1a468da439\transformed\jetified-financial-connections-20.52.2\AndroidManifest.xml:69:13-74
+	android:name
+		ADDED from [com.stripe:financial-connections:20.52.2] C:\Users\vdyla\.gradle\caches\8.9\transforms\3cdad45bd107537813d36e1a468da439\transformed\jetified-financial-connections-20.52.2\AndroidManifest.xml:67:13-101
+activity#com.stripe.android.financialconnections.ui.FinancialConnectionsSheetNativeActivity
+ADDED from [com.stripe:financial-connections:20.52.2] C:\Users\vdyla\.gradle\caches\8.9\transforms\3cdad45bd107537813d36e1a468da439\transformed\jetified-financial-connections-20.52.2\AndroidManifest.xml:70:9-74:58
+	android:windowSoftInputMode
+		ADDED from [com.stripe:financial-connections:20.52.2] C:\Users\vdyla\.gradle\caches\8.9\transforms\3cdad45bd107537813d36e1a468da439\transformed\jetified-financial-connections-20.52.2\AndroidManifest.xml:74:13-55
+	android:exported
+		ADDED from [com.stripe:financial-connections:20.52.2] C:\Users\vdyla\.gradle\caches\8.9\transforms\3cdad45bd107537813d36e1a468da439\transformed\jetified-financial-connections-20.52.2\AndroidManifest.xml:72:13-37
+	android:theme
+		ADDED from [com.stripe:financial-connections:20.52.2] C:\Users\vdyla\.gradle\caches\8.9\transforms\3cdad45bd107537813d36e1a468da439\transformed\jetified-financial-connections-20.52.2\AndroidManifest.xml:73:13-74
+	android:name
+		ADDED from [com.stripe:financial-connections:20.52.2] C:\Users\vdyla\.gradle\caches\8.9\transforms\3cdad45bd107537813d36e1a468da439\transformed\jetified-financial-connections-20.52.2\AndroidManifest.xml:71:13-110
 activity#com.google.firebase.auth.internal.GenericIdpActivity
 ADDED from [com.google.firebase:firebase-auth:23.1.0] C:\Users\vdyla\.gradle\caches\8.9\transforms\ff4026c723aaadc2ca988fe8c4fd63e9\transformed\jetified-firebase-auth-23.1.0\AndroidManifest.xml:29:9-46:20
 	android:excludeFromRecents
@@ -603,18 +899,6 @@ ADDED from [com.google.firebase:firebase-auth:23.1.0] C:\Users\vdyla\.gradle\cac
 		ADDED from [com.google.firebase:firebase-auth:23.1.0] C:\Users\vdyla\.gradle\caches\8.9\transforms\ff4026c723aaadc2ca988fe8c4fd63e9\transformed\jetified-firebase-auth-23.1.0\AndroidManifest.xml:30:13-80
 intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:firebase.auth+data:path:/+data:scheme:genericidp
 ADDED from [com.google.firebase:firebase-auth:23.1.0] C:\Users\vdyla\.gradle\caches\8.9\transforms\ff4026c723aaadc2ca988fe8c4fd63e9\transformed\jetified-firebase-auth-23.1.0\AndroidManifest.xml:35:13-45:29
-action#android.intent.action.VIEW
-ADDED from [com.google.firebase:firebase-auth:23.1.0] C:\Users\vdyla\.gradle\caches\8.9\transforms\ff4026c723aaadc2ca988fe8c4fd63e9\transformed\jetified-firebase-auth-23.1.0\AndroidManifest.xml:36:17-69
-	android:name
-		ADDED from [com.google.firebase:firebase-auth:23.1.0] C:\Users\vdyla\.gradle\caches\8.9\transforms\ff4026c723aaadc2ca988fe8c4fd63e9\transformed\jetified-firebase-auth-23.1.0\AndroidManifest.xml:36:25-66
-category#android.intent.category.DEFAULT
-ADDED from [com.google.firebase:firebase-auth:23.1.0] C:\Users\vdyla\.gradle\caches\8.9\transforms\ff4026c723aaadc2ca988fe8c4fd63e9\transformed\jetified-firebase-auth-23.1.0\AndroidManifest.xml:38:17-76
-	android:name
-		ADDED from [com.google.firebase:firebase-auth:23.1.0] C:\Users\vdyla\.gradle\caches\8.9\transforms\ff4026c723aaadc2ca988fe8c4fd63e9\transformed\jetified-firebase-auth-23.1.0\AndroidManifest.xml:38:27-73
-category#android.intent.category.BROWSABLE
-ADDED from [com.google.firebase:firebase-auth:23.1.0] C:\Users\vdyla\.gradle\caches\8.9\transforms\ff4026c723aaadc2ca988fe8c4fd63e9\transformed\jetified-firebase-auth-23.1.0\AndroidManifest.xml:39:17-78
-	android:name
-		ADDED from [com.google.firebase:firebase-auth:23.1.0] C:\Users\vdyla\.gradle\caches\8.9\transforms\ff4026c723aaadc2ca988fe8c4fd63e9\transformed\jetified-firebase-auth-23.1.0\AndroidManifest.xml:39:27-75
 activity#com.google.firebase.auth.internal.RecaptchaActivity
 ADDED from [com.google.firebase:firebase-auth:23.1.0] C:\Users\vdyla\.gradle\caches\8.9\transforms\ff4026c723aaadc2ca988fe8c4fd63e9\transformed\jetified-firebase-auth-23.1.0\AndroidManifest.xml:47:9-64:20
 	android:excludeFromRecents
@@ -709,6 +993,232 @@ ADDED from [com.google.firebase:firebase-database:21.0.0] C:\Users\vdyla\.gradle
 		ADDED from [com.google.firebase:firebase-database:21.0.0] C:\Users\vdyla\.gradle\caches\8.9\transforms\c072ca278452925a70564f9ac4ffc83a\transformed\jetified-firebase-database-21.0.0\AndroidManifest.xml:34:17-82
 	android:name
 		ADDED from [com.google.firebase:firebase-database:21.0.0] C:\Users\vdyla\.gradle\caches\8.9\transforms\c072ca278452925a70564f9ac4ffc83a\transformed\jetified-firebase-database-21.0.0\AndroidManifest.xml:33:17-109
+activity#com.stripe.android.paymentsheet.PaymentSheetActivity
+ADDED from [com.stripe:paymentsheet:20.52.2] C:\Users\vdyla\.gradle\caches\8.9\transforms\1a9f22b7fd08abdc6c834300b9c2044d\transformed\jetified-paymentsheet-20.52.2\AndroidManifest.xml:8:9-11:69
+	android:exported
+		ADDED from [com.stripe:paymentsheet:20.52.2] C:\Users\vdyla\.gradle\caches\8.9\transforms\1a9f22b7fd08abdc6c834300b9c2044d\transformed\jetified-paymentsheet-20.52.2\AndroidManifest.xml:10:13-37
+	android:theme
+		ADDED from [com.stripe:paymentsheet:20.52.2] C:\Users\vdyla\.gradle\caches\8.9\transforms\1a9f22b7fd08abdc6c834300b9c2044d\transformed\jetified-paymentsheet-20.52.2\AndroidManifest.xml:11:13-66
+	android:name
+		ADDED from [com.stripe:paymentsheet:20.52.2] C:\Users\vdyla\.gradle\caches\8.9\transforms\1a9f22b7fd08abdc6c834300b9c2044d\transformed\jetified-paymentsheet-20.52.2\AndroidManifest.xml:9:13-80
+activity#com.stripe.android.paymentsheet.PaymentOptionsActivity
+ADDED from [com.stripe:paymentsheet:20.52.2] C:\Users\vdyla\.gradle\caches\8.9\transforms\1a9f22b7fd08abdc6c834300b9c2044d\transformed\jetified-paymentsheet-20.52.2\AndroidManifest.xml:12:9-15:69
+	android:exported
+		ADDED from [com.stripe:paymentsheet:20.52.2] C:\Users\vdyla\.gradle\caches\8.9\transforms\1a9f22b7fd08abdc6c834300b9c2044d\transformed\jetified-paymentsheet-20.52.2\AndroidManifest.xml:14:13-37
+	android:theme
+		ADDED from [com.stripe:paymentsheet:20.52.2] C:\Users\vdyla\.gradle\caches\8.9\transforms\1a9f22b7fd08abdc6c834300b9c2044d\transformed\jetified-paymentsheet-20.52.2\AndroidManifest.xml:15:13-66
+	android:name
+		ADDED from [com.stripe:paymentsheet:20.52.2] C:\Users\vdyla\.gradle\caches\8.9\transforms\1a9f22b7fd08abdc6c834300b9c2044d\transformed\jetified-paymentsheet-20.52.2\AndroidManifest.xml:13:13-82
+activity#com.stripe.android.customersheet.CustomerSheetActivity
+ADDED from [com.stripe:paymentsheet:20.52.2] C:\Users\vdyla\.gradle\caches\8.9\transforms\1a9f22b7fd08abdc6c834300b9c2044d\transformed\jetified-paymentsheet-20.52.2\AndroidManifest.xml:16:9-19:69
+	android:exported
+		ADDED from [com.stripe:paymentsheet:20.52.2] C:\Users\vdyla\.gradle\caches\8.9\transforms\1a9f22b7fd08abdc6c834300b9c2044d\transformed\jetified-paymentsheet-20.52.2\AndroidManifest.xml:18:13-37
+	android:theme
+		ADDED from [com.stripe:paymentsheet:20.52.2] C:\Users\vdyla\.gradle\caches\8.9\transforms\1a9f22b7fd08abdc6c834300b9c2044d\transformed\jetified-paymentsheet-20.52.2\AndroidManifest.xml:19:13-66
+	android:name
+		ADDED from [com.stripe:paymentsheet:20.52.2] C:\Users\vdyla\.gradle\caches\8.9\transforms\1a9f22b7fd08abdc6c834300b9c2044d\transformed\jetified-paymentsheet-20.52.2\AndroidManifest.xml:17:13-82
+activity#com.stripe.android.paymentsheet.addresselement.AddressElementActivity
+ADDED from [com.stripe:paymentsheet:20.52.2] C:\Users\vdyla\.gradle\caches\8.9\transforms\1a9f22b7fd08abdc6c834300b9c2044d\transformed\jetified-paymentsheet-20.52.2\AndroidManifest.xml:20:9-23:69
+	android:exported
+		ADDED from [com.stripe:paymentsheet:20.52.2] C:\Users\vdyla\.gradle\caches\8.9\transforms\1a9f22b7fd08abdc6c834300b9c2044d\transformed\jetified-paymentsheet-20.52.2\AndroidManifest.xml:22:13-37
+	android:theme
+		ADDED from [com.stripe:paymentsheet:20.52.2] C:\Users\vdyla\.gradle\caches\8.9\transforms\1a9f22b7fd08abdc6c834300b9c2044d\transformed\jetified-paymentsheet-20.52.2\AndroidManifest.xml:23:13-66
+	android:name
+		ADDED from [com.stripe:paymentsheet:20.52.2] C:\Users\vdyla\.gradle\caches\8.9\transforms\1a9f22b7fd08abdc6c834300b9c2044d\transformed\jetified-paymentsheet-20.52.2\AndroidManifest.xml:21:13-97
+activity#com.stripe.android.paymentsheet.paymentdatacollection.bacs.BacsMandateConfirmationActivity
+ADDED from [com.stripe:paymentsheet:20.52.2] C:\Users\vdyla\.gradle\caches\8.9\transforms\1a9f22b7fd08abdc6c834300b9c2044d\transformed\jetified-paymentsheet-20.52.2\AndroidManifest.xml:24:9-27:69
+	android:exported
+		ADDED from [com.stripe:paymentsheet:20.52.2] C:\Users\vdyla\.gradle\caches\8.9\transforms\1a9f22b7fd08abdc6c834300b9c2044d\transformed\jetified-paymentsheet-20.52.2\AndroidManifest.xml:26:13-37
+	android:theme
+		ADDED from [com.stripe:paymentsheet:20.52.2] C:\Users\vdyla\.gradle\caches\8.9\transforms\1a9f22b7fd08abdc6c834300b9c2044d\transformed\jetified-paymentsheet-20.52.2\AndroidManifest.xml:27:13-66
+	android:name
+		ADDED from [com.stripe:paymentsheet:20.52.2] C:\Users\vdyla\.gradle\caches\8.9\transforms\1a9f22b7fd08abdc6c834300b9c2044d\transformed\jetified-paymentsheet-20.52.2\AndroidManifest.xml:25:13-118
+activity#com.stripe.android.paymentsheet.paymentdatacollection.polling.PollingActivity
+ADDED from [com.stripe:paymentsheet:20.52.2] C:\Users\vdyla\.gradle\caches\8.9\transforms\1a9f22b7fd08abdc6c834300b9c2044d\transformed\jetified-paymentsheet-20.52.2\AndroidManifest.xml:28:9-31:69
+	android:exported
+		ADDED from [com.stripe:paymentsheet:20.52.2] C:\Users\vdyla\.gradle\caches\8.9\transforms\1a9f22b7fd08abdc6c834300b9c2044d\transformed\jetified-paymentsheet-20.52.2\AndroidManifest.xml:30:13-37
+	android:theme
+		ADDED from [com.stripe:paymentsheet:20.52.2] C:\Users\vdyla\.gradle\caches\8.9\transforms\1a9f22b7fd08abdc6c834300b9c2044d\transformed\jetified-paymentsheet-20.52.2\AndroidManifest.xml:31:13-66
+	android:name
+		ADDED from [com.stripe:paymentsheet:20.52.2] C:\Users\vdyla\.gradle\caches\8.9\transforms\1a9f22b7fd08abdc6c834300b9c2044d\transformed\jetified-paymentsheet-20.52.2\AndroidManifest.xml:29:13-105
+activity#com.stripe.android.paymentsheet.ui.SepaMandateActivity
+ADDED from [com.stripe:paymentsheet:20.52.2] C:\Users\vdyla\.gradle\caches\8.9\transforms\1a9f22b7fd08abdc6c834300b9c2044d\transformed\jetified-paymentsheet-20.52.2\AndroidManifest.xml:32:9-35:69
+	android:exported
+		ADDED from [com.stripe:paymentsheet:20.52.2] C:\Users\vdyla\.gradle\caches\8.9\transforms\1a9f22b7fd08abdc6c834300b9c2044d\transformed\jetified-paymentsheet-20.52.2\AndroidManifest.xml:34:13-37
+	android:theme
+		ADDED from [com.stripe:paymentsheet:20.52.2] C:\Users\vdyla\.gradle\caches\8.9\transforms\1a9f22b7fd08abdc6c834300b9c2044d\transformed\jetified-paymentsheet-20.52.2\AndroidManifest.xml:35:13-66
+	android:name
+		ADDED from [com.stripe:paymentsheet:20.52.2] C:\Users\vdyla\.gradle\caches\8.9\transforms\1a9f22b7fd08abdc6c834300b9c2044d\transformed\jetified-paymentsheet-20.52.2\AndroidManifest.xml:33:13-82
+activity#com.stripe.android.paymentsheet.ExternalPaymentMethodProxyActivity
+ADDED from [com.stripe:paymentsheet:20.52.2] C:\Users\vdyla\.gradle\caches\8.9\transforms\1a9f22b7fd08abdc6c834300b9c2044d\transformed\jetified-paymentsheet-20.52.2\AndroidManifest.xml:36:9-39:68
+	android:exported
+		ADDED from [com.stripe:paymentsheet:20.52.2] C:\Users\vdyla\.gradle\caches\8.9\transforms\1a9f22b7fd08abdc6c834300b9c2044d\transformed\jetified-paymentsheet-20.52.2\AndroidManifest.xml:38:13-37
+	android:theme
+		ADDED from [com.stripe:paymentsheet:20.52.2] C:\Users\vdyla\.gradle\caches\8.9\transforms\1a9f22b7fd08abdc6c834300b9c2044d\transformed\jetified-paymentsheet-20.52.2\AndroidManifest.xml:39:13-65
+	android:name
+		ADDED from [com.stripe:paymentsheet:20.52.2] C:\Users\vdyla\.gradle\caches\8.9\transforms\1a9f22b7fd08abdc6c834300b9c2044d\transformed\jetified-paymentsheet-20.52.2\AndroidManifest.xml:37:13-94
+activity#com.stripe.android.paymentsheet.paymentdatacollection.cvcrecollection.CvcRecollectionActivity
+ADDED from [com.stripe:paymentsheet:20.52.2] C:\Users\vdyla\.gradle\caches\8.9\transforms\1a9f22b7fd08abdc6c834300b9c2044d\transformed\jetified-paymentsheet-20.52.2\AndroidManifest.xml:40:9-42:69
+	android:theme
+		ADDED from [com.stripe:paymentsheet:20.52.2] C:\Users\vdyla\.gradle\caches\8.9\transforms\1a9f22b7fd08abdc6c834300b9c2044d\transformed\jetified-paymentsheet-20.52.2\AndroidManifest.xml:42:13-66
+	android:name
+		ADDED from [com.stripe:paymentsheet:20.52.2] C:\Users\vdyla\.gradle\caches\8.9\transforms\1a9f22b7fd08abdc6c834300b9c2044d\transformed\jetified-paymentsheet-20.52.2\AndroidManifest.xml:41:13-121
+activity#com.stripe.android.link.LinkActivity
+ADDED from [com.stripe:link:20.52.2] C:\Users\vdyla\.gradle\caches\8.9\transforms\187c81040b7fa9ac7b0b06b352697ee0\transformed\jetified-link-20.52.2\AndroidManifest.xml:8:9-13:61
+	android:launchMode
+		ADDED from [com.stripe:link:20.52.2] C:\Users\vdyla\.gradle\caches\8.9\transforms\187c81040b7fa9ac7b0b06b352697ee0\transformed\jetified-link-20.52.2\AndroidManifest.xml:12:13-43
+	android:autoRemoveFromRecents
+		ADDED from [com.stripe:link:20.52.2] C:\Users\vdyla\.gradle\caches\8.9\transforms\187c81040b7fa9ac7b0b06b352697ee0\transformed\jetified-link-20.52.2\AndroidManifest.xml:10:13-49
+	android:configChanges
+		ADDED from [com.stripe:link:20.52.2] C:\Users\vdyla\.gradle\caches\8.9\transforms\187c81040b7fa9ac7b0b06b352697ee0\transformed\jetified-link-20.52.2\AndroidManifest.xml:11:13-115
+	android:theme
+		ADDED from [com.stripe:link:20.52.2] C:\Users\vdyla\.gradle\caches\8.9\transforms\187c81040b7fa9ac7b0b06b352697ee0\transformed\jetified-link-20.52.2\AndroidManifest.xml:13:13-58
+	android:name
+		ADDED from [com.stripe:link:20.52.2] C:\Users\vdyla\.gradle\caches\8.9\transforms\187c81040b7fa9ac7b0b06b352697ee0\transformed\jetified-link-20.52.2\AndroidManifest.xml:9:13-64
+activity#com.stripe.android.link.LinkForegroundActivity
+ADDED from [com.stripe:link:20.52.2] C:\Users\vdyla\.gradle\caches\8.9\transforms\187c81040b7fa9ac7b0b06b352697ee0\transformed\jetified-link-20.52.2\AndroidManifest.xml:14:9-19:61
+	android:launchMode
+		ADDED from [com.stripe:link:20.52.2] C:\Users\vdyla\.gradle\caches\8.9\transforms\187c81040b7fa9ac7b0b06b352697ee0\transformed\jetified-link-20.52.2\AndroidManifest.xml:18:13-43
+	android:autoRemoveFromRecents
+		ADDED from [com.stripe:link:20.52.2] C:\Users\vdyla\.gradle\caches\8.9\transforms\187c81040b7fa9ac7b0b06b352697ee0\transformed\jetified-link-20.52.2\AndroidManifest.xml:16:13-49
+	android:configChanges
+		ADDED from [com.stripe:link:20.52.2] C:\Users\vdyla\.gradle\caches\8.9\transforms\187c81040b7fa9ac7b0b06b352697ee0\transformed\jetified-link-20.52.2\AndroidManifest.xml:17:13-115
+	android:theme
+		ADDED from [com.stripe:link:20.52.2] C:\Users\vdyla\.gradle\caches\8.9\transforms\187c81040b7fa9ac7b0b06b352697ee0\transformed\jetified-link-20.52.2\AndroidManifest.xml:19:13-58
+	android:name
+		ADDED from [com.stripe:link:20.52.2] C:\Users\vdyla\.gradle\caches\8.9\transforms\187c81040b7fa9ac7b0b06b352697ee0\transformed\jetified-link-20.52.2\AndroidManifest.xml:15:13-74
+activity#com.stripe.android.link.LinkRedirectHandlerActivity
+ADDED from [com.stripe:link:20.52.2] C:\Users\vdyla\.gradle\caches\8.9\transforms\187c81040b7fa9ac7b0b06b352697ee0\transformed\jetified-link-20.52.2\AndroidManifest.xml:20:9-37:20
+	android:launchMode
+		ADDED from [com.stripe:link:20.52.2] C:\Users\vdyla\.gradle\caches\8.9\transforms\187c81040b7fa9ac7b0b06b352697ee0\transformed\jetified-link-20.52.2\AndroidManifest.xml:24:13-48
+	android:autoRemoveFromRecents
+		ADDED from [com.stripe:link:20.52.2] C:\Users\vdyla\.gradle\caches\8.9\transforms\187c81040b7fa9ac7b0b06b352697ee0\transformed\jetified-link-20.52.2\AndroidManifest.xml:22:13-49
+	android:exported
+		ADDED from [com.stripe:link:20.52.2] C:\Users\vdyla\.gradle\caches\8.9\transforms\187c81040b7fa9ac7b0b06b352697ee0\transformed\jetified-link-20.52.2\AndroidManifest.xml:23:13-36
+	android:theme
+		ADDED from [com.stripe:link:20.52.2] C:\Users\vdyla\.gradle\caches\8.9\transforms\187c81040b7fa9ac7b0b06b352697ee0\transformed\jetified-link-20.52.2\AndroidManifest.xml:25:13-58
+	android:name
+		ADDED from [com.stripe:link:20.52.2] C:\Users\vdyla\.gradle\caches\8.9\transforms\187c81040b7fa9ac7b0b06b352697ee0\transformed\jetified-link-20.52.2\AndroidManifest.xml:21:13-79
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:complete+data:path:/${applicationId}+data:scheme:link-popup
+ADDED from [com.stripe:link:20.52.2] C:\Users\vdyla\.gradle\caches\8.9\transforms\187c81040b7fa9ac7b0b06b352697ee0\transformed\jetified-link-20.52.2\AndroidManifest.xml:26:13-36:29
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:complete+data:path:/com.example.vincent+data:scheme:link-popup
+ADDED from [com.stripe:link:20.52.2] C:\Users\vdyla\.gradle\caches\8.9\transforms\187c81040b7fa9ac7b0b06b352697ee0\transformed\jetified-link-20.52.2\AndroidManifest.xml:26:13-36:29
+activity#com.stripe.android.ui.core.cardscan.CardScanActivity
+ADDED from [com.stripe:payments-ui-core:20.52.2] C:\Users\vdyla\.gradle\caches\8.9\transforms\c257e907498504d9bb0fc7577de432d6\transformed\jetified-payments-ui-core-20.52.2\AndroidManifest.xml:8:9-11:69
+	android:exported
+		ADDED from [com.stripe:payments-ui-core:20.52.2] C:\Users\vdyla\.gradle\caches\8.9\transforms\c257e907498504d9bb0fc7577de432d6\transformed\jetified-payments-ui-core-20.52.2\AndroidManifest.xml:10:13-37
+	android:theme
+		ADDED from [com.stripe:payments-ui-core:20.52.2] C:\Users\vdyla\.gradle\caches\8.9\transforms\c257e907498504d9bb0fc7577de432d6\transformed\jetified-payments-ui-core-20.52.2\AndroidManifest.xml:11:13-66
+	android:name
+		ADDED from [com.stripe:payments-ui-core:20.52.2] C:\Users\vdyla\.gradle\caches\8.9\transforms\c257e907498504d9bb0fc7577de432d6\transformed\jetified-payments-ui-core-20.52.2\AndroidManifest.xml:9:13-80
+package#com.android.chrome
+ADDED from [com.stripe:payments-core:20.52.2] C:\Users\vdyla\.gradle\caches\8.9\transforms\935ec215426bde67d0e887da37d708ba\transformed\jetified-payments-core-20.52.2\AndroidManifest.xml:11:9-54
+	android:name
+		ADDED from [com.stripe:payments-core:20.52.2] C:\Users\vdyla\.gradle\caches\8.9\transforms\935ec215426bde67d0e887da37d708ba\transformed\jetified-payments-core-20.52.2\AndroidManifest.xml:11:18-51
+activity#com.stripe.android.view.AddPaymentMethodActivity
+ADDED from [com.stripe:payments-core:20.52.2] C:\Users\vdyla\.gradle\caches\8.9\transforms\935ec215426bde67d0e887da37d708ba\transformed\jetified-payments-core-20.52.2\AndroidManifest.xml:15:9-18:57
+	android:exported
+		ADDED from [com.stripe:payments-core:20.52.2] C:\Users\vdyla\.gradle\caches\8.9\transforms\935ec215426bde67d0e887da37d708ba\transformed\jetified-payments-core-20.52.2\AndroidManifest.xml:17:13-37
+	android:theme
+		ADDED from [com.stripe:payments-core:20.52.2] C:\Users\vdyla\.gradle\caches\8.9\transforms\935ec215426bde67d0e887da37d708ba\transformed\jetified-payments-core-20.52.2\AndroidManifest.xml:18:13-54
+	android:name
+		ADDED from [com.stripe:payments-core:20.52.2] C:\Users\vdyla\.gradle\caches\8.9\transforms\935ec215426bde67d0e887da37d708ba\transformed\jetified-payments-core-20.52.2\AndroidManifest.xml:16:13-76
+activity#com.stripe.android.view.PaymentMethodsActivity
+ADDED from [com.stripe:payments-core:20.52.2] C:\Users\vdyla\.gradle\caches\8.9\transforms\935ec215426bde67d0e887da37d708ba\transformed\jetified-payments-core-20.52.2\AndroidManifest.xml:19:9-22:57
+	android:exported
+		ADDED from [com.stripe:payments-core:20.52.2] C:\Users\vdyla\.gradle\caches\8.9\transforms\935ec215426bde67d0e887da37d708ba\transformed\jetified-payments-core-20.52.2\AndroidManifest.xml:21:13-37
+	android:theme
+		ADDED from [com.stripe:payments-core:20.52.2] C:\Users\vdyla\.gradle\caches\8.9\transforms\935ec215426bde67d0e887da37d708ba\transformed\jetified-payments-core-20.52.2\AndroidManifest.xml:22:13-54
+	android:name
+		ADDED from [com.stripe:payments-core:20.52.2] C:\Users\vdyla\.gradle\caches\8.9\transforms\935ec215426bde67d0e887da37d708ba\transformed\jetified-payments-core-20.52.2\AndroidManifest.xml:20:13-74
+activity#com.stripe.android.view.PaymentFlowActivity
+ADDED from [com.stripe:payments-core:20.52.2] C:\Users\vdyla\.gradle\caches\8.9\transforms\935ec215426bde67d0e887da37d708ba\transformed\jetified-payments-core-20.52.2\AndroidManifest.xml:23:9-26:57
+	android:exported
+		ADDED from [com.stripe:payments-core:20.52.2] C:\Users\vdyla\.gradle\caches\8.9\transforms\935ec215426bde67d0e887da37d708ba\transformed\jetified-payments-core-20.52.2\AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.stripe:payments-core:20.52.2] C:\Users\vdyla\.gradle\caches\8.9\transforms\935ec215426bde67d0e887da37d708ba\transformed\jetified-payments-core-20.52.2\AndroidManifest.xml:26:13-54
+	android:name
+		ADDED from [com.stripe:payments-core:20.52.2] C:\Users\vdyla\.gradle\caches\8.9\transforms\935ec215426bde67d0e887da37d708ba\transformed\jetified-payments-core-20.52.2\AndroidManifest.xml:24:13-71
+activity#com.stripe.android.view.PaymentAuthWebViewActivity
+ADDED from [com.stripe:payments-core:20.52.2] C:\Users\vdyla\.gradle\caches\8.9\transforms\935ec215426bde67d0e887da37d708ba\transformed\jetified-payments-core-20.52.2\AndroidManifest.xml:27:9-30:57
+	android:exported
+		ADDED from [com.stripe:payments-core:20.52.2] C:\Users\vdyla\.gradle\caches\8.9\transforms\935ec215426bde67d0e887da37d708ba\transformed\jetified-payments-core-20.52.2\AndroidManifest.xml:29:13-37
+	android:theme
+		ADDED from [com.stripe:payments-core:20.52.2] C:\Users\vdyla\.gradle\caches\8.9\transforms\935ec215426bde67d0e887da37d708ba\transformed\jetified-payments-core-20.52.2\AndroidManifest.xml:30:13-54
+	android:name
+		ADDED from [com.stripe:payments-core:20.52.2] C:\Users\vdyla\.gradle\caches\8.9\transforms\935ec215426bde67d0e887da37d708ba\transformed\jetified-payments-core-20.52.2\AndroidManifest.xml:28:13-78
+activity#com.stripe.android.view.PaymentRelayActivity
+ADDED from [com.stripe:payments-core:20.52.2] C:\Users\vdyla\.gradle\caches\8.9\transforms\935ec215426bde67d0e887da37d708ba\transformed\jetified-payments-core-20.52.2\AndroidManifest.xml:31:9-34:61
+	android:exported
+		ADDED from [com.stripe:payments-core:20.52.2] C:\Users\vdyla\.gradle\caches\8.9\transforms\935ec215426bde67d0e887da37d708ba\transformed\jetified-payments-core-20.52.2\AndroidManifest.xml:33:13-37
+	android:theme
+		ADDED from [com.stripe:payments-core:20.52.2] C:\Users\vdyla\.gradle\caches\8.9\transforms\935ec215426bde67d0e887da37d708ba\transformed\jetified-payments-core-20.52.2\AndroidManifest.xml:34:13-58
+	android:name
+		ADDED from [com.stripe:payments-core:20.52.2] C:\Users\vdyla\.gradle\caches\8.9\transforms\935ec215426bde67d0e887da37d708ba\transformed\jetified-payments-core-20.52.2\AndroidManifest.xml:32:13-72
+activity#com.stripe.android.payments.StripeBrowserLauncherActivity
+ADDED from [com.stripe:payments-core:20.52.2] C:\Users\vdyla\.gradle\caches\8.9\transforms\935ec215426bde67d0e887da37d708ba\transformed\jetified-payments-core-20.52.2\AndroidManifest.xml:40:9-44:61
+	android:launchMode
+		ADDED from [com.stripe:payments-core:20.52.2] C:\Users\vdyla\.gradle\caches\8.9\transforms\935ec215426bde67d0e887da37d708ba\transformed\jetified-payments-core-20.52.2\AndroidManifest.xml:43:13-44
+	android:exported
+		ADDED from [com.stripe:payments-core:20.52.2] C:\Users\vdyla\.gradle\caches\8.9\transforms\935ec215426bde67d0e887da37d708ba\transformed\jetified-payments-core-20.52.2\AndroidManifest.xml:42:13-37
+	android:theme
+		ADDED from [com.stripe:payments-core:20.52.2] C:\Users\vdyla\.gradle\caches\8.9\transforms\935ec215426bde67d0e887da37d708ba\transformed\jetified-payments-core-20.52.2\AndroidManifest.xml:44:13-58
+	android:name
+		ADDED from [com.stripe:payments-core:20.52.2] C:\Users\vdyla\.gradle\caches\8.9\transforms\935ec215426bde67d0e887da37d708ba\transformed\jetified-payments-core-20.52.2\AndroidManifest.xml:41:13-85
+activity#com.stripe.android.payments.StripeBrowserProxyReturnActivity
+ADDED from [com.stripe:payments-core:20.52.2] C:\Users\vdyla\.gradle\caches\8.9\transforms\935ec215426bde67d0e887da37d708ba\transformed\jetified-payments-core-20.52.2\AndroidManifest.xml:45:9-62:20
+	android:launchMode
+		ADDED from [com.stripe:payments-core:20.52.2] C:\Users\vdyla\.gradle\caches\8.9\transforms\935ec215426bde67d0e887da37d708ba\transformed\jetified-payments-core-20.52.2\AndroidManifest.xml:48:13-44
+	android:exported
+		ADDED from [com.stripe:payments-core:20.52.2] C:\Users\vdyla\.gradle\caches\8.9\transforms\935ec215426bde67d0e887da37d708ba\transformed\jetified-payments-core-20.52.2\AndroidManifest.xml:47:13-36
+	android:theme
+		ADDED from [com.stripe:payments-core:20.52.2] C:\Users\vdyla\.gradle\caches\8.9\transforms\935ec215426bde67d0e887da37d708ba\transformed\jetified-payments-core-20.52.2\AndroidManifest.xml:49:13-58
+	android:name
+		ADDED from [com.stripe:payments-core:20.52.2] C:\Users\vdyla\.gradle\caches\8.9\transforms\935ec215426bde67d0e887da37d708ba\transformed\jetified-payments-core-20.52.2\AndroidManifest.xml:46:13-88
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:payment_return_url+data:path:/${applicationId}+data:scheme:stripesdk
+ADDED from [com.stripe:payments-core:20.52.2] C:\Users\vdyla\.gradle\caches\8.9\transforms\935ec215426bde67d0e887da37d708ba\transformed\jetified-payments-core-20.52.2\AndroidManifest.xml:50:13-61:29
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:payment_return_url+data:path:/com.example.vincent+data:scheme:stripesdk
+ADDED from [com.stripe:payments-core:20.52.2] C:\Users\vdyla\.gradle\caches\8.9\transforms\935ec215426bde67d0e887da37d708ba\transformed\jetified-payments-core-20.52.2\AndroidManifest.xml:50:13-61:29
+activity#com.stripe.android.payments.core.authentication.threeds2.Stripe3ds2TransactionActivity
+ADDED from [com.stripe:payments-core:20.52.2] C:\Users\vdyla\.gradle\caches\8.9\transforms\935ec215426bde67d0e887da37d708ba\transformed\jetified-payments-core-20.52.2\AndroidManifest.xml:63:9-66:57
+	android:exported
+		ADDED from [com.stripe:payments-core:20.52.2] C:\Users\vdyla\.gradle\caches\8.9\transforms\935ec215426bde67d0e887da37d708ba\transformed\jetified-payments-core-20.52.2\AndroidManifest.xml:65:13-37
+	android:theme
+		ADDED from [com.stripe:payments-core:20.52.2] C:\Users\vdyla\.gradle\caches\8.9\transforms\935ec215426bde67d0e887da37d708ba\transformed\jetified-payments-core-20.52.2\AndroidManifest.xml:66:13-54
+	android:name
+		ADDED from [com.stripe:payments-core:20.52.2] C:\Users\vdyla\.gradle\caches\8.9\transforms\935ec215426bde67d0e887da37d708ba\transformed\jetified-payments-core-20.52.2\AndroidManifest.xml:64:13-114
+activity#com.stripe.android.googlepaylauncher.GooglePayLauncherActivity
+ADDED from [com.stripe:payments-core:20.52.2] C:\Users\vdyla\.gradle\caches\8.9\transforms\935ec215426bde67d0e887da37d708ba\transformed\jetified-payments-core-20.52.2\AndroidManifest.xml:67:9-70:66
+	android:exported
+		ADDED from [com.stripe:payments-core:20.52.2] C:\Users\vdyla\.gradle\caches\8.9\transforms\935ec215426bde67d0e887da37d708ba\transformed\jetified-payments-core-20.52.2\AndroidManifest.xml:69:13-37
+	android:theme
+		ADDED from [com.stripe:payments-core:20.52.2] C:\Users\vdyla\.gradle\caches\8.9\transforms\935ec215426bde67d0e887da37d708ba\transformed\jetified-payments-core-20.52.2\AndroidManifest.xml:70:13-63
+	android:name
+		ADDED from [com.stripe:payments-core:20.52.2] C:\Users\vdyla\.gradle\caches\8.9\transforms\935ec215426bde67d0e887da37d708ba\transformed\jetified-payments-core-20.52.2\AndroidManifest.xml:68:13-90
+activity#com.stripe.android.googlepaylauncher.GooglePayPaymentMethodLauncherActivity
+ADDED from [com.stripe:payments-core:20.52.2] C:\Users\vdyla\.gradle\caches\8.9\transforms\935ec215426bde67d0e887da37d708ba\transformed\jetified-payments-core-20.52.2\AndroidManifest.xml:71:9-74:66
+	android:exported
+		ADDED from [com.stripe:payments-core:20.52.2] C:\Users\vdyla\.gradle\caches\8.9\transforms\935ec215426bde67d0e887da37d708ba\transformed\jetified-payments-core-20.52.2\AndroidManifest.xml:73:13-37
+	android:theme
+		ADDED from [com.stripe:payments-core:20.52.2] C:\Users\vdyla\.gradle\caches\8.9\transforms\935ec215426bde67d0e887da37d708ba\transformed\jetified-payments-core-20.52.2\AndroidManifest.xml:74:13-63
+	android:name
+		ADDED from [com.stripe:payments-core:20.52.2] C:\Users\vdyla\.gradle\caches\8.9\transforms\935ec215426bde67d0e887da37d708ba\transformed\jetified-payments-core-20.52.2\AndroidManifest.xml:72:13-103
+activity#com.stripe.android.payments.paymentlauncher.PaymentLauncherConfirmationActivity
+ADDED from [com.stripe:payments-core:20.52.2] C:\Users\vdyla\.gradle\caches\8.9\transforms\935ec215426bde67d0e887da37d708ba\transformed\jetified-payments-core-20.52.2\AndroidManifest.xml:75:9-78:68
+	android:exported
+		ADDED from [com.stripe:payments-core:20.52.2] C:\Users\vdyla\.gradle\caches\8.9\transforms\935ec215426bde67d0e887da37d708ba\transformed\jetified-payments-core-20.52.2\AndroidManifest.xml:77:13-37
+	android:theme
+		ADDED from [com.stripe:payments-core:20.52.2] C:\Users\vdyla\.gradle\caches\8.9\transforms\935ec215426bde67d0e887da37d708ba\transformed\jetified-payments-core-20.52.2\AndroidManifest.xml:78:13-65
+	android:name
+		ADDED from [com.stripe:payments-core:20.52.2] C:\Users\vdyla\.gradle\caches\8.9\transforms\935ec215426bde67d0e887da37d708ba\transformed\jetified-payments-core-20.52.2\AndroidManifest.xml:76:13-107
+activity#com.stripe.android.payments.bankaccount.ui.CollectBankAccountActivity
+ADDED from [com.stripe:payments-core:20.52.2] C:\Users\vdyla\.gradle\caches\8.9\transforms\935ec215426bde67d0e887da37d708ba\transformed\jetified-payments-core-20.52.2\AndroidManifest.xml:79:9-82:61
+	android:exported
+		ADDED from [com.stripe:payments-core:20.52.2] C:\Users\vdyla\.gradle\caches\8.9\transforms\935ec215426bde67d0e887da37d708ba\transformed\jetified-payments-core-20.52.2\AndroidManifest.xml:81:13-37
+	android:theme
+		ADDED from [com.stripe:payments-core:20.52.2] C:\Users\vdyla\.gradle\caches\8.9\transforms\935ec215426bde67d0e887da37d708ba\transformed\jetified-payments-core-20.52.2\AndroidManifest.xml:82:13-58
+	android:name
+		ADDED from [com.stripe:payments-core:20.52.2] C:\Users\vdyla\.gradle\caches\8.9\transforms\935ec215426bde67d0e887da37d708ba\transformed\jetified-payments-core-20.52.2\AndroidManifest.xml:80:13-97
 meta-data#com.google.firebase.components:com.google.firebase.analytics.ktx.FirebaseAnalyticsLegacyRegistrar
 ADDED from [com.google.firebase:firebase-analytics-ktx:22.1.2] C:\Users\vdyla\.gradle\caches\8.9\transforms\6444156c89a151d6bbcd046479fa3beb\transformed\jetified-firebase-analytics-ktx-22.1.2\AndroidManifest.xml:11:13-13:85
 	android:value
@@ -767,6 +1277,22 @@ MERGED from [com.google.android.gms:play-services-measurement-sdk-api:22.1.2] C:
 MERGED from [com.google.android.gms:play-services-measurement-sdk-api:22.1.2] C:\Users\vdyla\.gradle\caches\8.9\transforms\523f9b62815c6f071896f661719d2b41\transformed\jetified-play-services-measurement-sdk-api-22.1.2\AndroidManifest.xml:26:5-79
 	android:name
 		ADDED from [com.google.android.gms:play-services-measurement-impl:22.1.2] C:\Users\vdyla\.gradle\caches\8.9\transforms\b938310f596112774d51292b574adfad\transformed\jetified-play-services-measurement-impl-22.1.2\AndroidManifest.xml:27:22-76
+uses-feature#0x00020000
+ADDED from [com.google.android.gms:play-services-maps:18.0.2] C:\Users\vdyla\.gradle\caches\8.9\transforms\fcb604d0b585297604d7b639bd65d227\transformed\jetified-play-services-maps-18.0.2\AndroidManifest.xml:26:5-28:35
+	android:glEsVersion
+		ADDED from [com.google.android.gms:play-services-maps:18.0.2] C:\Users\vdyla\.gradle\caches\8.9\transforms\fcb604d0b585297604d7b639bd65d227\transformed\jetified-play-services-maps-18.0.2\AndroidManifest.xml:27:9-41
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:18.0.2] C:\Users\vdyla\.gradle\caches\8.9\transforms\fcb604d0b585297604d7b639bd65d227\transformed\jetified-play-services-maps-18.0.2\AndroidManifest.xml:28:9-32
+package#com.google.android.apps.maps
+ADDED from [com.google.android.gms:play-services-maps:18.0.2] C:\Users\vdyla\.gradle\caches\8.9\transforms\fcb604d0b585297604d7b639bd65d227\transformed\jetified-play-services-maps-18.0.2\AndroidManifest.xml:33:9-64
+	android:name
+		ADDED from [com.google.android.gms:play-services-maps:18.0.2] C:\Users\vdyla\.gradle\caches\8.9\transforms\fcb604d0b585297604d7b639bd65d227\transformed\jetified-play-services-maps-18.0.2\AndroidManifest.xml:33:18-61
+uses-library#org.apache.http.legacy
+ADDED from [com.google.android.gms:play-services-maps:18.0.2] C:\Users\vdyla\.gradle\caches\8.9\transforms\fcb604d0b585297604d7b639bd65d227\transformed\jetified-play-services-maps-18.0.2\AndroidManifest.xml:39:9-41:40
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:18.0.2] C:\Users\vdyla\.gradle\caches\8.9\transforms\fcb604d0b585297604d7b639bd65d227\transformed\jetified-play-services-maps-18.0.2\AndroidManifest.xml:41:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-maps:18.0.2] C:\Users\vdyla\.gradle\caches\8.9\transforms\fcb604d0b585297604d7b639bd65d227\transformed\jetified-play-services-maps-18.0.2\AndroidManifest.xml:40:13-50
 activity#com.google.android.gms.common.api.GoogleApiActivity
 ADDED from [com.google.android.gms:play-services-base:18.5.0] C:\Users\vdyla\.gradle\caches\8.9\transforms\39705ce7de390e7aefac4155855d325b\transformed\jetified-play-services-base-18.5.0\AndroidManifest.xml:5:9-173
 	android:exported
@@ -851,6 +1377,14 @@ ADDED from [androidx.window:window:1.2.0] C:\Users\vdyla\.gradle\caches\8.9\tran
 		ADDED from [androidx.window:window:1.2.0] C:\Users\vdyla\.gradle\caches\8.9\transforms\57b6ee417abbcd94ff0f24fe127aebf2\transformed\jetified-window-1.2.0\AndroidManifest.xml:28:13-37
 	android:name
 		ADDED from [androidx.window:window:1.2.0] C:\Users\vdyla\.gradle\caches\8.9\transforms\57b6ee417abbcd94ff0f24fe127aebf2\transformed\jetified-window-1.2.0\AndroidManifest.xml:27:13-51
+activity#com.stripe.android.stripe3ds2.views.ChallengeActivity
+ADDED from [com.stripe:stripe-3ds2-android:6.1.8] C:\Users\vdyla\.gradle\caches\8.9\transforms\d0fa654c2cf549e3335343580f67afff\transformed\jetified-stripe-3ds2-android-6.1.8\AndroidManifest.xml:8:9-11:54
+	android:exported
+		ADDED from [com.stripe:stripe-3ds2-android:6.1.8] C:\Users\vdyla\.gradle\caches\8.9\transforms\d0fa654c2cf549e3335343580f67afff\transformed\jetified-stripe-3ds2-android-6.1.8\AndroidManifest.xml:10:13-37
+	android:theme
+		ADDED from [com.stripe:stripe-3ds2-android:6.1.8] C:\Users\vdyla\.gradle\caches\8.9\transforms\d0fa654c2cf549e3335343580f67afff\transformed\jetified-stripe-3ds2-android-6.1.8\AndroidManifest.xml:11:13-51
+	android:name
+		ADDED from [com.stripe:stripe-3ds2-android:6.1.8] C:\Users\vdyla\.gradle\caches\8.9\transforms\d0fa654c2cf549e3335343580f67afff\transformed\jetified-stripe-3ds2-android-6.1.8\AndroidManifest.xml:9:13-81
 uses-library#android.ext.adservices
 ADDED from [androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] C:\Users\vdyla\.gradle\caches\8.9\transforms\e7452770c274ecf406f57289e58d929f\transformed\jetified-ads-adservices-1.0.0-beta05\AndroidManifest.xml:23:9-25:40
 	android:required
@@ -863,6 +1397,28 @@ ADDED from [com.google.android.gms:play-services-basement:18.4.0] C:\Users\vdyla
 		ADDED from [com.google.android.gms:play-services-basement:18.4.0] C:\Users\vdyla\.gradle\caches\8.9\transforms\cfa95c20518ae9b6e07c887b1b898d8f\transformed\jetified-play-services-basement-18.4.0\AndroidManifest.xml:6:66-119
 	android:name
 		ADDED from [com.google.android.gms:play-services-basement:18.4.0] C:\Users\vdyla\.gradle\caches\8.9\transforms\cfa95c20518ae9b6e07c887b1b898d8f\transformed\jetified-play-services-basement-18.4.0\AndroidManifest.xml:6:20-65
+provider#androidx.startup.InitializationProvider
+ADDED from [androidx.emoji2:emoji2:1.4.0] C:\Users\vdyla\.gradle\caches\8.9\transforms\b1aa34e6bb503a3f45c595af73f6d62f\transformed\jetified-emoji2-1.4.0\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\vdyla\.gradle\caches\8.9\transforms\b59d8f9c088262219fc6f51067cc5009\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\vdyla\.gradle\caches\8.9\transforms\b59d8f9c088262219fc6f51067cc5009\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\vdyla\.gradle\caches\8.9\transforms\89355431009ab5284f26e4f69b27c48e\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\vdyla\.gradle\caches\8.9\transforms\89355431009ab5284f26e4f69b27c48e\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\vdyla\.gradle\caches\8.9\transforms\7e2ca79ec59555b7d789822ff54588e7\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\vdyla\.gradle\caches\8.9\transforms\7e2ca79ec59555b7d789822ff54588e7\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [androidx.emoji2:emoji2:1.4.0] C:\Users\vdyla\.gradle\caches\8.9\transforms\b1aa34e6bb503a3f45c595af73f6d62f\transformed\jetified-emoji2-1.4.0\AndroidManifest.xml:28:13-31
+	android:authorities
+		ADDED from [androidx.emoji2:emoji2:1.4.0] C:\Users\vdyla\.gradle\caches\8.9\transforms\b1aa34e6bb503a3f45c595af73f6d62f\transformed\jetified-emoji2-1.4.0\AndroidManifest.xml:26:13-68
+	android:exported
+		ADDED from [androidx.emoji2:emoji2:1.4.0] C:\Users\vdyla\.gradle\caches\8.9\transforms\b1aa34e6bb503a3f45c595af73f6d62f\transformed\jetified-emoji2-1.4.0\AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.4.0] C:\Users\vdyla\.gradle\caches\8.9\transforms\b1aa34e6bb503a3f45c595af73f6d62f\transformed\jetified-emoji2-1.4.0\AndroidManifest.xml:25:13-67
+meta-data#androidx.emoji2.text.EmojiCompatInitializer
+ADDED from [androidx.emoji2:emoji2:1.4.0] C:\Users\vdyla\.gradle\caches\8.9\transforms\b1aa34e6bb503a3f45c595af73f6d62f\transformed\jetified-emoji2-1.4.0\AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.emoji2:emoji2:1.4.0] C:\Users\vdyla\.gradle\caches\8.9\transforms\b1aa34e6bb503a3f45c595af73f6d62f\transformed\jetified-emoji2-1.4.0\AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.4.0] C:\Users\vdyla\.gradle\caches\8.9\transforms\b1aa34e6bb503a3f45c595af73f6d62f\transformed\jetified-emoji2-1.4.0\AndroidManifest.xml:30:17-75
 permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
 ADDED from [androidx.core:core:1.13.1] C:\Users\vdyla\.gradle\caches\8.9\transforms\42ee74e510c398ea7ef4bec344a4a032\transformed\core-1.13.1\AndroidManifest.xml:22:5-24:47
 	android:protectionLevel
@@ -883,20 +1439,6 @@ uses-permission#com.example.vincent.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
 ADDED from [androidx.core:core:1.13.1] C:\Users\vdyla\.gradle\caches\8.9\transforms\42ee74e510c398ea7ef4bec344a4a032\transformed\core-1.13.1\AndroidManifest.xml:26:5-97
 	android:name
 		ADDED from [androidx.core:core:1.13.1] C:\Users\vdyla\.gradle\caches\8.9\transforms\42ee74e510c398ea7ef4bec344a4a032\transformed\core-1.13.1\AndroidManifest.xml:26:22-94
-provider#androidx.startup.InitializationProvider
-ADDED from [androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\vdyla\.gradle\caches\8.9\transforms\b59d8f9c088262219fc6f51067cc5009\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:24:9-32:20
-MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\vdyla\.gradle\caches\8.9\transforms\89355431009ab5284f26e4f69b27c48e\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:24:9-32:20
-MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\vdyla\.gradle\caches\8.9\transforms\89355431009ab5284f26e4f69b27c48e\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:24:9-32:20
-MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\vdyla\.gradle\caches\8.9\transforms\7e2ca79ec59555b7d789822ff54588e7\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:26:9-30:34
-MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\vdyla\.gradle\caches\8.9\transforms\7e2ca79ec59555b7d789822ff54588e7\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:26:9-30:34
-	tools:node
-		ADDED from [androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\vdyla\.gradle\caches\8.9\transforms\b59d8f9c088262219fc6f51067cc5009\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:28:13-31
-	android:authorities
-		ADDED from [androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\vdyla\.gradle\caches\8.9\transforms\b59d8f9c088262219fc6f51067cc5009\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:26:13-68
-	android:exported
-		ADDED from [androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\vdyla\.gradle\caches\8.9\transforms\b59d8f9c088262219fc6f51067cc5009\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:27:13-37
-	android:name
-		ADDED from [androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\vdyla\.gradle\caches\8.9\transforms\b59d8f9c088262219fc6f51067cc5009\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:25:13-67
 meta-data#androidx.lifecycle.ProcessLifecycleInitializer
 ADDED from [androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\vdyla\.gradle\caches\8.9\transforms\b59d8f9c088262219fc6f51067cc5009\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:29:13-31:52
 	android:value
@@ -955,3 +1497,9 @@ ADDED from [com.google.android.play:core-common:2.0.3] C:\Users\vdyla\.gradle\ca
 		ADDED from [com.google.android.play:core-common:2.0.3] C:\Users\vdyla\.gradle\caches\8.9\transforms\347a1fd268aab016a797a450b3d12f94\transformed\jetified-core-common-2.0.3\AndroidManifest.xml:18:13-62
 	android:name
 		ADDED from [com.google.android.play:core-common:2.0.3] C:\Users\vdyla\.gradle\caches\8.9\transforms\347a1fd268aab016a797a450b3d12f94\transformed\jetified-core-common-2.0.3\AndroidManifest.xml:15:13-93
+meta-data#aia-compat-api-min-version
+ADDED from [com.google.android.instantapps:instantapps:1.1.0] C:\Users\vdyla\.gradle\caches\8.9\transforms\583ea9e9baffa15565680ed9b3884496\transformed\jetified-instantapps-1.1.0\AndroidManifest.xml:10:9-12:33
+	android:value
+		ADDED from [com.google.android.instantapps:instantapps:1.1.0] C:\Users\vdyla\.gradle\caches\8.9\transforms\583ea9e9baffa15565680ed9b3884496\transformed\jetified-instantapps-1.1.0\AndroidManifest.xml:12:13-30
+	android:name
+		ADDED from [com.google.android.instantapps:instantapps:1.1.0] C:\Users\vdyla\.gradle\caches\8.9\transforms\583ea9e9baffa15565680ed9b3884496\transformed\jetified-instantapps-1.1.0\AndroidManifest.xml:11:13-54

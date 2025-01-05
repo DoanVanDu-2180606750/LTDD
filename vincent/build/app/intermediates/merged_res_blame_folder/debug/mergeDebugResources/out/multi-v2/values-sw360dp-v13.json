@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.vincent.app-mergeDebugResources-50:/values-sw360dp-v13/values-sw360dp-v13.xml",
+            "outputFile": "com.example.vincent.app-mergeDebugResources-104:/values-sw360dp-v13/values-sw360dp-v13.xml",
             "map": [
                 {
                     "source": "C:\\Users\\vdyla\\.gradle\\caches\\8.9\\transforms\\5020940725f2531f944d71a769a082da\\transformed\\preference-1.2.1\\res\\values-sw360dp-v13\\values-sw360dp-v13.xml",

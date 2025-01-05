@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:vincent/Screen/ListHome.dart';
+import 'package:vincent/Screen/Recently.dart';
 import 'package:vincent/Widgets/home_widget.dart';
+import 'package:cached_network_image/cached_network_image.dart';
 
 class HomeScreen extends StatefulWidget {
 
@@ -41,51 +42,25 @@ class _HomeScreenState extends State<HomeScreen> {
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
+              
               Text('Hello, Ngân 👋', style: TextStyle(fontSize: 30, color: Colors.black, fontWeight: FontWeight.bold)),
               SizedBox(height: 20),
-              SingleChildScrollView(
-                scrollDirection: Axis.horizontal,
-                child: Row(
-  mainAxisAlignment: MainAxisAlignment.spaceBetween,
-  children: [
-    const SizedBox( width: 20),
-    HomeWidget.buildCategoryButton('Recommended', isSelected: true, onPressed: () {
-      print('Recommended button pressed');
-      check();
-    }),
-    const SizedBox( width: 20),
-    HomeWidget.buildCategoryButton('Popular', onPressed: () {
-      print('Popular button pressed');
-      check();
-    }),
-    const SizedBox( width: 20),
-    HomeWidget.buildCategoryButton('Trending', onPressed: () {
-      print('Trending button pressed');
-      check();
-    }),
-    const SizedBox( width: 20),
-    HomeWidget.buildCategoryButton('New Arrive', onPressed: () {
-      print('New Arrive button pressed');
-      check();
-    }),
-  ],
-),
-              ),
+              Text('Recommend', style: TextStyle(fontSize: 20, color: Colors.black, fontWeight: FontWeight.bold)),
               SizedBox(height: 10),
               SingleChildScrollView(
                 scrollDirection: Axis.horizontal,
                 child: Row(
                   mainAxisAlignment: MainAxisAlignment.spaceAround,
                   children: [
-                    HomeWidget.buildHotelCard(context, 'https://wallpapertag.com/wallpaper/full/a/7/f/509904-beach-paradise-wallpaper-2560x1600-ipad-retina.jpg','Product 1','Dsdfsd, Vũ Trụ', 4.5, 5),
+                    HomeWidget.buildHotelCard(context, 'https://cf.bstatic.com/xdata/images/hotel/max1024x768/632334597.jpg?k=e63a019e48f236eb4557d85ba4a0144c19f9ae1f21465e930a70c7e532c4fa65&o=','The Zeit River','Nguyễn Cơ Thạch, Ho Chi Minh City', 90, 5),
                     const SizedBox(width: 20),
-                    HomeWidget.buildHotelCard(context, 'https://wallpapertag.com/wallpaper/full/a/7/f/509904-beach-paradise-wallpaper-2560x1600-ipad-retina.jpg','Product 1','Dsdfsd, Vũ Trụ', 4.5, 5),
+                    HomeWidget.buildHotelCard(context, 'https://cf.bstatic.com/xdata/images/hotel/max1024x768/617223226.jpg?k=e03e4f7db41c353667fc5f264183839893dba34541d7e94c2981dbd08555186a&o=','M Village','Phú Nhuận, Hồ Chí Minh', 50, 4),
                     const SizedBox(width: 20),
-                    HomeWidget.buildHotelCard(context, 'https://wallpapertag.com/wallpaper/full/a/7/f/509904-beach-paradise-wallpaper-2560x1600-ipad-retina.jpg','Product 1','Dsdfsd, Vũ Trụ', 4.5, 5),
+                    HomeWidget.buildHotelCard(context, 'https://cf.bstatic.com/xdata/images/hotel/max1024x768/624640916.jpg?k=9966482788a36a650b4e43a0690f42251c971800e0c122e7642c6781732dd369&o=','The Peninsula Landmark 81','Binh Thanh, Ho Chi Minh City', 100, 4.5),
                     const SizedBox(width: 20),
-                    HomeWidget.buildHotelCard(context, 'https://wallpapertag.com/wallpaper/full/a/7/f/509904-beach-paradise-wallpaper-2560x1600-ipad-retina.jpg','Product 1','Dsdfsd, Vũ Trụ', 4.5, 5),
+                    HomeWidget.buildHotelCard(context, 'https://cf.bstatic.com/xdata/images/hotel/max1024x768/632354078.jpg?k=731bc02aae32a78cd3f6a0a44af4e97501a0dbd52761077835eb71d5959d762b&o=','Masteri Thao Dien','Võ Nguyên Giáp, Ho Chi Minh City', 76, 5),
                     const SizedBox(width: 20),
-                    HomeWidget.buildHotelCard(context, 'https://wallpapertag.com/wallpaper/full/a/7/f/509904-beach-paradise-wallpaper-2560x1600-ipad-retina.jpg','Product 1','Dsdfsd, Vũ Trụ', 4.5, 5),
+                    HomeWidget.buildHotelCard(context, 'https://cf.bstatic.com/xdata/images/hotel/max1024x768/481253568.jpg?k=f7bd1fdeee32b6cabb09b943dd11fc76f174d70e5fce82eb2b0a3785244ac5f3&o=','Tin Tin Apartment','District 2, Ho Chi Minh City', 45, 4.8),
                   ],
                 ),
               ),
@@ -96,7 +71,7 @@ class _HomeScreenState extends State<HomeScreen> {
                   Text(
                     'Recently Booked',
                     style: TextStyle(
-                      fontSize: 18,
+                      fontSize: 20,
                       fontWeight: FontWeight.bold,
                     ),
                   ),
@@ -104,16 +79,16 @@ class _HomeScreenState extends State<HomeScreen> {
                     onPressed: () {
                       Navigator.push(
                         context,
-                        MaterialPageRoute(builder: (context) => const ListHomeScreen()),);
+                        MaterialPageRoute(builder: (context) => const RecentlyScreen()),);
                     },
                     child: Text('See All'),
                   ),
                 ],
               ),
               SizedBox(height: 16),
-              HomeWidget.buildRecentlyBookedCard('https://wallpapertag.com/wallpaper/full/a/7/f/509904-beach-paradise-wallpaper-2560x1600-ipad-retina.jpg','President Hotel', 'Paris, France', 110, 4.5, 4552),
-              HomeWidget.buildRecentlyBookedCard('https://wallpapertag.com/wallpaper/full/a/7/f/509904-beach-paradise-wallpaper-2560x1600-ipad-retina.jpg','President Hotel', 'Amsterdam, Netherlands', 90, 4.7, 2592),
-              HomeWidget.buildRecentlyBookedCard('https://wallpapertag.com/wallpaper/full/a/7/f/509904-beach-paradise-wallpaper-2560x1600-ipad-retina.jpg','President Hotel', 'Amsterdam, Netherlands', 90, 4.7, 2592),
+              HomeWidget.buildRecentlyBookedCard('https://cf.bstatic.com/xdata/images/hotel/max1024x768/617223226.jpg?k=e03e4f7db41c353667fc5f264183839893dba34541d7e94c2981dbd08555186a&o=','M Village','Phú Nhuận, Hồ Chí Minh', 110, 5, 4552),
+              HomeWidget.buildRecentlyBookedCard('https://cf.bstatic.com/xdata/images/hotel/max1024x768/632354078.jpg?k=731bc02aae32a78cd3f6a0a44af4e97501a0dbd52761077835eb71d5959d762b&o=','Masteri Thao Dien','Võ Nguyên Giáp, Ho Chi Minh City', 90, 4.5, 2592),
+              HomeWidget.buildRecentlyBookedCard('https://cf.bstatic.com/xdata/images/hotel/max1024x768/481253568.jpg?k=f7bd1fdeee32b6cabb09b943dd11fc76f174d70e5fce82eb2b0a3785244ac5f3&o=','Tin Tin Apartment','District 2, Ho Chi Minh City', 90, 4.7, 564),
             ]
           )
         ),

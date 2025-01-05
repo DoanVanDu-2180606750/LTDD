@@ -38,7 +38,10 @@ dependencies:
   flutter_dotenv: ^5.2.1
   image_picker: ^1.1.2
   cloud_firestore: ^5.6.0
-
+  flutter_stripe: ^11.3.0
+  pdf: ^3.11.1
+  printing: ^5.13.4
+  path_provider: ^2.1.5
 
 dev_dependencies:
   flutter_test:
@@ -55,3 +58,7 @@ flutter:
     - assets/images/icons/google.svg
     - assets/images/BeachParadise.png
     - assets/images/User.jpg
+    - assets/images/visa.png
+    - assets/images/Gpay.png
+    - assets/images/momo.png
+    - assets/images/paypal.png

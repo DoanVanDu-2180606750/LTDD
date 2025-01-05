@@ -1,10 +1,11 @@
+
 class User {
   final String id;
   final String name;
   final String email; 
   final String password; 
   final String? vToken;
-  final String image; 
+  final String? image; 
   final String? nationalid;
   final String role; 
   final String address;
@@ -19,7 +20,7 @@ class User {
     required this.email,
     required this.password,
     this.vToken,
-    required this.image,
+    this.image,
     this.nationalid,
     required this.role,
     required this.address,
@@ -37,7 +38,7 @@ class User {
       email: json['email'] ?? '',
       password: json['password'] ?? '',
       vToken: json['token'],
-      image: json['image'] ?? '',
+      image: json['image'],
       nationalid: json['nationalid'],
       role: json['role'] ?? '',
       address: json['address'] ?? '',

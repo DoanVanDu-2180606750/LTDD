@@ -60,7 +60,7 @@ class AuthpassService {
         body: json.encode({
           'name': name,
           'email': email,
-          'password': password
+          'password': password,
         }),
       );
 

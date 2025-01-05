@@ -10,7 +10,7 @@ router.get('/users/me', authorize([ROLES.USER, ROLES.ADMIN]), userController.get
 // Route để chỉnh sửa thông tin cá nhân và hình ảnh
 router.put('/users/me', 
   authorize([ROLES.USER, ROLES.ADMIN]), 
-    userController.uploadImage, // Thêm middleware để xử lý hình ảnh
+    userController.uploadImage,
     userController.updateCurrentUser
 );
 

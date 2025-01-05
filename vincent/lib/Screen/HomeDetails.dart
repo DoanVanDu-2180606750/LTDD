@@ -1,25 +1,36 @@
 import 'package:flutter/material.dart';
 import 'package:carousel_slider/carousel_slider.dart';
 import 'package:vincent/Screen/HomeBooking.dart';
-import 'package:vincent/Screen/ListHome.dart';
+import 'package:vincent/Screen/Recently.dart';
 
 final List<String> imgList = [
-  'https://images.unsplash.com/photo-1520342868574-5fa3804e551c?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=6ff92caffcdd63681a35134a6770ed3b&auto=format&fit=crop&w=1951&q=80',
-  'https://images.unsplash.com/photo-1522205408450-add114ad53fe?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=368f45b0888aeb0b7b08e3a1084d3ede&auto=format&fit=crop&w=1950&q=80',
-  'https://images.unsplash.com/photo-1519125323398-675f0ddb6308?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=94a1e718d89ca60a6337a6008341ca50&auto=format&fit=crop&w=1950&q=80',
-  'https://images.unsplash.com/photo-1523205771623-e0faa4d2813d?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=89719a0d55dd05e2deae4120227e6efc&auto=format&fit=crop&w=1953&q=80',
-  'https://images.unsplash.com/photo-1508704019882-f9cf40e475b4?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=8c6e5e3aba713b17aa1fe71ab4f0ae5b&auto=format&fit=crop&w=1352&q=80',
-  'https://images.unsplash.com/photo-1519985176271-adb1088fa94c?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=a0c8d632e977f94e5d312d9893258f59&auto=format&fit=crop&w=1355&q=80'
+  'https://cf.bstatic.com/xdata/images/hotel/max500/632334630.jpg?k=8eb97f62ba98edbd4953a50203cad309bac47b5babd995a40208aa59742253b5&o=',
+  'https://cf.bstatic.com/xdata/images/hotel/max1024x768/632334702.jpg?k=6c670b53d68deaad401965a87358deed85a71eb908f0d676de651df81289f9aa&o=&hp=1',
+  'https://cf.bstatic.com/xdata/images/hotel/max1024x768/632334630.jpg?k=8eb97f62ba98edbd4953a50203cad309bac47b5babd995a40208aa59742253b5&o=&hp=1',
+  'https://cf.bstatic.com/xdata/images/hotel/max1024x768/632334670.jpg?k=47a6a841412bf8ba9f740fe3bbea9fe529f61c39945bd72d644c743f553e3c77&o=&hp=1',
+  'https://cf.bstatic.com/xdata/images/hotel/max1024x768/632334665.jpg?k=2cb18357d004326f28918206b6d3cbcb1066f59382ec13a7355585734d54c9eb&o=&hp=1',
+  'https://cf.bstatic.com/xdata/images/hotel/max1024x768/632334692.jpg?k=5b070cd8b3e6328e0eb670d01d00e09ed65384554073715d6119579015cc19c5&o=&hp=1'
 ];
 
 class HomeDetailScreen extends StatefulWidget {
-  const HomeDetailScreen({super.key});
+  final String name;
+  final String location;
+  final double price;
+  final double rating;
+  const HomeDetailScreen({
+    super.key,
+    required this.name,
+    required this.location,
+    required this.price,
+    required this.rating,
+  });
 
   @override
   State<HomeDetailScreen> createState() => _HomeDetailScreenState();
 }
 
 class _HomeDetailScreenState extends State<HomeDetailScreen> {
+
   @override
   Widget build(BuildContext context) => Scaffold(
         appBar: AppBar(actions: [IconButton(icon: const Icon(Icons.bookmark_add_outlined), onPressed: () {})]),
@@ -29,7 +40,7 @@ class _HomeDetailScreenState extends State<HomeDetailScreen> {
             children: [
               CarouselSlider.builder(
                 itemCount: imgList.length,
-                options: CarouselOptions(enlargeCenterPage: true, aspectRatio: 2.0, autoPlay: true),
+                options: CarouselOptions(enlargeCenterPage: true, aspectRatio: 2.0, autoPlay: true, ),
                 itemBuilder: (ctx, index, realIdx) => Container(
                   width: 400,
                   decoration: BoxDecoration(
@@ -61,8 +72,8 @@ class _HomeDetailScreenState extends State<HomeDetailScreen> {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          _buildRoomInfo('Room Name', '\$ Price / per night'),
-          _buildSectionHeader(context, 'Gallery Photos', const ListHomeScreen()),
+          _buildRoomInfo('${widget.name}', '\$ ${widget.price} / per night'),
+          _buildSectionHeader(context, 'Gallery Photos', const RecentlyScreen()),
           _buildImageRow(),
           const SizedBox(height: 8),
           _buildDetailsSection(),
@@ -227,7 +238,7 @@ class _HomeDetailScreenState extends State<HomeDetailScreen> {
           mainAxisAlignment: MainAxisAlignment.spaceBetween,
           children: [
             Text('Review', style: const TextStyle(fontSize: 18, fontWeight: FontWeight.bold)),
-            const Text('4.5/5 ⭐', style: TextStyle(fontSize: 14, color: Colors.black)),
+            Text('${widget.rating} /5 ⭐', style: TextStyle(fontSize: 14, color: Colors.black)),
           ],
         ),
         _buildReviewCard(),

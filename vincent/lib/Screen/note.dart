@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:firebase_database/firebase_database.dart';
 
 class NoteScreen extends StatefulWidget {
+  const NoteScreen({super.key});
+
   @override
   _NoteScreenState createState() => _NoteScreenState();
 }
@@ -21,21 +23,61 @@ class _NoteScreenState extends State<NoteScreen> {
       });
       _titleController.clear();
       _contentController.clear();
-      Navigator.of(context).pop(); // Đóng hộp thoại
+      Navigator.of(context).pop();
       ScaffoldMessenger.of(context).showSnackBar(
         SnackBar(content: Text('Ghi chú đã được lưu')),
       );
     }
   }
 
-  Future<void> _deleteNote(String noteId) async {
-    await _notesRef.child(noteId).remove();
-    ScaffoldMessenger.of(context).showSnackBar(
-      SnackBar(content: Text('Ghi chú đã được xóa')),
+  Future<void> _updateNote(String noteId) async {
+    if (_titleController.text.isNotEmpty && _contentController.text.isNotEmpty) {
+      await _notesRef.child(noteId).update({
+        'title': _titleController.text,
+        'content': _contentController.text,
+        'updatedAt': DateTime.now().toIso8601String(),
+      });
+      _titleController.clear();
+      _contentController.clear();
+      Navigator.of(context).pop();
+      ScaffoldMessenger.of(context).showSnackBar(
+        SnackBar(content: Text('Ghi chú đã được cập nhật')),
+      );
+    }
+  }
+
+  Future<void> _deleteNoteWithConfirmation(String noteId) async {
+    showDialog(
+      context: context,
+      builder: (context) {
+        return AlertDialog(
+          title: Text('Xác nhận xóa'),
+          content: Text('Bạn có chắc chắn muốn xóa ghi chú này?'),
+          actions: [
+            TextButton(
+              onPressed: () => Navigator.of(context).pop(),
+              child: Text('Hủy'),
+            ),
+            ElevatedButton(
+              onPressed: () {
+                _notesRef.child(noteId).remove().then((_) {
+                  Navigator.of(context).pop();
+                  ScaffoldMessenger.of(context).showSnackBar(
+                    SnackBar(content: Text('Ghi chú đã được xóa')),
+                  );
+                });
+              },
+              child: Text('Xóa'),
+            ),
+          ],
+        );
+      },
     );
   }
 
   void _showAddNoteDialog() {
+    _titleController.clear();
+    _contentController.clear();
     showDialog(
       context: context,
       builder: (context) {
@@ -51,7 +93,6 @@ class _NoteScreenState extends State<NoteScreen> {
               TextField(
                 controller: _contentController,
                 decoration: InputDecoration(labelText: 'Nội dung'),
-                maxLines: 3,
               ),
             ],
           ),
@@ -70,11 +111,53 @@ class _NoteScreenState extends State<NoteScreen> {
     );
   }
 
+  void _showEditNoteDialog(String noteId, String currentTitle, String currentContent) {
+    _titleController.text = currentTitle;
+    _contentController.text = currentContent;
+    showDialog(
+      context: context,
+      builder: (context) {
+        return AlertDialog(
+          title: Text('Chỉnh sửa ghi chú'),
+          content: Column(
+            mainAxisSize: MainAxisSize.min,
+            children: [
+              TextField(
+                controller: _titleController,
+                decoration: InputDecoration(labelText: 'Tiêu đề'),
+              ),
+              TextField(
+                controller: _contentController,
+                decoration: InputDecoration(labelText: 'Nội dung'),
+              ),
+            ],
+          ),
+          actions: [
+            TextButton(
+              onPressed: () => Navigator.of(context).pop(),
+              child: Text('Hủy'),
+            ),
+            ElevatedButton(
+              onPressed: () => _updateNote(noteId),
+              child: Text('Cập nhật'),
+            ),
+          ],
+        );
+      },
+    );
+  }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
         title: Text('Quản Lý Ghi Chú'),
+        actions: [
+          IconButton(
+            icon: Icon(Icons.note_add, size: 30,),
+            onPressed: () => _showAddNoteDialog(),
+          ),
+        ],
       ),
       body: Padding(
         padding: const EdgeInsets.all(16.0),
@@ -96,12 +179,15 @@ class _NoteScreenState extends State<NoteScreen> {
                     String key = entry.key;
                     String title = entry.value['title'] ?? 'Không có tiêu đề';
                     String content = entry.value['content'] ?? 'Không có nội dung';
-                    return ListTile(
-                      title: Text(title),
-                      subtitle: Text(content),
-                      trailing: IconButton(
-                        icon: Icon(Icons.delete, color: Colors.red),
-                        onPressed: () => _deleteNote(key),
+                    return Card(
+                      child: ListTile(
+                        title: Text(title),
+                        subtitle: Text(content),
+                        onTap: () => _showEditNoteDialog(key, title, content),
+                        trailing: IconButton(
+                          icon: Icon(Icons.delete, color: Colors.red),
+                          onPressed: () => _deleteNoteWithConfirmation(key),
+                        ),
                       ),
                     );
                   }).toList();
@@ -109,10 +195,6 @@ class _NoteScreenState extends State<NoteScreen> {
                   return ListView(children: notesList);
                 },
               ),
-            ),
-            FloatingActionButton(
-              onPressed: _showAddNoteDialog,
-              child: Icon(Icons.add),
             ),
           ],
         ),

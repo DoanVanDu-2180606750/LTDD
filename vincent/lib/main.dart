@@ -6,19 +6,23 @@ import 'package:firebase_auth/firebase_auth.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_dotenv/flutter_dotenv.dart';
+import 'package:flutter_stripe/flutter_stripe.dart';
 import 'package:vincent/Screen/EditProfile.dart';
 import 'package:vincent/Screen/Home.dart';
 import 'package:vincent/Screen/HomeBooking.dart';
 import 'package:vincent/Screen/HomeDetails.dart';
-import 'package:vincent/Screen/ListHome.dart';
+import 'package:vincent/Screen/Recently.dart';
 import 'package:vincent/Screen/Main.dart';
 import 'package:vincent/Screen/ResetPass.dart';
 import 'package:vincent/Screen/SignIn.dart';
 import 'package:vincent/Screen/SignUp.dart';
 import 'package:shared_preferences/shared_preferences.dart';
+
+
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await Firebase.initializeApp();
+
   FirebaseAuth.instance.setLanguageCode("en");
   
   await dotenv.load(fileName: ".env");
@@ -39,7 +43,7 @@ class TravelApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final apiUrl = dotenv.get('API_URL');
-    
+    log(apiUrl);
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       initialRoute: isSignedIn ? '/' : '/signin',
@@ -52,8 +56,7 @@ class TravelApp extends StatelessWidget {
         '/signin': (context) => SignInScreen(),
         '/signup': (context) => SignUpScreen(),
         '/reset': (context) => ResetPassScreen(),
-        '/list-home': (context) => const ListHomeScreen(),
-        '/home-detail': (context) => const HomeDetailScreen(),
+        '/recently-home': (context) => const RecentlyScreen(),
         '/home-booking': (context) => const HomeBookingScreen(),
         '/edit-profile': (context) => const EditProfileScreen(),
       },

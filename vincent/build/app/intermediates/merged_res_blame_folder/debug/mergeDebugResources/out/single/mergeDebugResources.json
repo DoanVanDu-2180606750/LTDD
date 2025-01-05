@@ -1,26 +1,26 @@
 [
     {
-        "merged": "com.example.vincent.app-debug-52:/mipmap-xhdpi_ic_launcher.png.flat",
-        "source": "com.example.vincent.app-main-46:/mipmap-xhdpi/ic_launcher.png"
+        "merged": "com.example.vincent.app-debug-106:/drawable-v21_launch_background.xml.flat",
+        "source": "com.example.vincent.app-main-100:/drawable-v21/launch_background.xml"
     },
     {
-        "merged": "com.example.vincent.app-debug-52:/mipmap-xxxhdpi_ic_launcher.png.flat",
-        "source": "com.example.vincent.app-main-46:/mipmap-xxxhdpi/ic_launcher.png"
+        "merged": "com.example.vincent.app-debug-106:/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "com.example.vincent.app-main-100:/mipmap-xxxhdpi/ic_launcher.png"
     },
     {
-        "merged": "com.example.vincent.app-debug-52:/mipmap-hdpi_ic_launcher.png.flat",
-        "source": "com.example.vincent.app-main-46:/mipmap-hdpi/ic_launcher.png"
+        "merged": "com.example.vincent.app-debug-106:/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "com.example.vincent.app-main-100:/mipmap-xhdpi/ic_launcher.png"
     },
     {
-        "merged": "com.example.vincent.app-debug-52:/mipmap-mdpi_ic_launcher.png.flat",
-        "source": "com.example.vincent.app-main-46:/mipmap-mdpi/ic_launcher.png"
+        "merged": "com.example.vincent.app-debug-106:/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "com.example.vincent.app-main-100:/mipmap-mdpi/ic_launcher.png"
     },
     {
-        "merged": "com.example.vincent.app-debug-52:/drawable-v21_launch_background.xml.flat",
-        "source": "com.example.vincent.app-main-46:/drawable-v21/launch_background.xml"
+        "merged": "com.example.vincent.app-debug-106:/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "com.example.vincent.app-main-100:/mipmap-hdpi/ic_launcher.png"
     },
     {
-        "merged": "com.example.vincent.app-debug-52:/mipmap-xxhdpi_ic_launcher.png.flat",
-        "source": "com.example.vincent.app-main-46:/mipmap-xxhdpi/ic_launcher.png"
+        "merged": "com.example.vincent.app-debug-106:/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "com.example.vincent.app-main-100:/mipmap-xxhdpi/ic_launcher.png"
     }
 ]

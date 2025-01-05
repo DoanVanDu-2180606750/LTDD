@@ -37,6 +37,8 @@ app.get('/' , (req, res) => {
   res.send('Hello World!')
 });
 
+
+
 // Close connection on server close
 process.on('SIGINT', async () => {
   await mongoose.connection.close();

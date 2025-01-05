@@ -5,7 +5,7 @@ import 'package:vincent/Model/user_model.dart';
 import 'package:vincent/Service/getProfile_service.dart';
 
 class EditProfileScreen extends StatefulWidget {
-  const EditProfileScreen({super.key});
+  const EditProfileScreen({Key? key}) : super(key: key);
 
   @override
   _EditProfileScreenState createState() => _EditProfileScreenState();
@@ -20,7 +20,6 @@ class _EditProfileScreenState extends State<EditProfileScreen> {
   final TextEditingController _emailController = TextEditingController();
   final TextEditingController _phoneController = TextEditingController();
   final TextEditingController _nationalIdController = TextEditingController();
-  final TextEditingController _imageController = TextEditingController();
   final TextEditingController _roleController = TextEditingController();
   final TextEditingController _genderController = TextEditingController();
   final TextEditingController _addressController = TextEditingController();
@@ -37,37 +36,36 @@ class _EditProfileScreenState extends State<EditProfileScreen> {
     _emailController.dispose();
     _phoneController.dispose();
     _nationalIdController.dispose();
-    _imageController.dispose();
     _roleController.dispose();
     _genderController.dispose();
     _addressController.dispose();
     super.dispose();
   }
 
-  // Function to pick image from the gallery
   Future<void> _pickImage() async {
     final ImagePicker picker = ImagePicker();
     final XFile? image = await picker.pickImage(source: ImageSource.gallery);
-
     if (image != null) {
       setState(() {
-        _image = File(image.path); // Save the image path
+        _image = File(image.path);
       });
+    } else {
+      print('No image selected.');
     }
   }
 
   Future<void> _loadUserProfile() async {
-
     User? user = await _upData.getUserProfile();
     if (user != null) {
-      _nameController.text = user.name ?? '';
-      _emailController.text = user.email;
-      _phoneController.text = user.phone ?? '';
-      _nationalIdController.text = user.nationalid ?? '';
-      _imageController.text = user.image ?? '';
-      _roleController.text = user.role;
-      _genderController.text = user.gender;
-      _addressController.text = user.address ?? '';
+      setState(() {
+        _nameController.text = user.name ?? '';
+        _emailController.text = user.email ?? '';
+        _phoneController.text = user.phone ?? '';
+        _nationalIdController.text = user.nationalid ?? '';
+        _roleController.text = user.role ?? '';
+        _genderController.text = user.gender ?? '';
+        _addressController.text = user.address ?? '';
+      });
     }
   }
 
@@ -79,12 +77,6 @@ class _EditProfileScreenState extends State<EditProfileScreen> {
     String gender = _genderController.text;
     String address = _addressController.text;
 
-    if(_image != null) {
-      // Upload the image to the server
-      String image = await _upData.uploadImage(_image!);
-      _imageController.text = image;
-    }
-
     User? updatedUser = await _upData.updateUserProfile(
       name: name,
       email: email,
@@ -92,6 +84,7 @@ class _EditProfileScreenState extends State<EditProfileScreen> {
       nationalId: nationalId,
       gender: gender,
       address: address,
+      image: _image,  // Pass the image if available
     );
 
     if (updatedUser != null) {
@@ -110,7 +103,7 @@ class _EditProfileScreenState extends State<EditProfileScreen> {
     return Scaffold(
       appBar: AppBar(
         centerTitle: true,
-        title: const Text('Edit Profile', style: TextStyle(color: Colors.white)),
+        title: const Text('Edit Profile', style: TextStyle(color: Colors.black)),
         backgroundColor: Colors.white,
       ),
       body: SingleChildScrollView(
@@ -144,7 +137,9 @@ class _EditProfileScreenState extends State<EditProfileScreen> {
                         children: [
                           CircleAvatar(
                             radius: 50,
-                            backgroundImage: _image != null ? FileImage(_image!) : AssetImage('assets/images/User.jpg'),
+                            backgroundImage: _image != null
+                                ? FileImage(_image!)
+                                : AssetImage('assets/images/User.jpg') as ImageProvider,
                           ),
                           Positioned(
                             bottom: 0,
@@ -157,31 +152,23 @@ class _EditProfileScreenState extends State<EditProfileScreen> {
                                 shape: BoxShape.circle,
                               ),
                               child: IconButton(
-                              icon: const Icon(Icons.edit, color: Colors.white, size: 25),
-                              color: Colors.black,
-                              onPressed: () async {
-                                final pickedFile = await ImagePicker().pickImage(source: ImageSource.gallery);
-                                setState(() {
-                                  if (pickedFile != null) {
-                                    _image = File(pickedFile.path);
-                                  } else {
-                                    print('No image selected.');
-                                  }
-                                });
-                              },
+                                icon: const Icon(Icons.edit, color: Colors.white, size: 25),
+                                onPressed: _pickImage,
+                              ),
                             ),
-                            )
-                          )
+                          ),
                         ],
                       ),
                       const SizedBox(height: 20),
                       _buildTextField(controller: _nameController, label: 'Name', isEditable: true),
                       const SizedBox(height: 20),
-                      _buildTextField(controller: _emailController, label: 'Email', isEditable: false), // Read-only
+                      _buildTextField(controller: _emailController, label: 'Email', isEditable: false),
                       const SizedBox(height: 20),
-                      _buildTextField(controller: _phoneController, label: 'Phone', isEditable: true, keyboardType: TextInputType.phone),
+                      _buildTextField(
+                          controller: _phoneController, label: 'Phone', isEditable: true, keyboardType: TextInputType.phone),
                       const SizedBox(height: 20),
-                      _buildTextField(controller: _nationalIdController, label: 'CCCD/CMND', isEditable: true, keyboardType: TextInputType.number),
+                      _buildTextField(
+                          controller: _nationalIdController, label: 'CCCD/CMND', isEditable: true, keyboardType: TextInputType.number),
                       const SizedBox(height: 20),
                       _buildTextField(controller: _genderController, label: 'Gender', isEditable: true),
                       const SizedBox(height: 20),
@@ -199,9 +186,9 @@ class _EditProfileScreenState extends State<EditProfileScreen> {
                             }
                           },
                           style: ElevatedButton.styleFrom(
-                            backgroundColor: Colors.white, // Button color
+                            backgroundColor: Colors.blue, // Button color
                             padding: const EdgeInsets.symmetric(vertical: 15, horizontal: 30),
-                            textStyle: const TextStyle(fontSize: 18),
+                            textStyle: const TextStyle(fontSize: 18, color: Colors.white),
                           ),
                           child: const Text('Save Changes'),
                         ),

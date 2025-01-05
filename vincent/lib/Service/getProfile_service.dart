@@ -4,23 +4,23 @@ import 'dart:io';
 import 'package:http/http.dart' as http;
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:vincent/Model/user_model.dart';
+
 const String _baseUrl = '10.10.62.49';
 
 class UserService {
-
-  final String _profileUrl = 'http://${_baseUrl}:8080/api/users/me';
-  final String _editUrl = 'http://${_baseUrl}:8080/api/users/me';
+  final String _profileUrl = 'http://$_baseUrl:8080/api/users/me';
+  final String _editUrl = 'http://$_baseUrl:8080/api/users/me';
 
   Future<User?> getUserProfile() async {
-    SharedPreferences prefs = await SharedPreferences.getInstance();
-    String? userToken = prefs.getString('token');
-    
-    if (userToken == null) {
-      log("Token not found.");
-      return null;
-    }
-
     try {
+      SharedPreferences prefs = await SharedPreferences.getInstance();
+      String? userToken = prefs.getString('token');
+
+      if (userToken == null) {
+        log("Token not found.");
+        return null;
+      }
+
       final response = await http.get(
         Uri.parse(_profileUrl),
         headers: {
@@ -42,16 +42,17 @@ class UserService {
     }
   }
 
-  // Update user information
   Future<User?> updateUserProfile({
-    required String name,
-    required String email,
-    required String phone,
-    required String nationalId,
-    String? role,
-    String? gender,
-    String? address,
-  }) async {
+  required String name,
+  required String email,
+  required String phone,
+  required String nationalId,
+  File? image,
+  String? role,
+  String? gender,
+  String? address,
+}) async {
+  try {
     SharedPreferences prefs = await SharedPreferences.getInstance();
     String? userToken = prefs.getString('token');
 
@@ -60,52 +61,41 @@ class UserService {
       return null;
     }
 
-    try {
-      final response = await http.put(
-        Uri.parse(_editUrl),
-        headers: {
-          'Content-Type': 'application/json',
-          'Authorization': 'Bearer $userToken',
-        },
-        body: jsonEncode({
-          'name': name,
-          'email': email,
-          'phone': phone,
-          'nationalId': nationalId,
-          'gender': gender,
-          'address': address,
-        }),
-      );
+    // Create multipart request
+    var request = http.MultipartRequest('PUT', Uri.parse(_editUrl))
+      ..headers['Authorization'] = 'Bearer $userToken';
 
-      if (response.statusCode == 200) {
-        return User.fromJson(jsonDecode(response.body));
-      } else {
-        log('Error updating user profile: ${response.statusCode} - ${response.body}');
-        return null;
-      }
-    } catch (error) {
-      log("Error making request: ${error.toString()}");
-
-      return null;
+    // Add field data as multipart fields
+    request.fields['name'] = name;
+    request.fields['email'] = email;
+    request.fields['phone'] = phone;
+    request.fields['nationalId'] = nationalId;
+    if (gender != null) request.fields['gender'] = gender;
+    if (address != null) request.fields['address'] = address;
+    
+    // Add image file, if provided
+    if (image != null) {
+      request.files.add(await http.MultipartFile.fromPath(
+        'image', 
+        image.path,
+        filename: image.path.split('/').last,
+      ));
     }
-  }
 
-  Future<String> uploadImage(File image) async {
-
-    final request = http.MultipartRequest('POST', Uri.parse(_editUrl));
-    request.files.add(await http.MultipartFile.fromPath('file', image.path));
-
-    final response = await request.send();
+    // Send request
+    var response = await request.send();
 
     if (response.statusCode == 200) {
-      log(response.statusCode.toString());
-      final responseData = await response.stream.toBytes();
-      final responseString = String.fromCharCodes(responseData);
-      final jsonResponse = json.decode(responseString);
-
-      return jsonResponse['imageUrl'];
+      final responseData = await http.Response.fromStream(response);
+      return User.fromJson(jsonDecode(responseData.body));
     } else {
-      throw Exception('Failed to upload image');
+      log('Error updating user profile: ${response.statusCode} - ${response.reasonPhrase}');
+      return null;
     }
+  } catch (error) {
+    log("Error making request: ${error.toString()}");
+    return null;
   }
+}
+
 }

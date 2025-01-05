@@ -1,12 +1,10 @@
-import 'dart:developer';
-
 import 'package:flutter/material.dart';
+import 'dart:developer';
 import 'package:shared_preferences/shared_preferences.dart';
+import 'package:vincent/Component/buttonuser.dart';
 import 'package:vincent/Model/user_model.dart';
-import 'package:vincent/Screen/EditProfile.dart';
 import 'package:vincent/Service/authGg_service.dart';
 import 'package:vincent/Service/getProfile_service.dart';
-import 'package:vincent/Widgets/profile_widget.dart';
 
 class ProfileScreen extends StatefulWidget {
   const ProfileScreen({super.key});
@@ -21,20 +19,24 @@ class _ProfileScreenState extends State<ProfileScreen> {
 
   User? _user;
 
+  @override
+  void initState() {
+    super.initState();
+    _loadData();
+  }
+
   Future<void> _loadData() async {
     try {
       User? user = await _getUser.getUserProfile();
       if (user != null) {
         setState(() {
-          _user = user;  // Lưu thông tin người dùng để sử dụng trong UI
+          _user = user;
         });
       } else {
-        // Nếu không có dữ liệu, xử lý lỗi hoặc thông báo cho người dùng
         log("Không thể tải thông tin người dùng.");
       }
     } catch (error) {
       log("Lỗi khi tải dữ liệu: $error");
-      // Hiện thị thông báo cho người dùng
     }
   }
 
@@ -54,82 +56,70 @@ class _ProfileScreenState extends State<ProfileScreen> {
   }
 
   @override
-  void initState() {
-    super.initState();
-    _loadData();
-  }
-
-  @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
         centerTitle: true,
         title: const Text('Thông tin người dùng'),
+        backgroundColor: Colors.transparent,
       ),
+      backgroundColor: Colors.transparent,
       body: RefreshIndicator(
         onRefresh: _loadData,
         child: SingleChildScrollView(
           child: Padding(
-            padding: const EdgeInsets.all(16.0),
-            child: Column(
-              children: [
-                Column(
-                  mainAxisAlignment: MainAxisAlignment.center,
-                  children: [
-                    Padding(
-                      padding: const EdgeInsets.all(8.0),
-                      child: CircleAvatar(
-                        radius: 60,
-                        backgroundImage: NetworkImage('https://picsum.photos/300/306'),
-                      ),
-                    ),
-                  ],
-                ),
-                const SizedBox(height: 20),
-                ProfileWidget.buildInforCard(
-                  Icons.person,
-                  'Họ và tên:', 
-                  subtitle: _user?.name ?? 'N/A',
-                ),
-                const SizedBox(height: 20),
-                ProfileWidget.buildInforCard(
-                  Icons.email,
-                  'Email:', 
-                  subtitle: _user?.email ?? 'Chưa có thông tin',
-                ),
-                const SizedBox(height: 20),
-                ProfileWidget.buildInforCard(
-                  Icons.add_ic_call_outlined,
-                  'Phone:', 
-                  subtitle: _user?.phone ?? 'Chưa có thông tin',
-                ),
-                const SizedBox(height: 20),
-                ProfileWidget.buildInforCard(
-                  Icons.assignment_ind,
-                  'CCCD/CDMD:', 
-                  subtitle: _user?.gender ?? 'Chưa có thông tin',
-                ),
-                const SizedBox(height: 20),
-                ElevatedButton(
-                  onPressed: () {
-                    Navigator.push(context, MaterialPageRoute(builder: (context) => EditProfileScreen()));
-                  }, 
-                  style: ElevatedButton.styleFrom(
-                    overlayColor: Colors.red,
-                    side: const BorderSide(color: Colors.blue, width: 1.0),
-                    minimumSize: const Size(150, 40),
+            padding: const EdgeInsets.all(20.0),
+            child: Center(
+              child: Column(
+                children: [
+                  CircleAvatar(
+                    radius: 60,
+                    // ignore: unnecessary_null_comparison
+                    backgroundImage: _user?.image != null ? NetworkImage(_user!.image!)
+                    : AssetImage('assets/images/User.jpg'),
                   ),
-                  child: const Text('Sửa thông tin', style: TextStyle(fontSize: 16, color: Colors.black)),
-                ),
-                ElevatedButton(
-                  onPressed: _logout,
-                  style: ElevatedButton.styleFrom(
-                    overlayColor: Colors.red,
-                    side: const BorderSide(color: Colors.blue, width: 1.0),
+                  Text(
+                    _user?.name ?? 'N/A',
+                    style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
                   ),
-                  child: const Text('Đăng Xuất', style: TextStyle(fontSize: 16, color: Colors.black)),
-                ),
-              ],
+                  Text(
+                    _user?.email ?? 'N/A',
+                    style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
+                  ),
+                  SizedBox(height: 20),
+                  CustomButtonUser (
+                    icon: Icons.edit,
+                    onTap: () { 
+                      Navigator.pushNamed(context, '/edit-profile');
+                    },
+                    title: 'Chỉnh sửa thông tin',
+                  ),
+                  SizedBox(height: 20),
+                  CustomButtonUser (
+                    icon: Icons.security,
+                    onTap: () { log('ok');},
+                    title: 'Bảo mật',
+                  ),
+                  SizedBox(height: 20),
+                  CustomButtonUser (
+                    icon: Icons.history,
+                    onTap: () { log('ok');},
+                    title: 'Lịch sử',
+                  ),
+                  SizedBox(height: 20),
+                  CustomButtonUser (
+                    icon: Icons.help,
+                    onTap: () { log('ok');},
+                    title: 'Help',
+                  ),
+                  SizedBox(height: 20),
+                  CustomButtonUser (
+                    icon: Icons.logout,
+                    onTap: _logout,
+                    title: 'Đăng xuất',
+                  ),    
+                ],
+              ),
             ),
           ),
         ),

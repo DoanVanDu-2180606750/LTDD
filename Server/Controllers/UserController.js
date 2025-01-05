@@ -1,6 +1,7 @@
 const User = require('../Models/Users');
 const { upload } = require('../Services/ImagesServices'); 
 const PORT = "8080";
+const URL = process.env.API_URL;
 
 // Middleware tải lên hình ảnh
 exports.uploadImage = upload.single('image');
